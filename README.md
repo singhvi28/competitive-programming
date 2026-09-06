@@ -22,4 +22,4 @@ A curated, high-yield interactive training curriculum designed for the **Expert 
 - **Progress Export & Import** (JSON)
 
 ## 🌐 Live Website
-Deployed on GitHub Pages: [https://singhvi28.github.io/codeforces-master-curriculum/](https://singhvi28.github.io/codeforces-master-curriculum/)
+Deployed on GitHub Pages: [https://singhvi28.github.io/competitive-programming/](https://singhvi28.github.io/competitive-programming/)
