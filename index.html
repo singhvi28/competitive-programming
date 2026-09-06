@@ -56,32 +56,48 @@
     .track-cf:hover { border-color: rgba(99, 102, 241, 0.6); }
     .track-lc:hover { border-color: rgba(245, 158, 11, 0.6); }
     .track-vc:hover { border-color: rgba(6, 182, 212, 0.6); }
+    .track-mirror:hover { border-color: rgba(217, 70, 239, 0.6); }
   </style>
 </head>
 <body class="min-h-screen font-sans selection:bg-indigo-500 selection:text-white flex flex-col justify-between">
 
+  
   <!-- Sticky Navbar -->
   <header class="sticky top-0 z-50 glass-panel border-b border-slate-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
       <div class="flex items-center space-x-3">
-        <a href="/competitive-programming/" class="flex items-center space-x-3">
+        <a href="/competitive-programming/" class="flex items-center space-x-2.5">
           <div class="h-9 w-9 rounded-lg bg-gradient-to-tr from-indigo-600 via-purple-600 to-pink-500 flex items-center justify-center shadow-lg shadow-indigo-500/30">
             <i data-lucide="terminal" class="w-5 h-5 text-white"></i>
           </div>
-          <span class="text-base sm:text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-white via-slate-200 to-indigo-300">Competitive Programming Hub</span>
+          <span class="text-base sm:text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-white via-slate-200 to-indigo-300">CP Hub</span>
         </a>
       </div>
 
-      <div class="flex items-center space-x-2 sm:space-x-3">
-        <a href="/competitive-programming/curriculum/" class="text-xs font-medium text-slate-300 hover:text-indigo-400 px-2.5 py-1.5 rounded-lg hover:bg-slate-800 transition">
-          CF Master (144)
+      <!-- Navigation Links -->
+      <div class="flex items-center space-x-1.5 sm:space-x-2">
+        
+        <a href="/competitive-programming/" class="text-xs font-bold text-slate-400 hover:text-white border px-2.5 sm:px-3 py-1.5 rounded-lg transition flex items-center space-x-1">
+          
+          <span>Home</span>
         </a>
-        <a href="/competitive-programming/leetcode-hards/" class="text-xs font-medium text-slate-300 hover:text-amber-400 px-2.5 py-1.5 rounded-lg hover:bg-slate-800 transition">
-          LeetCode Hards (301)
+        <a href="/competitive-programming/curriculum/" class="text-xs font-medium text-slate-400 hover:text-indigo-400 px-2.5 py-1.5 rounded-lg hover:bg-slate-800 transition flex items-center space-x-1">
+          <i data-lucide="award" class="w-3.5 h-3.5 text-indigo-400"></i>
+          <span>CF Master</span>
         </a>
-        <a href="/competitive-programming/virtual-contests/" class="text-xs font-medium text-slate-300 hover:text-cyan-400 px-2.5 py-1.5 rounded-lg hover:bg-slate-800 transition">
-          Virtuals (237)
+        <a href="/competitive-programming/leetcode-hards/" class="text-xs font-medium text-slate-400 hover:text-amber-400 px-2.5 py-1.5 rounded-lg hover:bg-slate-800 transition flex items-center space-x-1">
+          <i data-lucide="flame" class="w-3.5 h-3.5 text-amber-400"></i>
+          <span>LeetCode Hards</span>
         </a>
+        <a href="/competitive-programming/virtual-contests/" class="text-xs font-medium text-slate-400 hover:text-cyan-400 px-2.5 py-1.5 rounded-lg hover:bg-slate-800 transition flex items-center space-x-1">
+          <i data-lucide="timer" class="w-3.5 h-3.5 text-cyan-400"></i>
+          <span>Virtuals</span>
+        </a>
+        <a href="/competitive-programming/mirror/" class="text-xs font-medium text-slate-400 hover:text-fuchsia-400 px-2.5 py-1.5 rounded-lg hover:bg-slate-800 transition flex items-center space-x-1">
+          <i data-lucide="sparkles" class="w-3.5 h-3.5 text-fuchsia-400"></i>
+          <span>Mirror</span>
+        </a>
+        
         <a href="https://github.com/singhvi28/competitive-programming" target="_blank" class="p-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-lg transition">
           <i data-lucide="github" class="w-4 h-4"></i>
         </a>
@@ -90,8 +106,8 @@
   </header>
 
   <!-- Hero Section -->
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 sm:pt-16 pb-16 flex-1 flex flex-col justify-center">
-    <div class="text-center max-w-3xl mx-auto mb-12">
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 sm:pt-14 pb-16 flex-1 flex flex-col justify-center">
+    <div class="text-center max-w-3xl mx-auto mb-10">
       <div class="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/30 text-indigo-400 text-xs font-mono mb-4">
         <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
         <span>Curated High-Impact Algorithm Portfolios</span>
@@ -99,118 +115,154 @@
       <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white mb-4 leading-tight">
         Master Advanced Algorithms &amp; High-Frequency Interviews
       </h1>
-      <p class="text-slate-300 text-sm sm:text-lg leading-relaxed">
-        Choose your training path: master modern Codeforces transition problems (1900–2300), solve the 301 classified LeetCode Hard interview classics, or simulate timed virtual rounds across 237 modern Codeforces contests.
+      <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+        Choose your training path: master modern Codeforces transition problems (1900–2300), solve the 301 classified LeetCode Hard classics, drill 237 timed virtual rounds, or study 321 problems solved by competitive masters.
       </p>
     </div>
 
-    <!-- Three Main Tracks Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto w-full">
+    <!-- Four Main Tracks Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 max-w-7xl mx-auto w-full">
       <!-- Track 1: Codeforces Curriculum -->
-      <a href="/competitive-programming/curriculum/" class="track-card track-cf rounded-2xl p-6 flex flex-col justify-between group relative overflow-hidden">
-        <div class="absolute -right-12 -bottom-12 w-48 h-48 bg-indigo-500/10 rounded-full blur-2xl group-hover:bg-indigo-500/20 transition duration-500"></div>
+      <a href="/competitive-programming/curriculum/" class="track-card track-cf rounded-2xl p-5 flex flex-col justify-between group relative overflow-hidden">
+        <div class="absolute -right-12 -bottom-12 w-40 h-40 bg-indigo-500/10 rounded-full blur-2xl group-hover:bg-indigo-500/20 transition duration-500"></div>
 
-        <div class="relative z-10 space-y-4">
+        <div class="relative z-10 space-y-3.5">
           <div class="flex items-center justify-between">
-            <div class="w-12 h-12 rounded-xl bg-indigo-500/10 border border-indigo-500/30 flex items-center justify-center text-indigo-400 group-hover:scale-110 transition">
-              <i data-lucide="award" class="w-6 h-6"></i>
+            <div class="w-10 h-10 rounded-xl bg-indigo-500/10 border border-indigo-500/30 flex items-center justify-center text-indigo-400 group-hover:scale-110 transition">
+              <i data-lucide="award" class="w-5 h-5"></i>
             </div>
-            <span class="text-xs font-mono px-3 py-1 rounded-full bg-indigo-950 text-indigo-400 border border-indigo-800">144 Problems</span>
+            <span class="text-[11px] font-mono px-2.5 py-0.5 rounded-full bg-indigo-950 text-indigo-400 border border-indigo-800">144 Problems</span>
           </div>
 
           <div>
-            <h2 class="text-xl font-bold text-white group-hover:text-indigo-300 transition">
+            <h2 class="text-lg font-bold text-white group-hover:text-indigo-300 transition">
               CF Master Curriculum
             </h2>
-            <div class="text-xs font-mono text-purple-400 font-semibold mb-2">1900–2300 Rating Transition</div>
-            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
-              Targeted transition techniques: Euler tour seg trees, DSU on tree, HLD, Cartesian trees, 2-SAT, min-cost flow, XOR hashing, and geometry.
+            <div class="text-[11px] font-mono text-purple-400 font-semibold mb-1.5">1900–2300 Transition</div>
+            <p class="text-slate-300 text-xs leading-relaxed">
+              Targeted transition techniques: Euler tour, DSU on tree, HLD, Cartesian tree DP, 2-SAT, min-cost flow, and geometry.
             </p>
           </div>
 
-          <div class="grid grid-cols-2 gap-2 text-[11px] font-mono text-slate-400 pt-2 border-t border-slate-800">
-            <div>&bull; 8 Modular Tracks</div>
-            <div>&bull; 6-Week Plan</div>
-            <div>&bull; Geometry Sheet</div>
-            <div>&bull; Progress Backup</div>
+          <div class="grid grid-cols-2 gap-1.5 text-[10px] font-mono text-slate-400 pt-2 border-t border-slate-800">
+            <div>&bull; 8 Modules</div>
+            <div>&bull; 6-Wk Plan</div>
+            <div>&bull; Cheat Sheet</div>
+            <div>&bull; Backup Sync</div>
           </div>
         </div>
 
-        <div class="relative z-10 pt-6 flex items-center justify-between text-indigo-400 text-sm font-semibold group-hover:translate-x-1 transition">
+        <div class="relative z-10 pt-5 flex items-center justify-between text-indigo-400 text-xs font-semibold group-hover:translate-x-1 transition">
           <span>Launch CF Track</span>
-          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
         </div>
       </a>
 
       <!-- Track 2: LeetCode Hards Guide -->
-      <a href="/competitive-programming/leetcode-hards/" class="track-card track-lc rounded-2xl p-6 flex flex-col justify-between group relative overflow-hidden">
-        <div class="absolute -right-12 -bottom-12 w-48 h-48 bg-amber-500/10 rounded-full blur-2xl group-hover:bg-amber-500/20 transition duration-500"></div>
+      <a href="/competitive-programming/leetcode-hards/" class="track-card track-lc rounded-2xl p-5 flex flex-col justify-between group relative overflow-hidden">
+        <div class="absolute -right-12 -bottom-12 w-40 h-40 bg-amber-500/10 rounded-full blur-2xl group-hover:bg-amber-500/20 transition duration-500"></div>
 
-        <div class="relative z-10 space-y-4">
+        <div class="relative z-10 space-y-3.5">
           <div class="flex items-center justify-between">
-            <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 group-hover:scale-110 transition">
-              <i data-lucide="flame" class="w-6 h-6"></i>
+            <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 group-hover:scale-110 transition">
+              <i data-lucide="flame" class="w-5 h-5"></i>
             </div>
-            <span class="text-xs font-mono px-3 py-1 rounded-full bg-amber-950 text-amber-400 border border-amber-800">301 Problems</span>
+            <span class="text-[11px] font-mono px-2.5 py-0.5 rounded-full bg-amber-950 text-amber-400 border border-amber-800">301 Problems</span>
           </div>
 
           <div>
-            <h2 class="text-xl font-bold text-white group-hover:text-amber-300 transition">
-              LeetCode Classified Hards
+            <h2 class="text-lg font-bold text-white group-hover:text-amber-300 transition">
+              LeetCode Hards Guide
             </h2>
-            <div class="text-xs font-mono text-amber-400 font-semibold mb-2">High-Signal Interview Tiers</div>
-            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
-              3-Tier classification: 44 Direct Classics (Google/Meta staples), 128 Niche Concepts, and 129 CP-tier Hard Problems with company tags.
+            <div class="text-[11px] font-mono text-amber-400 font-semibold mb-1.5">3-Tier Interview Signals</div>
+            <p class="text-slate-300 text-xs leading-relaxed">
+              44 Direct Classics (Google/Meta staples), 128 Niche Concept Lessons, and 129 CP-tier Hard Problems with company tags.
             </p>
           </div>
 
-          <div class="grid grid-cols-2 gap-2 text-[11px] font-mono text-slate-400 pt-2 border-t border-slate-800">
+          <div class="grid grid-cols-2 gap-1.5 text-[10px] font-mono text-slate-400 pt-2 border-t border-slate-800">
             <div>&bull; 3 Signal Tiers</div>
             <div>&bull; Company Tags</div>
-            <div>&bull; Concept Insights</div>
-            <div>&bull; Checklist Sync</div>
+            <div>&bull; Concepts</div>
+            <div>&bull; Checklists</div>
           </div>
         </div>
 
-        <div class="relative z-10 pt-6 flex items-center justify-between text-amber-400 text-sm font-semibold group-hover:translate-x-1 transition">
-          <span>Launch LeetCode Track</span>
-          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        <div class="relative z-10 pt-5 flex items-center justify-between text-amber-400 text-xs font-semibold group-hover:translate-x-1 transition">
+          <span>Launch LeetCode</span>
+          <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
         </div>
       </a>
 
       <!-- Track 3: Virtual Contests Library -->
-      <a href="/competitive-programming/virtual-contests/" class="track-card track-vc rounded-2xl p-6 flex flex-col justify-between group relative overflow-hidden">
-        <div class="absolute -right-12 -bottom-12 w-48 h-48 bg-cyan-500/10 rounded-full blur-2xl group-hover:bg-cyan-500/20 transition duration-500"></div>
+      <a href="/competitive-programming/virtual-contests/" class="track-card track-vc rounded-2xl p-5 flex flex-col justify-between group relative overflow-hidden">
+        <div class="absolute -right-12 -bottom-12 w-40 h-40 bg-cyan-500/10 rounded-full blur-2xl group-hover:bg-cyan-500/20 transition duration-500"></div>
 
-        <div class="relative z-10 space-y-4">
+        <div class="relative z-10 space-y-3.5">
           <div class="flex items-center justify-between">
-            <div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 group-hover:scale-110 transition">
-              <i data-lucide="timer" class="w-6 h-6"></i>
+            <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 group-hover:scale-110 transition">
+              <i data-lucide="timer" class="w-5 h-5"></i>
             </div>
-            <span class="text-xs font-mono px-3 py-1 rounded-full bg-cyan-950 text-cyan-400 border border-cyan-800">237 Contests</span>
+            <span class="text-[11px] font-mono px-2.5 py-0.5 rounded-full bg-cyan-950 text-cyan-400 border border-cyan-800">237 Contests</span>
           </div>
 
           <div>
-            <h2 class="text-xl font-bold text-white group-hover:text-cyan-300 transition">
+            <h2 class="text-lg font-bold text-white group-hover:text-cyan-300 transition">
               CF Virtual Contests
             </h2>
-            <div class="text-xs font-mono text-cyan-400 font-semibold mb-2">Timed Simulation &amp; Speed Drills</div>
-            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
-              Complete catalog of 237 modern Codeforces rounds: 154 Div 2, 49 Educational, and 34 Combined/Global rounds with 1-click virtual links.
+            <div class="text-[11px] font-mono text-cyan-400 font-semibold mb-1.5">Timed Simulation Drills</div>
+            <p class="text-slate-300 text-xs leading-relaxed">
+              237 modern Codeforces rounds: 154 Div 2, 49 Educational, and 34 Global rounds with 1-click virtual links.
             </p>
           </div>
 
-          <div class="grid grid-cols-2 gap-2 text-[11px] font-mono text-slate-400 pt-2 border-t border-slate-800">
-            <div>&bull; 154 Div. 2 Rounds</div>
+          <div class="grid grid-cols-2 gap-1.5 text-[10px] font-mono text-slate-400 pt-2 border-t border-slate-800">
+            <div>&bull; 154 Div. 2</div>
             <div>&bull; 49 Educational</div>
-            <div>&bull; 34 Global Rounds</div>
-            <div>&bull; 1-Click Virtuals</div>
+            <div>&bull; 34 Global</div>
+            <div>&bull; 1-Click Virtual</div>
           </div>
         </div>
 
-        <div class="relative z-10 pt-6 flex items-center justify-between text-cyan-400 text-sm font-semibold group-hover:translate-x-1 transition">
-          <span>Launch Virtuals Track</span>
-          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        <div class="relative z-10 pt-5 flex items-center justify-between text-cyan-400 text-xs font-semibold group-hover:translate-x-1 transition">
+          <span>Launch Virtuals</span>
+          <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+        </div>
+      </a>
+
+      <!-- Track 4: Grandmaster Mirror -->
+      <a href="/competitive-programming/mirror/" class="track-card track-mirror rounded-2xl p-5 flex flex-col justify-between group relative overflow-hidden">
+        <div class="absolute -right-12 -bottom-12 w-40 h-40 bg-fuchsia-500/10 rounded-full blur-2xl group-hover:bg-fuchsia-500/20 transition duration-500"></div>
+
+        <div class="relative z-10 space-y-3.5">
+          <div class="flex items-center justify-between">
+            <div class="w-10 h-10 rounded-xl bg-fuchsia-500/10 border border-fuchsia-500/30 flex items-center justify-center text-fuchsia-400 group-hover:scale-110 transition">
+              <i data-lucide="sparkles" class="w-5 h-5"></i>
+            </div>
+            <span class="text-[11px] font-mono px-2.5 py-0.5 rounded-full bg-fuchsia-950 text-fuchsia-400 border border-fuchsia-800">321 Problems</span>
+          </div>
+
+          <div>
+            <h2 class="text-lg font-bold text-white group-hover:text-fuchsia-300 transition">
+              CF Grandmaster Mirror
+            </h2>
+            <div class="text-[11px] font-mono text-fuchsia-400 font-semibold mb-1.5">a.out &amp; Queue Solved</div>
+            <p class="text-slate-300 text-xs leading-relaxed">
+              321 modern problems (1900–2300, ID &gt; 1300) solved by masters with direct links to AC submissions.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-2 gap-1.5 text-[10px] font-mono text-slate-400 pt-2 border-t border-slate-800">
+            <div>&bull; 21 Both Solved</div>
+            <div>&bull; 204 a.out AC</div>
+            <div>&bull; 138 Queue AC</div>
+            <div>&bull; Direct AC Code</div>
+          </div>
+        </div>
+
+        <div class="relative z-10 pt-5 flex items-center justify-between text-fuchsia-400 text-xs font-semibold group-hover:translate-x-1 transition">
+          <span>Launch Mirror Track</span>
+          <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
         </div>
       </a>
     </div>

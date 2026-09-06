@@ -1,6 +1,6 @@
 # Competitive Programming & Interview Mastery Portal
 
-A curated, high-yield triple-track training portal designed for competitive programming mastery, contest simulations, and top-tier technical interview preparation.
+A curated, high-yield multi-track training portal designed for competitive programming mastery, contest simulations, and top-tier technical interview preparation.
 
 🌐 **Live Website**: [https://singhvi28.github.io/competitive-programming/](https://singhvi28.github.io/competitive-programming/)
 
@@ -38,12 +38,20 @@ A curated, high-yield triple-track training portal designed for competitive prog
   - **Combined / Global Rounds (34 Contests)**: High-difficulty Div 1+2 & Global contests.
 - **Extras**: 1-click virtual launch, problems & standings shortcuts, ID/Name search, type filters, and progress tracking.
 
+### 4. [Codeforces Grandmaster Mirror](https://singhvi28.github.io/competitive-programming/mirror)
+- **Target Audience**: Serious competitors mirroring real training portfolios of top masters.
+- **Curated Dataset**: **321 modern problems** (Contest ID $> 1300$, ratings $1900–2300$) solved by `a.out` and/or `Queue`:
+  - **Solved by Both (21 Problems)**: Ultra high-consensus transition problems.
+  - **Solved by `a.out` (204 Problems)**: Mastered by `a.out` with direct AC submission links.
+  - **Solved by `Queue` (138 Problems)**: Mastered by `Queue` with direct AC submission links.
+- **Extras**: Solver filter tabs (Both, a.out, Queue), official tag filters, direct AC code shortcuts, and independent `localStorage` progress tracking.
+
 ---
 
 ## ⚡ Interactive Web Features
 - **Dark Cyberpunk UI** with Tailwind CSS & Glassmorphism
 - **Independent Progress Tracking** persisted via `localStorage`
-- **Instant Search & Multi-Filters** (Rating, Category, Type, Topic, Company, Status)
+- **Instant Search & Multi-Filters** (Rating, Category, Type, Solver, Topic, Company, Status)
 - **Mathematical Formula Rendering** with KaTeX
 - **Progress Export & Import** (JSON backups)
 - **Responsive Navigation** across all portal sub-routes
@@ -62,8 +70,12 @@ A curated, high-yield triple-track training portal designed for competitive prog
 ├── virtual-contests/
 │   └── index.html               # Codeforces Virtual Contests Page
 ├── virtual-contests.html        # Fallback / Direct Link
+├── mirror/
+│   └── index.html               # Codeforces Grandmaster Mirror Page
+├── mirror.html                  # Fallback / Direct Link
 ├── data.json                    # Codeforces 144 Problems & Schedule Data
 ├── leetcode_data.json           # LeetCode 301 Classified Problems Data
 ├── virtual_contests_data.json   # Virtual Contests 237 Rounds Data
+├── mirror_data.json             # Mirror 321 Problems Data
 └── .nojekyll                    # Disable Jekyll for raw static asset serving
 ```
