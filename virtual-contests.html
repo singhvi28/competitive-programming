@@ -299,7 +299,7 @@
       return `<span class="px-2 py-0.5 rounded text-[11px] font-mono font-semibold border ${style}">${type}</span>`;
     }
 
-    function renderContests(contestsToRender) {
+    function renderContests(contestsToRender = DATA) {
       const container = document.getElementById('contests-container');
       container.innerHTML = '';
 
