@@ -1,6 +1,6 @@
 # Competitive Programming & Interview Mastery Portal
 
-A curated, high-yield dual-track training portal designed for competitive programming mastery and top-tier technical interview preparation.
+A curated, high-yield triple-track training portal designed for competitive programming mastery, contest simulations, and top-tier technical interview preparation.
 
 🌐 **Live Website**: [https://singhvi28.github.io/competitive-programming/](https://singhvi28.github.io/competitive-programming/)
 
@@ -30,12 +30,20 @@ A curated, high-yield dual-track training portal designed for competitive progra
   - **Category 3 (CP-Tier & Exotic Hards - 129 Problems)**: Boundary-pushing competitive programming problems for high-frequency trading and maximum signal.
 - **Extras**: Signal tier filtering, company tag search, concept filtering, checklist tracking.
 
+### 3. [Codeforces Virtual Contests Library](https://singhvi28.github.io/competitive-programming/virtual-contests)
+- **Target Audience**: Competitive programmers drilling speed, consistency, and timed virtual contests.
+- **Curated Dataset**: **237 modern Codeforces rounds** (Contest IDs 1315–2258):
+  - **Div. 2 Rounds (154 Contests)**: Standard 2-hour rating battles.
+  - **Educational Rounds (49 Contests)**: Standard concept-heavy practice rounds.
+  - **Combined / Global Rounds (34 Contests)**: High-difficulty Div 1+2 & Global contests.
+- **Extras**: 1-click virtual launch, problems & standings shortcuts, ID/Name search, type filters, and progress tracking.
+
 ---
 
 ## ⚡ Interactive Web Features
 - **Dark Cyberpunk UI** with Tailwind CSS & Glassmorphism
 - **Independent Progress Tracking** persisted via `localStorage`
-- **Instant Search & Multi-Filters** (Rating, Category, Topic, Company, Status)
+- **Instant Search & Multi-Filters** (Rating, Category, Type, Topic, Company, Status)
 - **Mathematical Formula Rendering** with KaTeX
 - **Progress Export & Import** (JSON backups)
 - **Responsive Navigation** across all portal sub-routes
@@ -51,7 +59,11 @@ A curated, high-yield dual-track training portal designed for competitive progra
 ├── leetcode-hards/
 │   └── index.html               # LeetCode Classified Hards Page
 ├── leetcode-hards.html          # Fallback / Direct Link
+├── virtual-contests/
+│   └── index.html               # Codeforces Virtual Contests Page
+├── virtual-contests.html        # Fallback / Direct Link
 ├── data.json                    # Codeforces 144 Problems & Schedule Data
 ├── leetcode_data.json           # LeetCode 301 Classified Problems Data
+├── virtual_contests_data.json   # Virtual Contests 237 Rounds Data
 └── .nojekyll                    # Disable Jekyll for raw static asset serving
 ```

@@ -1,0 +1,1424 @@
+[
+  {
+    "id": "2258",
+    "name": "Codeforces Round 1118 (Div. 2)",
+    "url": "https://codeforces.com/contest/2258",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2252",
+    "name": "Codeforces Round 1115 (Div. 2)",
+    "url": "https://codeforces.com/contest/2252",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2248",
+    "name": "Codeforces Round 1113 (Div. 2)",
+    "url": "https://codeforces.com/contest/2248",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2250",
+    "name": "Codeforces Round 1112 (Div. 2)",
+    "url": "https://codeforces.com/contest/2250",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2247",
+    "name": "Codeforces Round 1111 (Div. 2)",
+    "url": "https://codeforces.com/contest/2247",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2245",
+    "name": "Spectral::Cup 2026 Round 3 (Codeforces Round 1110, Div. 1 + Div. 2)",
+    "url": "https://codeforces.com/contest/2245",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "2246",
+    "name": "Codeforces Round 1108 (Div. 2)",
+    "url": "https://codeforces.com/contest/2246",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2242",
+    "name": "Educational Codeforces Round 192 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/2242",
+    "type": "Educational"
+  },
+  {
+    "id": "2238",
+    "name": "Codeforces Round 1106 (Div. 2)",
+    "url": "https://codeforces.com/contest/2238",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2240",
+    "name": "Codeforces Round 1105 (Div. 2)",
+    "url": "https://codeforces.com/contest/2240",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2232",
+    "name": "Codeforces Round 1101 (Div. 2)",
+    "url": "https://codeforces.com/contest/2232",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2224",
+    "name": "Codeforces Round 1097 (Div. 2,  Based on Zhili Cup 2026)",
+    "url": "https://codeforces.com/contest/2224",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "2226",
+    "name": "Codeforces Round 1095 (Div. 2)",
+    "url": "https://codeforces.com/contest/2226",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2222",
+    "name": "Spectral::Cup 2026 Round 1 (Codeforces Round 1094, Div. 1 + Div. 2)",
+    "url": "https://codeforces.com/contest/2222",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "2225",
+    "name": "Educational Codeforces Round 189 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/2225",
+    "type": "Educational"
+  },
+  {
+    "id": "2220",
+    "name": "Codeforces Round 1093 (Div. 2)",
+    "url": "https://codeforces.com/contest/2220",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2217",
+    "name": "Codeforces Round 1091 (Div. 2) and CodeCraft 26",
+    "url": "https://codeforces.com/contest/2217",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "2207",
+    "name": "Codeforces Round 1085 (Div. 1 + Div. 2)",
+    "url": "https://codeforces.com/contest/2207",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "2202",
+    "name": "Codeforces Round 1082 (Div. 2)",
+    "url": "https://codeforces.com/contest/2202",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2197",
+    "name": "Codeforces Round 1079 (Div. 2)",
+    "url": "https://codeforces.com/contest/2197",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2163",
+    "name": "Codeforces Round 1063 (Div. 2)",
+    "url": "https://codeforces.com/contest/2163",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2164",
+    "name": "Codeforces Global Round 30 (Div. 1 + Div. 2)",
+    "url": "https://codeforces.com/contest/2164",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "2153",
+    "name": "Codeforces Round 1057 (Div. 2)",
+    "url": "https://codeforces.com/contest/2153",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2152",
+    "name": "Squarepoint Challenge (Codeforces Round 1055, Div. 1 + Div. 2)",
+    "url": "https://codeforces.com/contest/2152",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "2151",
+    "name": "Codeforces Round 1053 (Div. 2)",
+    "url": "https://codeforces.com/contest/2151",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2147",
+    "name": "Codeforces Global Round 29 (Div. 1 + Div. 2)",
+    "url": "https://codeforces.com/contest/2147",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "2139",
+    "name": "Codeforces Round 1048 (Div. 2)",
+    "url": "https://codeforces.com/contest/2139",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2128",
+    "name": "Codeforces Round 1039 (Div. 2)",
+    "url": "https://codeforces.com/contest/2128",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2122",
+    "name": "Order Capital Round 1 (Codeforces Round 1038, Div. 1 + Div. 2)",
+    "url": "https://codeforces.com/contest/2122",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "2116",
+    "name": "Codeforces Round 1028 (Div. 2)",
+    "url": "https://codeforces.com/contest/2116",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2109",
+    "name": "Codeforces Round 1025 (Div. 2)",
+    "url": "https://codeforces.com/contest/2109",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2098",
+    "name": "Codeforces Round 1021 (Div. 2)",
+    "url": "https://codeforces.com/contest/2098",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2090",
+    "name": "Codeforces Round 1012 (Div. 2)",
+    "url": "https://codeforces.com/contest/2090",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2082",
+    "name": "Codeforces Round 1010 (Div. 2, Unrated)",
+    "url": "https://codeforces.com/contest/2082",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2078",
+    "name": "Codeforces Round 1008 (Div. 2)",
+    "url": "https://codeforces.com/contest/2078",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2071",
+    "name": "Codeforces Round 1007 (Div. 2)",
+    "url": "https://codeforces.com/contest/2071",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2069",
+    "name": "Educational Codeforces Round 174 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/2069",
+    "type": "Educational"
+  },
+  {
+    "id": "2047",
+    "name": "Codeforces Round 990 (Div. 2)",
+    "url": "https://codeforces.com/contest/2047",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2042",
+    "name": "Educational Codeforces Round 172 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/2042",
+    "type": "Educational"
+  },
+  {
+    "id": "2032",
+    "name": "Codeforces Round 983 (Div. 2)",
+    "url": "https://codeforces.com/contest/2032",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2027",
+    "name": "Codeforces Round 982 (Div. 2)",
+    "url": "https://codeforces.com/contest/2027",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2025",
+    "name": "Educational Codeforces Round 170 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/2025",
+    "type": "Educational"
+  },
+  {
+    "id": "2022",
+    "name": "Codeforces Round 978 (Div. 2)",
+    "url": "https://codeforces.com/contest/2022",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2020",
+    "name": "Codeforces Round 976 (Div. 2) and Divide By Zero 9.0",
+    "url": "https://codeforces.com/contest/2020",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2019",
+    "name": "Codeforces Round 975 (Div. 2)",
+    "url": "https://codeforces.com/contest/2019",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2013",
+    "name": "Codeforces Round 973 (Div. 2)",
+    "url": "https://codeforces.com/contest/2013",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2005",
+    "name": "Codeforces Round 972 (Div. 2)",
+    "url": "https://codeforces.com/contest/2005",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2007",
+    "name": "Codeforces Round 969 (Div. 2)",
+    "url": "https://codeforces.com/contest/2007",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2003",
+    "name": "Codeforces Round 968 (Div. 2)",
+    "url": "https://codeforces.com/contest/2003",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2001",
+    "name": "Codeforces Round 967 (Div. 2)",
+    "url": "https://codeforces.com/contest/2001",
+    "type": "Div. 2"
+  },
+  {
+    "id": "2004",
+    "name": "Educational Codeforces Round 169 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/2004",
+    "type": "Educational"
+  },
+  {
+    "id": "2002",
+    "name": "EPIC Institute of Technology Round August 2024 (Div. 1 + Div. 2)",
+    "url": "https://codeforces.com/contest/2002",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "1995",
+    "name": "Codeforces Round 961 (Div. 2)",
+    "url": "https://codeforces.com/contest/1995",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1990",
+    "name": "Codeforces Round 960 (Div. 2)",
+    "url": "https://codeforces.com/contest/1990",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1994",
+    "name": "Codeforces Round 959 sponsored by NEAR (Div. 1 + Div. 2)",
+    "url": "https://codeforces.com/contest/1994",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "1983",
+    "name": "Codeforces Round 956 (Div. 2) and ByteRace 2024",
+    "url": "https://codeforces.com/contest/1983",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1989",
+    "name": "Educational Codeforces Round 167 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1989",
+    "type": "Educational"
+  },
+  {
+    "id": "1978",
+    "name": "Codeforces Round 953 (Div. 2)",
+    "url": "https://codeforces.com/contest/1978",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1981",
+    "name": "Codeforces Round 949 (Div. 2)",
+    "url": "https://codeforces.com/contest/1981",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1976",
+    "name": "Educational Codeforces Round 166 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1976",
+    "type": "Educational"
+  },
+  {
+    "id": "1973",
+    "name": "Codeforces Round 945 (Div. 2)",
+    "url": "https://codeforces.com/contest/1973",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1972",
+    "name": "Codeforces Round 942 (Div. 2)",
+    "url": "https://codeforces.com/contest/1972",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1966",
+    "name": "Codeforces Round 941 (Div. 2)",
+    "url": "https://codeforces.com/contest/1966",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1954",
+    "name": "Educational Codeforces Round 164 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1954",
+    "type": "Educational"
+  },
+  {
+    "id": "1942",
+    "name": "CodeTON Round 8 (Div. 1 + Div. 2, Rated, Prizes!)",
+    "url": "https://codeforces.com/contest/1942",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "1944",
+    "name": "Codeforces Round 934 (Div. 2)",
+    "url": "https://codeforces.com/contest/1944",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1948",
+    "name": "Educational Codeforces Round 163 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1948",
+    "type": "Educational"
+  },
+  {
+    "id": "1934",
+    "name": "Codeforces Round 931 (Div. 2)",
+    "url": "https://codeforces.com/contest/1934",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1937",
+    "name": "Codeforces Round 930 (Div. 2)",
+    "url": "https://codeforces.com/contest/1937",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1923",
+    "name": "Educational Codeforces Round 162 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1923",
+    "type": "Educational"
+  },
+  {
+    "id": "1929",
+    "name": "Codeforces Round 926 (Div. 2)",
+    "url": "https://codeforces.com/contest/1929",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1918",
+    "name": "Codeforces Round 922 (Div. 2)",
+    "url": "https://codeforces.com/contest/1918",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1925",
+    "name": "Codeforces Round 921 (Div. 2)",
+    "url": "https://codeforces.com/contest/1925",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1913",
+    "name": "Educational Codeforces Round 160 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1913",
+    "type": "Educational"
+  },
+  {
+    "id": "1902",
+    "name": "Educational Codeforces Round 159 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1902",
+    "type": "Educational"
+  },
+  {
+    "id": "1898",
+    "name": "Codeforces Round 910 (Div. 2)",
+    "url": "https://codeforces.com/contest/1898",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1894",
+    "name": "Codeforces Round 908 (Div. 2)",
+    "url": "https://codeforces.com/contest/1894",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1895",
+    "name": "Educational Codeforces Round 157 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1895",
+    "type": "Educational"
+  },
+  {
+    "id": "1890",
+    "name": "Codeforces Round 906 (Div. 2)",
+    "url": "https://codeforces.com/contest/1890",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1888",
+    "name": "Codeforces Round 905 (Div. 2)",
+    "url": "https://codeforces.com/contest/1888",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1884",
+    "name": "Codeforces Round 904 (Div. 2)",
+    "url": "https://codeforces.com/contest/1884",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1886",
+    "name": "Educational Codeforces Round 156 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1886",
+    "type": "Educational"
+  },
+  {
+    "id": "1882",
+    "name": "Codeforces Round 899 (Div. 2)",
+    "url": "https://codeforces.com/contest/1882",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1870",
+    "name": "CodeTON Round 6 (Div. 1 + Div. 2, Rated, Prizes!)",
+    "url": "https://codeforces.com/contest/1870",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "1867",
+    "name": "Codeforces Round 897 (Div. 2)",
+    "url": "https://codeforces.com/contest/1867",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1863",
+    "name": "Pinely Round 2 (Div. 1 + Div. 2)",
+    "url": "https://codeforces.com/contest/1863",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "1864",
+    "name": "Harbour.Space Scholarship Contest 2023-2024 (Div. 1 + Div. 2)",
+    "url": "https://codeforces.com/contest/1864",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "1860",
+    "name": "Educational Codeforces Round 153 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1860",
+    "type": "Educational"
+  },
+  {
+    "id": "1858",
+    "name": "Codeforces Round 893 (Div. 2)",
+    "url": "https://codeforces.com/contest/1858",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1853",
+    "name": "Codeforces Round 887 (Div. 2)",
+    "url": "https://codeforces.com/contest/1853",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1844",
+    "name": "Codeforces Round 884 (Div. 1 + Div. 2)",
+    "url": "https://codeforces.com/contest/1844",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "1847",
+    "name": "Codeforces Round 882 (Div. 2)",
+    "url": "https://codeforces.com/contest/1847",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1836",
+    "name": "Codeforces Round 880 (Div. 2)",
+    "url": "https://codeforces.com/contest/1836",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1834",
+    "name": "Codeforces Round 879 (Div. 2)",
+    "url": "https://codeforces.com/contest/1834",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1841",
+    "name": "Educational Codeforces Round 150 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1841",
+    "type": "Educational"
+  },
+  {
+    "id": "1839",
+    "name": "Codeforces Round 876 (Div. 2)",
+    "url": "https://codeforces.com/contest/1839",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1825",
+    "name": "Codeforces Round 872 (Div. 2)",
+    "url": "https://codeforces.com/contest/1825",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1818",
+    "name": "Codeforces Round 869 (Div. 2)",
+    "url": "https://codeforces.com/contest/1818",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1823",
+    "name": "Codeforces Round 868 (Div. 2)",
+    "url": "https://codeforces.com/contest/1823",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1821",
+    "name": "Educational Codeforces Round 147 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1821",
+    "type": "Educational"
+  },
+  {
+    "id": "1816",
+    "name": "Codeforces Round 865 (Div. 2)",
+    "url": "https://codeforces.com/contest/1816",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1806",
+    "name": "Codeforces Round 858 (Div. 2)",
+    "url": "https://codeforces.com/contest/1806",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1804",
+    "name": "Nebius Welcome Round (Div. 1 + Div. 2)",
+    "url": "https://codeforces.com/contest/1804",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "1802",
+    "name": "Codeforces Round 857 (Div. 2)",
+    "url": "https://codeforces.com/contest/1802",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1796",
+    "name": "Educational Codeforces Round 144 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1796",
+    "type": "Educational"
+  },
+  {
+    "id": "1789",
+    "name": "Codeforces Round 853 (Div. 2)",
+    "url": "https://codeforces.com/contest/1789",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1786",
+    "name": "Codeforces Round 850 (Div. 2, based on VK Cup 2022 - Final Round)",
+    "url": "https://codeforces.com/contest/1786",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "1778",
+    "name": "Codeforces Round 848 (Div. 2)",
+    "url": "https://codeforces.com/contest/1778",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1782",
+    "name": "Codeforces Round 844 (Div. 1 + Div. 2, based on VK Cup 2022 - Elimination Round)",
+    "url": "https://codeforces.com/contest/1782",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "1783",
+    "name": "Educational Codeforces Round 141 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1783",
+    "type": "Educational"
+  },
+  {
+    "id": "1774",
+    "name": "Polynomial Round 2022 (Div. 1 + Div. 2, Rated, Prizes!)",
+    "url": "https://codeforces.com/contest/1774",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "1762",
+    "name": "Codeforces Round 838 (Div. 2)",
+    "url": "https://codeforces.com/contest/1762",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1748",
+    "name": "Codeforces Round 833 (Div. 2)",
+    "url": "https://codeforces.com/contest/1748",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1747",
+    "name": "Codeforces Round 832 (Div. 2)",
+    "url": "https://codeforces.com/contest/1747",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1740",
+    "name": "Codeforces Round 831 (Div. 1 + Div. 2)",
+    "url": "https://codeforces.com/contest/1740",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "1754",
+    "name": "Codeforces Round 829 (Div. 2)",
+    "url": "https://codeforces.com/contest/1754",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1749",
+    "name": "Educational Codeforces Round 138 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1749",
+    "type": "Educational"
+  },
+  {
+    "id": "1743",
+    "name": "Educational Codeforces Round 137 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1743",
+    "type": "Educational"
+  },
+  {
+    "id": "1736",
+    "name": "Codeforces Round 825 (Div. 2)",
+    "url": "https://codeforces.com/contest/1736",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1739",
+    "name": "Educational Codeforces Round 136 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1739",
+    "type": "Educational"
+  },
+  {
+    "id": "1733",
+    "name": "Codeforces Round 821 (Div. 2)",
+    "url": "https://codeforces.com/contest/1733",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1728",
+    "name": "Educational Codeforces Round 135 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1728",
+    "type": "Educational"
+  },
+  {
+    "id": "1717",
+    "name": "Codeforces Round 818 (Div. 2)",
+    "url": "https://codeforces.com/contest/1717",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1720",
+    "name": "Codeforces Round 815 (Div. 2)",
+    "url": "https://codeforces.com/contest/1720",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1719",
+    "name": "Codeforces Round 814 (Div. 2)",
+    "url": "https://codeforces.com/contest/1719",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1712",
+    "name": "Codeforces Round 813 (Div. 2)",
+    "url": "https://codeforces.com/contest/1712",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1713",
+    "name": "Codeforces Round 812 (Div. 2)",
+    "url": "https://codeforces.com/contest/1713",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1716",
+    "name": "Educational Codeforces Round 133 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1716",
+    "type": "Educational"
+  },
+  {
+    "id": "1711",
+    "name": "Codeforces Round 810 (Div. 2)",
+    "url": "https://codeforces.com/contest/1711",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1706",
+    "name": "Codeforces Round 809 (Div. 2)",
+    "url": "https://codeforces.com/contest/1706",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1705",
+    "name": "Codeforces Round 807 (Div. 2)",
+    "url": "https://codeforces.com/contest/1705",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1694",
+    "name": "Codeforces Round 800 (Div. 2)",
+    "url": "https://codeforces.com/contest/1694",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1684",
+    "name": "Codeforces Round 792 (Div. 1 + Div. 2)",
+    "url": "https://codeforces.com/contest/1684",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "1680",
+    "name": "Educational Codeforces Round 128 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1680",
+    "type": "Educational"
+  },
+  {
+    "id": "1678",
+    "name": "Codeforces Round 789 (Div. 2)",
+    "url": "https://codeforces.com/contest/1678",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1670",
+    "name": "Codeforces Round 788 (Div. 2)",
+    "url": "https://codeforces.com/contest/1670",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1668",
+    "name": "Codeforces Round 783 (Div. 2)",
+    "url": "https://codeforces.com/contest/1668",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1658",
+    "name": "Codeforces Round 779 (Div. 2)",
+    "url": "https://codeforces.com/contest/1658",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1657",
+    "name": "Educational Codeforces Round 125 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1657",
+    "type": "Educational"
+  },
+  {
+    "id": "1654",
+    "name": "Codeforces Round 778 (Div. 1 + Div. 2, based on Technocup 2022 Final Round)",
+    "url": "https://codeforces.com/contest/1654",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "1647",
+    "name": "Codeforces Round 777 (Div. 2)",
+    "url": "https://codeforces.com/contest/1647",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1649",
+    "name": "Codeforces Round 775 (Div. 2, based on Moscow Open Olympiad in Informatics)",
+    "url": "https://codeforces.com/contest/1649",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1642",
+    "name": "Codeforces Round 773 (Div. 2)",
+    "url": "https://codeforces.com/contest/1642",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1644",
+    "name": "Educational Codeforces Round 123 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1644",
+    "type": "Educational"
+  },
+  {
+    "id": "1635",
+    "name": "Codeforces Round 772 (Div. 2)",
+    "url": "https://codeforces.com/contest/1635",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1638",
+    "name": "Codeforces Round 771 (Div. 2)",
+    "url": "https://codeforces.com/contest/1638",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1632",
+    "name": "Codeforces Round 769 (Div. 2)",
+    "url": "https://codeforces.com/contest/1632",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1629",
+    "name": "Codeforces Round 767 (Div. 2)",
+    "url": "https://codeforces.com/contest/1629",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1626",
+    "name": "Educational Codeforces Round 121 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1626",
+    "type": "Educational"
+  },
+  {
+    "id": "1627",
+    "name": "Codeforces Round 766 (Div. 2)",
+    "url": "https://codeforces.com/contest/1627",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1620",
+    "name": "Educational Codeforces Round 119 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1620",
+    "type": "Educational"
+  },
+  {
+    "id": "1617",
+    "name": "Codeforces Round 761 (Div. 2)",
+    "url": "https://codeforces.com/contest/1617",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1591",
+    "name": "Codeforces Round 759 (Div. 2, based on Technocup 2022 Elimination Round 3)",
+    "url": "https://codeforces.com/contest/1591",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1608",
+    "name": "Codeforces Round 758 (Div.1 + Div. 2)",
+    "url": "https://codeforces.com/contest/1608",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1613",
+    "name": "Educational Codeforces Round 118 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1613",
+    "type": "Educational"
+  },
+  {
+    "id": "1609",
+    "name": "Deltix Round, Autumn 2021 (open for everyone, rated, Div. 1 + Div. 2)",
+    "url": "https://codeforces.com/contest/1609",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "1589",
+    "name": "Codeforces Round 755 (Div. 2, based on Technocup 2022 Elimination Round 2)",
+    "url": "https://codeforces.com/contest/1589",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1605",
+    "name": "Codeforces Round 754 (Div. 2)",
+    "url": "https://codeforces.com/contest/1605",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1604",
+    "name": "Codeforces Round 752 (Div. 2)",
+    "url": "https://codeforces.com/contest/1604",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1606",
+    "name": "Educational Codeforces Round 116 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1606",
+    "type": "Educational"
+  },
+  {
+    "id": "1602",
+    "name": "Codeforces Round 751 (Div. 2)",
+    "url": "https://codeforces.com/contest/1602",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1586",
+    "name": "Codeforces Round 749 (Div. 1 + Div. 2, based on Technocup 2022 Elimination Round 1)",
+    "url": "https://codeforces.com/contest/1586",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "1600",
+    "name": "Bubble Cup 14 - Finals Online Mirror (Unrated, ICPC Rules, Teams Preferred, Div. 2)",
+    "url": "https://codeforces.com/contest/1600",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "1592",
+    "name": "Codeforces Round 746 (Div. 2)",
+    "url": "https://codeforces.com/contest/1592",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1581",
+    "name": "Codeforces Round 745 (Div. 2)",
+    "url": "https://codeforces.com/contest/1581",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1574",
+    "name": "Educational Codeforces Round 114 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1574",
+    "type": "Educational"
+  },
+  {
+    "id": "1573",
+    "name": "Codeforces Round 743 (Div. 2)",
+    "url": "https://codeforces.com/contest/1573",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1567",
+    "name": "Codeforces Round 742 (Div. 2)",
+    "url": "https://codeforces.com/contest/1567",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1562",
+    "name": "Codeforces Round 741 (Div. 2)",
+    "url": "https://codeforces.com/contest/1562",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1549",
+    "name": "Codeforces Round 736 (Div. 2)",
+    "url": "https://codeforces.com/contest/1549",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1554",
+    "name": "Codeforces Round 735 (Div. 2)",
+    "url": "https://codeforces.com/contest/1554",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1553",
+    "name": "Harbour.Space Scholarship Contest 2021-2022 (open for everyone, rated, Div. 1 + Div. 2)",
+    "url": "https://codeforces.com/contest/1553",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "1530",
+    "name": "Codeforces Round 733 (Div. 1 + Div. 2, based on VK Cup 2021 - Elimination (Engine))",
+    "url": "https://codeforces.com/contest/1530",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "1550",
+    "name": "Educational Codeforces Round 111 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1550",
+    "type": "Educational"
+  },
+  {
+    "id": "1546",
+    "name": "Codeforces Round 732 (Div. 2)",
+    "url": "https://codeforces.com/contest/1546",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1541",
+    "name": "Codeforces Round 728 (Div. 2)",
+    "url": "https://codeforces.com/contest/1541",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1534",
+    "name": "Codeforces LATOKEN Round 1 (Div. 1 + Div. 2)",
+    "url": "https://codeforces.com/contest/1534",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "1536",
+    "name": "Codeforces Round 724 (Div. 2)",
+    "url": "https://codeforces.com/contest/1536",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1535",
+    "name": "Educational Codeforces Round 110 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1535",
+    "type": "Educational"
+  },
+  {
+    "id": "1523",
+    "name": "Deltix Round, Spring 2021 (open for everyone, rated, Div. 1 + Div. 2)",
+    "url": "https://codeforces.com/contest/1523",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "1529",
+    "name": "Codeforces Round 722 (Div. 2)",
+    "url": "https://codeforces.com/contest/1529",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1525",
+    "name": "Educational Codeforces Round 109 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1525",
+    "type": "Educational"
+  },
+  {
+    "id": "1521",
+    "name": "Codeforces Round 720 (Div. 2)",
+    "url": "https://codeforces.com/contest/1521",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1484",
+    "name": "Codeforces Round 709 (Div. 2, based on Technocup 2021 Final Round)",
+    "url": "https://codeforces.com/contest/1484",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1499",
+    "name": "Educational Codeforces Round 106 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1499",
+    "type": "Educational"
+  },
+  {
+    "id": "1501",
+    "name": "Codeforces Round 707 (Div. 2, based on Moscow Open Olympiad in Informatics)",
+    "url": "https://codeforces.com/contest/1501",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1496",
+    "name": "Codeforces Round 706 (Div. 2)",
+    "url": "https://codeforces.com/contest/1496",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1493",
+    "name": "Codeforces Round 705 (Div. 2)",
+    "url": "https://codeforces.com/contest/1493",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1494",
+    "name": "Educational Codeforces Round 105 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1494",
+    "type": "Educational"
+  },
+  {
+    "id": "1492",
+    "name": "Codeforces Round 704 (Div. 2)",
+    "url": "https://codeforces.com/contest/1492",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1480",
+    "name": "Codeforces Round 700 (Div. 2)",
+    "url": "https://codeforces.com/contest/1480",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1481",
+    "name": "Codeforces Round 699 (Div. 2)",
+    "url": "https://codeforces.com/contest/1481",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1478",
+    "name": "Codeforces Round 698 (Div. 2)",
+    "url": "https://codeforces.com/contest/1478",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1473",
+    "name": "Educational Codeforces Round 102 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1473",
+    "type": "Educational"
+  },
+  {
+    "id": "1467",
+    "name": "Codeforces Round 695 (Div. 2)",
+    "url": "https://codeforces.com/contest/1467",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1469",
+    "name": "Educational Codeforces Round 101 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1469",
+    "type": "Educational"
+  },
+  {
+    "id": "1465",
+    "name": "Codeforces Round 692 (Div. 2, based on Technocup 2021 Elimination Round 3)",
+    "url": "https://codeforces.com/contest/1465",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1463",
+    "name": "Educational Codeforces Round 100 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1463",
+    "type": "Educational"
+  },
+  {
+    "id": "1453",
+    "name": "Codeforces Round 688 (Div. 2)",
+    "url": "https://codeforces.com/contest/1453",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1455",
+    "name": "Educational Codeforces Round 99 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1455",
+    "type": "Educational"
+  },
+  {
+    "id": "1457",
+    "name": "Codeforces Round 687 (Div. 2, based on Technocup 2021 Elimination Round 2)",
+    "url": "https://codeforces.com/contest/1457",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1451",
+    "name": "Codeforces Round 685 (Div. 2)",
+    "url": "https://codeforces.com/contest/1451",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1452",
+    "name": "Educational Codeforces Round 98 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1452",
+    "type": "Educational"
+  },
+  {
+    "id": "1447",
+    "name": "Codeforces Round 683 (Div. 2, by Meet IT)",
+    "url": "https://codeforces.com/contest/1447",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1443",
+    "name": "Codeforces Round 681 (Div. 2, based on VK Cup 2019-2020 - Final)",
+    "url": "https://codeforces.com/contest/1443",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "1445",
+    "name": "Codeforces Round 680 (Div. 2, based on Moscow Team Olympiad)",
+    "url": "https://codeforces.com/contest/1445",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1435",
+    "name": "Codeforces Round 679 (Div. 2, based on Technocup 2021 Elimination Round 1)",
+    "url": "https://codeforces.com/contest/1435",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1436",
+    "name": "Codeforces Round 678 (Div. 2)",
+    "url": "https://codeforces.com/contest/1436",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1421",
+    "name": "Codeforces Round 676 (Div. 2)",
+    "url": "https://codeforces.com/contest/1421",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1428",
+    "name": "Codeforces Raif Round 1 (Div. 1 + Div. 2)",
+    "url": "https://codeforces.com/contest/1428",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "1430",
+    "name": "Educational Codeforces Round 96 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1430",
+    "type": "Educational"
+  },
+  {
+    "id": "1424",
+    "name": "Bubble Cup 13 - Finals [Online Mirror, unrated, Div. 2]",
+    "url": "https://codeforces.com/contest/1424",
+    "type": "Combined / Global"
+  },
+  {
+    "id": "1422",
+    "name": "Codeforces Round 675 (Div. 2)",
+    "url": "https://codeforces.com/contest/1422",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1417",
+    "name": "Codeforces Round 673 (Div. 2)",
+    "url": "https://codeforces.com/contest/1417",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1406",
+    "name": "Codeforces Round 670 (Div. 2)",
+    "url": "https://codeforces.com/contest/1406",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1405",
+    "name": "Codeforces Round 668 (Div. 2)",
+    "url": "https://codeforces.com/contest/1405",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1397",
+    "name": "Codeforces Round 666 (Div. 2)",
+    "url": "https://codeforces.com/contest/1397",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1400",
+    "name": "Educational Codeforces Round 94 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1400",
+    "type": "Educational"
+  },
+  {
+    "id": "1395",
+    "name": "Codeforces Round 664 (Div. 2)",
+    "url": "https://codeforces.com/contest/1395",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1393",
+    "name": "Codeforces Round 662 (Div. 2)",
+    "url": "https://codeforces.com/contest/1393",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1388",
+    "name": "Codeforces Round 660 (Div. 2)",
+    "url": "https://codeforces.com/contest/1388",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1384",
+    "name": "Codeforces Round 659 (Div. 2)",
+    "url": "https://codeforces.com/contest/1384",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1382",
+    "name": "Codeforces Round 658 (Div. 2)",
+    "url": "https://codeforces.com/contest/1382",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1379",
+    "name": "Codeforces Round 657 (Div. 2)",
+    "url": "https://codeforces.com/contest/1379",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1371",
+    "name": "Codeforces Round 654 (Div. 2)",
+    "url": "https://codeforces.com/contest/1371",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1369",
+    "name": "Codeforces Round 652 (Div. 2)",
+    "url": "https://codeforces.com/contest/1369",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1366",
+    "name": "Educational Codeforces Round 89 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1366",
+    "type": "Educational"
+  },
+  {
+    "id": "1365",
+    "name": "Codeforces Round 648 (Div. 2)",
+    "url": "https://codeforces.com/contest/1365",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1345",
+    "name": "Codeforces Round 639 (Div. 2)",
+    "url": "https://codeforces.com/contest/1345",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1342",
+    "name": "Educational Codeforces Round 86 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1342",
+    "type": "Educational"
+  },
+  {
+    "id": "1339",
+    "name": "Codeforces Round 633 (Div. 2)",
+    "url": "https://codeforces.com/contest/1339",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1334",
+    "name": "Educational Codeforces Round 85 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1334",
+    "type": "Educational"
+  },
+  {
+    "id": "1333",
+    "name": "Codeforces Round 632 (Div. 2)",
+    "url": "https://codeforces.com/contest/1333",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1330",
+    "name": "Codeforces Round 631 (Div. 2) - Thanks, Denis aramis Shitov!",
+    "url": "https://codeforces.com/contest/1330",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1327",
+    "name": "Educational Codeforces Round 84 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contest/1327",
+    "type": "Educational"
+  },
+  {
+    "id": "1321",
+    "name": "Codeforces Round 625 (Div. 2, based on Technocup 2020 Final Round)",
+    "url": "https://codeforces.com/contest/1321",
+    "type": "Div. 2"
+  },
+  {
+    "id": "1315",
+    "name": "Codeforces Round 623 (Div. 2, based on VK Cup 2019-2020 - Elimination Round, Engine)",
+    "url": "https://codeforces.com/contest/1315",
+    "type": "Combined / Global"
+  }
+]
