@@ -44,7 +44,7 @@
           "rating": 1900,
           "url": "https://codeforces.com/contest/1797/problem/D",
           "technique": "Dynamic Heavy Edge Tracking",
-          "insight": "Maintain subtree sizes and heavy child pointers dynamically; rotate the heavy son to the parent in O(log N) using std::set.",
+          "insight": "Maintain subtree sizes and heavy child pointers dynamically; rotate the heavy son to the parent in $O(\\log N)$ using `std::set`.",
           "tags": [
             "brute force",
             "data structures",
@@ -59,7 +59,7 @@
           "rating": 1900,
           "url": "https://codeforces.com/contest/1882/problem/D",
           "technique": "Tree Rerooting DP",
-          "insight": "Bit-by-bit contribution: when transitioning root u -> v, exactly subtree sizes of u and v flip their contribution multiplier to the total cost.",
+          "insight": "Bit-by-bit contribution: when transitioning root $u \\to v$, exactly subtree sizes of $u$ and $v$ flip their contribution multiplier to the total cost.",
           "tags": [
             "dp",
             "rerooting",
@@ -105,7 +105,7 @@
           "rating": 2000,
           "url": "https://codeforces.com/contest/1923/problem/E",
           "technique": "DSU on Tree (Sack)",
-          "insight": "Count simple paths whose endpoints share a color by maintaining dominant color frequencies and merging small-to-large in O(N log N).",
+          "insight": "Count simple paths whose endpoints share a color by maintaining dominant color frequencies and merging small-to-large in $O(N \\log N)$.",
           "tags": [
             "data structures",
             "dsu on tree",
@@ -120,7 +120,7 @@
           "rating": 2000,
           "url": "https://codeforces.com/contest/1857/problem/G",
           "technique": "Kruskal MST / Component Combinatorics",
-          "insight": "Process MST edges in increasing weight order; merging components of size sz1 and sz2 allows (sz1 * sz2 - 1) optional edges with weights in [w_i + 1, S].",
+          "insight": "Process MST edges in increasing weight order; merging components of size $sz_1$ and $sz_2$ allows $(sz_1 \\cdot sz_2 - 1)$ optional edges with weights in $[w_i + 1, S]$.",
           "tags": [
             "dsu",
             "combinatorics",
@@ -164,8 +164,8 @@
           "index": "F",
           "rating": 2100,
           "url": "https://codeforces.com/contest/1790/problem/F",
-          "technique": "Centroid Decomp / Sqrt Distance Bounding",
-          "insight": "Maintain minimum distance to black nodes by updating centroid ancestor paths, or prune traversals at the current global minimum in O(N sqrt(N)).",
+          "technique": "Centroid Decomp / $\\sqrt{N}$ Distance Bounding",
+          "insight": "Maintain minimum distance to black nodes by updating centroid ancestor paths, or prune traversals at the current global minimum in $O(N \\sqrt{N})$.",
           "tags": [
             "divide and conquer",
             "trees",
@@ -255,7 +255,7 @@
           "rating": 2200,
           "url": "https://codeforces.com/contest/1901/problem/E",
           "technique": "Tree DP / Degree-Case Optimization",
-          "insight": "Analyze node degree cases: degree 0, 1 (path endpoint), 2 (identity pass-through), or >=3 (all positive child subtrees retained).",
+          "insight": "Analyze node degree cases: degree $0$, $1$ (path endpoint), $2$ (identity pass-through), or $\\ge 3$ (all positive child subtrees retained).",
           "tags": [
             "dp",
             "greedy",
@@ -285,7 +285,7 @@
           "rating": 2300,
           "url": "https://codeforces.com/contest/1540/problem/B",
           "technique": "LCA Inversion DP / Probabilities",
-          "insight": "By linearity of expectation, sum the probability that u appears before v for each pair (u, v) using grid walk DP based on depths to LCA(u, v).",
+          "insight": "By linearity of expectation, sum the probability that $u$ appears before $v$ for each pair $(u, v)$ using grid walk DP based on depths to $\\text{LCA}(u, v)$.",
           "tags": [
             "probabilities",
             "dp",
@@ -301,7 +301,7 @@
           "rating": 2300,
           "url": "https://codeforces.com/contest/1681/problem/F",
           "technique": "Centroid / D&C + DSU Rollback",
-          "insight": "For each edge color, isolate active components using tree divide & conquer with DSU rollbacks to count paths containing exactly one edge of each color in O(N log^2 N).",
+          "insight": "For each edge color, isolate active components using tree divide & conquer with DSU rollbacks to count paths containing exactly one edge of each color in $O(N \\log^2 N)$.",
           "tags": [
             "divide and conquer",
             "dsu rollback",
@@ -384,7 +384,7 @@
           "rating": 2000,
           "url": "https://codeforces.com/contest/1690/problem/G",
           "technique": "Monotonic std::set",
-          "insight": "Maintain non-increasing prefix minima dynamically by deleting dominated intervals in amortized O(log N).",
+          "insight": "Maintain non-increasing prefix minima dynamically by deleting dominated intervals in amortized $O(\\log N)$.",
           "tags": [
             "binary search",
             "data structures",
@@ -474,7 +474,7 @@
           "rating": 2100,
           "url": "https://codeforces.com/contest/1913/problem/D",
           "technique": "Monotonic Stack DP / Cartesian Tree",
-          "insight": "Optimize O(N^2) deletion DP into O(N) by bounding subproblems using Cartesian tree / nearest smaller element boundaries.",
+          "insight": "Optimize $O(N^2)$ deletion DP into $O(N)$ by bounding subproblems using Cartesian tree / nearest smaller element boundaries.",
           "tags": [
             "cartesian tree",
             "dp",
@@ -489,7 +489,7 @@
           "rating": 2100,
           "url": "https://codeforces.com/contest/1919/problem/D",
           "technique": "Monotonic Reductions / DSU",
-          "insight": "A valid leaf configuration allows repeatedly eliminating local maxima that are adjacent to elements of value (max - 1); simulate in O(N log N).",
+          "insight": "A valid leaf configuration allows repeatedly eliminating local maxima that are adjacent to elements of value $(\\max - 1)$; simulate in $O(N \\log N)$.",
           "tags": [
             "greedy",
             "dsu",
@@ -504,7 +504,7 @@
           "rating": 2200,
           "url": "https://codeforces.com/contest/1400/problem/E",
           "technique": "Divide & Conquer / SegTree Range Min",
-          "insight": "Compare doing 1 horizontal subtraction of size min(A) across the whole range vs solving left and right subproblems independently in O(N).",
+          "insight": "Compare doing 1 horizontal subtraction of size $\\min(A)$ across the whole range vs solving left and right subproblems independently in $O(N)$.",
           "tags": [
             "divide and conquer",
             "dp",
@@ -519,7 +519,7 @@
           "rating": 2200,
           "url": "https://codeforces.com/contest/1556/problem/E",
           "technique": "Prefix Sums + Sparse Table Range Extrema",
-          "insight": "Express balance as difference array D_i = b_i - a_i; verify prefix sum conditions (P_r = P_{l-1} and P_k >= P_{l-1}) via Range Max/Min queries.",
+          "insight": "Express balance as difference array $D_i = b_i - a_i$; verify prefix sum conditions ($P_r = P_{l-1}$ and $P_k \\ge P_{l-1}$) via Range Max/Min queries.",
           "tags": [
             "data structures",
             "sparse table",
@@ -548,7 +548,7 @@
           "rating": 2200,
           "url": "https://codeforces.com/contest/1580/problem/C",
           "technique": "Sqrt Decomposition / Period Threshold",
-          "insight": "Split periodic schedules at sqrt(M): update difference arrays for large periods, and maintain mod-k frequency tables for small periods.",
+          "insight": "Split periodic schedules at $\\sqrt{M}$: update difference arrays for large periods, and maintain $\\bmod k$ frequency tables for small periods.",
           "tags": [
             "sqrt decomp",
             "data structures"
@@ -592,7 +592,7 @@
           "rating": 2200,
           "url": "https://codeforces.com/contest/2000/problem/H",
           "technique": "Dynamic SegTree / Max Segment Gap",
-          "insight": "Maintain gaps between consecutive present elements in a Segment Tree to query the first available contiguous interval of length k in O(log V).",
+          "insight": "Maintain gaps between consecutive present elements in a Segment Tree to query the first available contiguous interval of length $k$ in $O(\\log V)$.",
           "tags": [
             "data structures",
             "dynamic segtree"
@@ -606,7 +606,7 @@
           "rating": 2300,
           "url": "https://codeforces.com/contest/1691/problem/E",
           "technique": "Sweep Line + Two Priority Queues DSU",
-          "insight": "Instead of O(N^2) segment intersections, sweep coordinates and unify overlapping segments across different colors via priority queues in O(N log N).",
+          "insight": "Instead of $O(N^2)$ segment intersections, sweep coordinates and unify overlapping segments across different colors via priority queues in $O(N \\log N)$.",
           "tags": [
             "sweep line",
             "dsu",
@@ -621,7 +621,7 @@
           "rating": 2300,
           "url": "https://codeforces.com/contest/1797/problem/E",
           "technique": "SegTree Beats / Totient Depth Convergence",
-          "insight": "Take advantage of the fact that phi(x) reaches 1 in O(log V) steps to prune Segment Tree range updates to O(N log^2 V) amortized.",
+          "insight": "Take advantage of the fact that $\\phi(x)$ reaches $1$ in $O(\\log V)$ steps to prune Segment Tree range updates to $O(N \\log^2 V)$ amortized.",
           "tags": [
             "segtree beats",
             "number theory",
@@ -674,7 +674,7 @@
           "rating": 1900,
           "url": "https://codeforces.com/contest/1950/problem/G",
           "technique": "Bitmask DP + String Hashing",
-          "insight": "Hash genres and writers to integers; run Hamiltonian path bitmask DP in O(2^N * N) to find the maximum song subset matching consecutive traits.",
+          "insight": "Hash genres and writers to integers; run Hamiltonian path bitmask DP in $O(2^N \\cdot N)$ to find the maximum song subset matching consecutive traits.",
           "tags": [
             "bitmask dp",
             "hashing",
@@ -704,7 +704,7 @@
           "rating": 1900,
           "url": "https://codeforces.com/contest/1773/problem/A",
           "technique": "Randomized Las Vegas Derangement",
-          "insight": "Randomly shuffle permutations and match cycles; prove that the expected number of iterations until a valid derangement is found is bounded by O(1).",
+          "insight": "Randomly shuffle permutations and match cycles; prove that the expected number of iterations until a valid derangement is found is bounded by $O(1)$.",
           "tags": [
             "probabilities",
             "randomized",
@@ -719,7 +719,7 @@
           "rating": 2000,
           "url": "https://codeforces.com/contest/1574/problem/D",
           "technique": "Max-Heap BFS + Vector Hashing",
-          "insight": "Start from the maximal tuple; perform BFS over coordinate decrements using a priority queue and 64-bit tuple hash to skip banned combinations in O(M log M).",
+          "insight": "Start from the maximal tuple; perform BFS over coordinate decrements using a priority queue and 64-bit tuple hash to skip banned combinations in $O(M \\log M)$.",
           "tags": [
             "hashing",
             "bfs",
@@ -734,7 +734,7 @@
           "rating": 2000,
           "url": "https://codeforces.com/contest/1624/problem/E",
           "technique": "Polynomial Rolling Hash + DP",
-          "insight": "Any valid partition into segments of length >= 2 decomposes into blocks of length 2 and 3; hash all substrings of length 2/3 for O(N) string DP.",
+          "insight": "Any valid partition into segments of length $\\ge 2$ decomposes into blocks of length $2$ and $3$; hash all substrings of length $2/3$ for $O(N)$ string DP.",
           "tags": [
             "hashing",
             "dp",
@@ -749,7 +749,7 @@
           "rating": 2000,
           "url": "https://codeforces.com/contest/1753/problem/C",
           "technique": "Expected Value DP / Inversion Probabilities",
-          "insight": "State is the number of 0s currently in the correct prefix of length count(0); compute transition probability p_k and solve 1D expected value DP.",
+          "insight": "State is the number of $0$s currently in the correct prefix of length $\\text{count}(0)$; compute transition probability $p_k$ and solve 1D expected value DP.",
           "tags": [
             "probabilities",
             "math",
@@ -764,7 +764,7 @@
           "rating": 2000,
           "url": "https://codeforces.com/contest/1943/problem/B",
           "technique": "Rolling Hash / Palindrome Invariants",
-          "insight": "A substring has no good k-length partition iff it has period 1 (all same char) or period 2 (alternating chars); verify via rolling polynomial hashes in O(1).",
+          "insight": "A substring has no good $k$-length partition iff it has period $1$ (all same char) or period $2$ (alternating chars); verify via rolling polynomial hashes in $O(1)$.",
           "tags": [
             "hashing",
             "strings",
@@ -779,7 +779,7 @@
           "rating": 2100,
           "url": "https://codeforces.com/contest/1493/problem/D",
           "technique": "Prime Multi-set Maps / Dynamic GCD",
-          "insight": "For each prime p, maintain a multiset of prime exponents across all array elements; track the min exponent dynamically to maintain global GCD in O(Q log N log V).",
+          "insight": "For each prime $p$, maintain a multiset of prime exponents across all array elements; track the min exponent dynamically to maintain global GCD in $O(Q \\log N \\log V)$.",
           "tags": [
             "number theory",
             "data structures",
@@ -809,7 +809,7 @@
           "rating": 2200,
           "url": "https://codeforces.com/contest/1800/problem/G",
           "technique": "Merkle Tree Randomized Hashing",
-          "insight": "Compute randomized subtree hash signatures to detect tree symmetry/isomorphism bottom-up in O(N).",
+          "insight": "Compute randomized subtree hash signatures to detect tree symmetry/isomorphism bottom-up in $O(N)$.",
           "tags": [
             "tree hashing",
             "trees",
@@ -824,7 +824,7 @@
           "rating": 2200,
           "url": "https://codeforces.com/contest/1898/problem/E",
           "technique": "Character Queue Invariants / Greedy",
-          "insight": "Sorting a substring allows pulling smaller characters forward but never jumping over strictly smaller characters; maintain 26 character index queues in O(N).",
+          "insight": "Sorting a substring allows pulling smaller characters forward but never jumping over strictly smaller characters; maintain 26 character index queues in $O(N)$.",
           "tags": [
             "greedy",
             "strings",
@@ -870,7 +870,7 @@
           "rating": 2300,
           "url": "https://codeforces.com/contest/1748/problem/E",
           "technique": "Cartesian Tree + Tree DP",
-          "insight": "Range maximum queries uniquely define a Cartesian Tree; formulate an O(N * M) tree DP on the Cartesian Tree structure.",
+          "insight": "Range maximum queries uniquely define a Cartesian Tree; formulate an $O(N \\cdot M)$ tree DP on the Cartesian Tree structure.",
           "tags": [
             "cartesian tree",
             "divide and conquer",
@@ -924,7 +924,7 @@
           "rating": 1900,
           "url": "https://codeforces.com/contest/1746/problem/D",
           "technique": "Tree DP / Quotient Splitting",
-          "insight": "For any node with k paths, every child receives either floor(k/c) or ceil(k/c) paths; branch into at most 2 states per subtree.",
+          "insight": "For any node with $k$ paths, every child receives either $\\lfloor k/c \\rfloor$ or $\\lceil k/c \\rceil$ paths; branch into at most 2 states per subtree.",
           "tags": [
             "dp",
             "trees",
@@ -984,7 +984,7 @@
           "rating": 2000,
           "url": "https://codeforces.com/contest/1988/problem/D",
           "technique": "Tree DP / Degree-Bounded Rounds",
-          "insight": "Prove that any tree can be cleared in at most ceil(log_2 N) + 1 rounds; run tree DP over O(log N) attack turns.",
+          "insight": "Prove that any tree can be cleared in at most $\\lceil\\log_2 N\\rceil + 1$ rounds; run tree DP over $O(\\log N)$ attack turns.",
           "tags": [
             "dp",
             "trees",
@@ -999,7 +999,7 @@
           "rating": 2100,
           "url": "https://codeforces.com/contest/1667/problem/B",
           "technique": "3-Way Fenwick Tree DP",
-          "insight": "Partition subsegments based on prefix sum signs (positive, zero, negative); query 3 separate Fenwick trees for optimal transitions in O(N log N).",
+          "insight": "Partition subsegments based on prefix sum signs (positive, zero, negative); query 3 separate Fenwick trees for optimal transitions in $O(N \\log N)$.",
           "tags": [
             "fenwick",
             "dp",
@@ -1014,7 +1014,7 @@
           "rating": 2200,
           "url": "https://codeforces.com/contest/1407/problem/D",
           "technique": "Monotonic Stack DP Transitions",
-          "insight": "A valid jump cannot cross intermediate elements exceeding both endpoints; restrict transitions to strictly nearest larger/smaller elements in O(N).",
+          "insight": "A valid jump cannot cross intermediate elements exceeding both endpoints; restrict transitions to strictly nearest larger/smaller elements in $O(N)$.",
           "tags": [
             "dp",
             "monotonic stack",
@@ -1059,7 +1059,7 @@
           "rating": 2200,
           "url": "https://codeforces.com/contest/1552/problem/F",
           "technique": "Prefix Sum DP + Binary Search",
-          "insight": "The time to travel from portal i to x_i after activation equals x_i - y_i plus total delay of all intermediate portals; evaluate via prefix sums in O(N).",
+          "insight": "The time to travel from portal $i$ to $x_i$ after activation equals $x_i - y_i$ plus total delay of all intermediate portals; evaluate via prefix sums in $O(N)$.",
           "tags": [
             "dp",
             "binary search",
@@ -1074,7 +1074,7 @@
           "rating": 2200,
           "url": "https://codeforces.com/contest/1788/problem/E",
           "technique": "Prefix Sums + Fenwick DP",
-          "insight": "Rewrite condition sum_{k=l}^r a_k >= 0 as P_r >= P_{l-1}; query the maximum past DP[l-1] - (l-1) using a coordinate-compressed Fenwick tree.",
+          "insight": "Rewrite condition $\\sum_{k=l}^r a_k \\ge 0$ as $P_r \\ge P_{l-1}$; query the maximum past $\\text{DP}[l-1] - (l-1)$ using a coordinate-compressed Fenwick tree.",
           "tags": [
             "dp",
             "fenwick",
@@ -1089,7 +1089,7 @@
           "rating": 2200,
           "url": "https://codeforces.com/contest/1858/problem/D",
           "technique": "Prefix/Suffix DP + Two Pointers",
-          "insight": "Precompute max consecutive 0s achievable in prefix and suffix using two pointers; combine with a fixed run of 1s of length len_1 to optimize over all weights.",
+          "insight": "Precompute max consecutive $0$s achievable in prefix and suffix using two pointers; combine with a fixed run of $1$s of length $len_1$ to optimize over all weights.",
           "tags": [
             "two pointers",
             "dp",
@@ -1104,7 +1104,7 @@
           "rating": 2200,
           "url": "https://codeforces.com/contest/2030/problem/E",
           "technique": "Contribution Counting + Combinatorics DP",
-          "insight": "Evaluate total sum of MEX as sum over k of P(MEX >= k); compute distribution of minimum frequencies across values 0 to k-1 via dynamic programming.",
+          "insight": "Evaluate total sum of MEX as $\\sum_k P(\\text{MEX} \\ge k)$; compute distribution of minimum frequencies across values $0$ to $k-1$ via dynamic programming.",
           "tags": [
             "combinatorics",
             "dp",
@@ -1134,7 +1134,7 @@
           "rating": 2300,
           "url": "https://codeforces.com/contest/1870/problem/E",
           "technique": "Minimal MEX Subsegment DP / Bitset",
-          "insight": "Only minimal subsegments defining each distinct MEX can be part of the optimal partition; prune transitions to at most O(N) active segments in O(N^2 / 64).",
+          "insight": "Only minimal subsegments defining each distinct MEX can be part of the optimal partition; prune transitions to at most $O(N)$ active segments in $O(N^2 / 64)$.",
           "tags": [
             "dp",
             "bitset",
@@ -1157,7 +1157,7 @@
           "rating": 1900,
           "url": "https://codeforces.com/contest/1404/problem/B",
           "technique": "Tree Diameter & Game Strategy",
-          "insight": "Alice wins iff dist(a, b) <= da, or 2*da >= db, or 2*da >= tree_diameter; otherwise Bob can always escape to an antipodal branch.",
+          "insight": "Alice wins iff $\\text{dist}(a, b) \\le da$, or $2da \\ge db$, or $2da \\ge \\text{tree\\_diameter}$; otherwise Bob can always escape to an antipodal branch.",
           "tags": [
             "games",
             "tree diameter",
@@ -1187,7 +1187,7 @@
           "rating": 1900,
           "url": "https://codeforces.com/contest/1846/problem/G",
           "technique": "Dijkstra on Bitmask State Graph",
-          "insight": "Model patient symptoms as a bitmask of size <= 10; build a directed state graph with 2^N vertices and find shortest path from initial mask to 0 in O(M * 2^N).",
+          "insight": "Model patient symptoms as a bitmask of size $\\le 10$; build a directed state graph with $2^N$ vertices and find shortest path from initial mask to $0$ in $O(M \\cdot 2^N)$.",
           "tags": [
             "shortest paths",
             "bitmasks",
@@ -1232,7 +1232,7 @@
           "rating": 2000,
           "url": "https://codeforces.com/contest/1815/problem/B",
           "technique": "Interactive / Graph Diameter Paths",
-          "insight": "Add edges to create a simple path graph; query longest distance from an arbitrary node to find the endpoints, reconstructing node values in <= 2*N queries.",
+          "insight": "Add edges to create a simple path graph; query longest distance from an arbitrary node to find the endpoints, reconstructing node values in $\\le 2N$ queries.",
           "tags": [
             "interactive",
             "shortest paths",
@@ -1247,7 +1247,7 @@
           "rating": 2100,
           "url": "https://codeforces.com/contest/1364/problem/D",
           "technique": "DFS Tree Cycles vs Independent Set",
-          "insight": "In any connected graph, find either an induced cycle of length <= k or an independent set of size ceil(k/2) using DFS tree back-edges.",
+          "insight": "In any connected graph, find either an induced cycle of length $\\le k$ or an independent set of size $\\lceil k/2 \\rceil$ using DFS tree back-edges.",
           "tags": [
             "dfs tree",
             "graphs",
@@ -1307,7 +1307,7 @@
           "rating": 2200,
           "url": "https://codeforces.com/contest/1503/problem/C",
           "technique": "Shortest Paths / Line Sweep Greedy",
-          "insight": "Base cost is sum(c_i); sort cities by a_i and greedily bridge gaps between max(a_j + c_j) and the next city a_{i+1} in O(N log N).",
+          "insight": "Base cost is $\\sum c_i$; sort cities by $a_i$ and greedily bridge gaps between $\\max(a_j + c_j)$ and the next city $a_{i+1}$ in $O(N \\log N)$.",
           "tags": [
             "greedy",
             "shortest paths",
@@ -1367,7 +1367,7 @@
           "rating": 2200,
           "url": "https://codeforces.com/contest/1777/problem/E",
           "technique": "Binary Search + SCC Condensation",
-          "insight": "Binary search on the maximum edge weight to reverse; verify if reversing edges of weight <= W makes the graph have a unique source in the SCC DAG.",
+          "insight": "Binary search on the maximum edge weight to reverse; verify if reversing edges of weight $\\le W$ makes the graph have a unique source in the SCC DAG.",
           "tags": [
             "binary search",
             "scc",
@@ -1435,7 +1435,7 @@
           "rating": 1900,
           "url": "https://codeforces.com/contest/2089/problem/B1",
           "technique": "Greedy Min-Cost Flow on a Line",
-          "insight": "Model food demands and supplies along a linear chain; greedily satisfy nearest requests while maintaining capacity bounds in O(N).",
+          "insight": "Model food demands and supplies along a linear chain; greedily satisfy nearest requests while maintaining capacity bounds in $O(N)$.",
           "tags": [
             "flows",
             "greedy",
@@ -1465,7 +1465,7 @@
           "rating": 2000,
           "url": "https://codeforces.com/contest/1770/problem/D",
           "technique": "Functional Graph / Hall Matchings",
-          "insight": "Model (a_i, b_i) as edges; a valid choice of elements exists if each connected component is a pseudo-tree (contains exactly one cycle).",
+          "insight": "Model $(a_i, b_i)$ as edges; a valid choice of elements exists if each connected component is a pseudo-tree (contains exactly one cycle).",
           "tags": [
             "graph matchings",
             "dsu",
@@ -1525,7 +1525,7 @@
           "rating": 2100,
           "url": "https://codeforces.com/contest/2192/problem/E",
           "technique": "Eulerian Circuit / Regular Bipartite Matching",
-          "insight": "Transform string balance swap requirements into a 2-regular directed graph; find an Eulerian circuit to decompose swaps into valid cycles in O(N).",
+          "insight": "Transform string balance swap requirements into a 2-regular directed graph; find an Eulerian circuit to decompose swaps into valid cycles in $O(N)$.",
           "tags": [
             "eulerian",
             "graph matchings",
@@ -1540,7 +1540,7 @@
           "rating": 2200,
           "url": "https://codeforces.com/contest/1486/problem/E",
           "technique": "Layered State Graph Dijkstra",
-          "insight": "Cost of paired edges (w1 + w2)^2 expands as w1^2 + 2*w1*w2 + w2^2; construct a layered state graph with states (u, last_w) and run Dijkstra.",
+          "insight": "Cost of paired edges $(w_1 + w_2)^2$ expands as $w_1^2 + 2w_1 w_2 + w_2^2$; construct a layered state graph with states $(u, last\\_w)$ and run Dijkstra.",
           "tags": [
             "shortest paths",
             "graphs",
@@ -1555,7 +1555,7 @@
           "rating": 2200,
           "url": "https://codeforces.com/contest/1741/problem/G",
           "technique": "Shortest Path DAG + Bipartite Matching",
-          "insight": "Construct the shortest-path DAG from vertex 1; compress friend subsets into bitmasks (<= 6 people without cars) and find maximal path coverage.",
+          "insight": "Construct the shortest-path DAG from vertex $1$; compress friend subsets into bitmasks ($\\le 6$ people without cars) and find maximal path coverage.",
           "tags": [
             "flows",
             "shortest paths",
@@ -1585,7 +1585,7 @@
           "rating": 2300,
           "url": "https://codeforces.com/contest/2089/problem/B2",
           "technique": "Min-Cost Flow / Greedy Segment Tree",
-          "insight": "Express the minimum food transport cost as a min-cost flow problem on a line; simulate successive shortest augmenting paths using a Segment Tree in O(N log N).",
+          "insight": "Express the minimum food transport cost as a min-cost flow problem on a line; simulate successive shortest augmenting paths using a Segment Tree in $O(N \\log N)$.",
           "tags": [
             "flows",
             "min-cost flow",
@@ -1600,7 +1600,7 @@
           "rating": 2300,
           "url": "https://codeforces.com/contest/2159/problem/C",
           "technique": "Matching Combinatorics & Polynomial Basis",
-          "insight": "Express matching counts between root sets as polynomial coefficients; apply inclusion-exclusion over shared factors in O(N log N).",
+          "insight": "Express matching counts between root sets as polynomial coefficients; apply inclusion-exclusion over shared factors in $O(N \\log N)$.",
           "tags": [
             "combinatorics",
             "graph matchings",
@@ -1622,8 +1622,8 @@
           "index": "D",
           "rating": 1900,
           "url": "https://codeforces.com/contest/1689/problem/D",
-          "technique": "Manhattan -> Chebyshev Transform",
-          "insight": "Rotate coordinates (x, y) -> (x+y, x-y); the maximum Manhattan distance to any point is determined solely by the 4 extreme boundary values.",
+          "technique": "Manhattan $\\to$ Chebyshev Transform",
+          "insight": "Rotate coordinates $(x, y) \\to (x+y, x-y)$; the maximum Manhattan distance to any point is determined solely by the 4 extreme boundary values.",
           "tags": [
             "geometry",
             "manhattan-chebyshev"
@@ -1710,7 +1710,7 @@
           "index": "B",
           "rating": 2100,
           "url": "https://codeforces.com/contest/1710/problem/B",
-          "technique": "1D/2D Tent Functions -> Halfplanes",
+          "technique": "1D/2D Tent Functions $\\to$ Halfplanes",
           "insight": "The water height is a piecewise linear function. Removing cloud j must decrease all violated peak heights, mapping to 4 linear halfplane checks.",
           "tags": [
             "geometry",
@@ -1726,7 +1726,7 @@
           "rating": 2100,
           "url": "https://codeforces.com/contest/2074/problem/G",
           "technique": "Convex Polygon DP / Base Splitting",
-          "insight": "Optimize triangle selections across multiple lines via convex DP hull transitions and slope monotonicity in O(N log N).",
+          "insight": "Optimize triangle selections across multiple lines via convex DP hull transitions and slope monotonicity in $O(N \\log N)$.",
           "tags": [
             "dp",
             "geometry",
@@ -1741,7 +1741,7 @@
           "rating": 2200,
           "url": "https://codeforces.com/contest/1477/problem/C",
           "technique": "Greedy Vector Dot Products",
-          "insight": "To guarantee every consecutive angle < 90 deg, greedily jump to the strictly farthest remaining point in O(N^2).",
+          "insight": "To guarantee every consecutive angle $< 90^\\circ$, greedily jump to the strictly farthest remaining point in $O(N^2)$.",
           "tags": [
             "geometry",
             "constructive",
@@ -1756,7 +1756,7 @@
           "rating": 2200,
           "url": "https://codeforces.com/contest/1666/problem/I",
           "technique": "Manhattan Metric Grid Queries",
-          "insight": "Use sum and difference queries (r1+r2, c1+c2) from boundary corners to uniquely locate two hidden points in <= 7 interactive scan operations.",
+          "insight": "Use sum and difference queries $(r_1+r_2, c_1+c_2)$ from boundary corners to uniquely locate two hidden points in $\\le 7$ interactive scan operations.",
           "tags": [
             "interactive",
             "geometry",
@@ -1786,7 +1786,7 @@
           "rating": 2200,
           "url": "https://codeforces.com/contest/1776/problem/B",
           "technique": "Interval DP on 45-Degree Triangles",
-          "insight": "Triangles with slope +/-1 intersect at height h = (x_r - x_l)/2; formulate an O(N^3) interval DP merging adjacent overlapping triangles.",
+          "insight": "Triangles with slope $\\pm 1$ intersect at height $h = (x_r - x_l)/2$; formulate an $O(N^3)$ interval DP merging adjacent overlapping triangles.",
           "tags": [
             "geometry",
             "interval dp"
@@ -1815,7 +1815,7 @@
           "rating": 2300,
           "url": "https://codeforces.com/contest/1548/problem/D1",
           "technique": "Pick Theorem + Modulo 4 Coordinates",
-          "insight": "Apply Area = I + B/2 - 1 (mod 2). Since coordinates are multiples of 2, classify all points into (x mod 4, y mod 4) in O(1).",
+          "insight": "Apply $\\text{Area} = I + B/2 - 1 \\pmod 2$. Since coordinates are multiples of $2$, classify all points into $(x \\bmod 4, y \\bmod 4)$ in $O(1)$.",
           "tags": [
             "geometry",
             "pick theorem",
@@ -1830,7 +1830,7 @@
           "rating": 2300,
           "url": "https://codeforces.com/contest/1575/problem/B",
           "technique": "Binary Search + Angular Sweep Line",
-          "insight": "Binary search on radius R; each point P_i inside distance 2R covers a valid polar angle interval on circle C(0, R). Find max interval overlap.",
+          "insight": "Binary search on radius $R$; each point $P_i$ inside distance $2R$ covers a valid polar angle interval on circle $C(0, R)$. Find max interval overlap.",
           "tags": [
             "geometry",
             "angular sweep",
@@ -1943,7 +1943,7 @@
           "rating": 1900,
           "url": "https://codeforces.com/contest/1895/problem/D",
           "technique": "Trie Max XOR / Bit Invariant",
-          "insight": "Prefix XORs determine all values relative to a_0; insert all prefix XORs into a bit-trie to verify if an a_0 exists such that all values are < n.",
+          "insight": "Prefix XORs determine all values relative to $a_0$; insert all prefix XORs into a bit-trie to verify if an $a_0$ exists such that all values are $< n$.",
           "tags": [
             "bitmasks",
             "trie",
@@ -1958,7 +1958,7 @@
           "rating": 2000,
           "url": "https://codeforces.com/contest/1415/problem/D",
           "technique": "Pigeonhole Principle on Bits",
-          "insight": "By the Pigeonhole Principle, among > 60 numbers, three must share the same MSB and can be merged in 1 step; for N <= 60, brute force in O(N^3).",
+          "insight": "By the Pigeonhole Principle, among $> 60$ numbers, three must share the same MSB and can be merged in 1 step; for $N \\le 60$, brute force in $O(N^3)$.",
           "tags": [
             "bitmasks",
             "pigeonhole",
@@ -2003,7 +2003,7 @@
           "rating": 2000,
           "url": "https://codeforces.com/contest/1665/problem/D",
           "technique": "Interactive / 2-adic Valuation Recovery",
-          "insight": "Recover x modulo 2^30 bit by bit: query gcd(x + (2^i - cur), x + (2^i - cur) + 2^{i+1}); if divisible by 2^{i+1}, the i-th bit is determined.",
+          "insight": "Recover $x \\pmod{2^{30}}$ bit by bit: query $\\gcd(x + (2^i - cur), x + (2^i - cur) + 2^{i+1})$; if divisible by $2^{i+1}$, the $i$-th bit is determined.",
           "tags": [
             "interactive",
             "bitmasks",
@@ -2033,7 +2033,7 @@
           "rating": 2100,
           "url": "https://codeforces.com/contest/1322/problem/B",
           "technique": "Bitwise Addition Parity / Two Pointers",
-          "insight": "For bit k, take elements modulo 2^{k+1}; the k-th sum bit is 1 iff (a_i + a_j) mod 2^{k+1} falls in [2^k, 2^{k+1}-1] or [3*2^k, 2^{k+2}-2]. Count via two pointers.",
+          "insight": "For bit $k$, take elements modulo $2^{k+1}$; the $k$-th sum bit is $1$ iff $(a_i + a_j) \\bmod 2^{k+1}$ falls in $[2^k, 2^{k+1}-1]$ or $[3 \\cdot 2^k, 2^{k+2}-2]$. Count via two pointers.",
           "tags": [
             "bitmasks",
             "two pointers",
@@ -2078,7 +2078,7 @@
           "rating": 2100,
           "url": "https://codeforces.com/contest/1748/problem/D",
           "technique": "Bitwise Construction / 2-adic Inverse",
-          "insight": "Construct x satisfying (a | x) is a multiple of 2^k and divisible by d using bit-by-bit fixing with modular inverse modulo 2^k.",
+          "insight": "Construct $x$ satisfying $(a \\mid x)$ is a multiple of $2^k$ and divisible by $d$ using bit-by-bit fixing with modular inverse modulo $2^k$.",
           "tags": [
             "bitmasks",
             "number theory",
@@ -2093,7 +2093,7 @@
           "rating": 2100,
           "url": "https://codeforces.com/contest/1775/problem/E",
           "technique": "Prefix Array Invariant Extrema",
-          "insight": "Alternating +/-1 operations change adjacent prefix sums by +/-1; the minimum operations required equals max(P) - min(P).",
+          "insight": "Alternating $\\pm 1$ operations change adjacent prefix sums by $\\pm 1$; the minimum operations required equals $\\max(P) - \\min(P)$.",
           "tags": [
             "greedy",
             "invariants",
@@ -2108,7 +2108,7 @@
           "rating": 2100,
           "url": "https://codeforces.com/contest/1787/problem/E",
           "technique": "XOR Basis Partitioning / Pairing",
-          "insight": "Pair each number i with i XOR x if <= n; greedily form independent sets with XOR sum x and merge all remaining elements into the last set.",
+          "insight": "Pair each number $i$ with $i \\oplus x$ if $\\le n$; greedily form independent sets with XOR sum $x$ and merge all remaining elements into the last set.",
           "tags": [
             "bitmasks",
             "constructive",
@@ -2123,7 +2123,7 @@
           "rating": 2100,
           "url": "https://codeforces.com/contest/1868/problem/B2",
           "technique": "Power-of-Two Net Flow Invariants",
-          "insight": "Each person can give 2^x and receive 2^y; decompose difference (a_i - avg) into minimal power of two additions/subtractions and balance total net flows.",
+          "insight": "Each person can give $2^x$ and receive $2^y$; decompose difference $(a_i - \\text{avg})$ into minimal power of two additions/subtractions and balance total net flows.",
           "tags": [
             "bitmasks",
             "greedy",
@@ -2138,7 +2138,7 @@
           "rating": 2200,
           "url": "https://codeforces.com/contest/1338/problem/C",
           "technique": "Base-4 Bitwise Patterns / Fractals",
-          "insight": "The triplet components follow a recursive base-4 digit permutation mapping: (0->0, 1->2, 2->3, 3->1) for the second element b.",
+          "insight": "The triplet components follow a recursive base-4 digit permutation mapping: $(0 \\to 0, 1 \\to 2, 2 \\to 3, 3 \\to 1)$ for the second element $b$.",
           "tags": [
             "bitmasks",
             "constructive",
@@ -2153,7 +2153,7 @@
           "rating": 2200,
           "url": "https://codeforces.com/contest/1406/problem/D",
           "technique": "Difference Array Invariants",
-          "insight": "Express a_i = b_i + c_i where b is non-decreasing and c is non-increasing; the optimal max(b_n, c_1) equals ceil((a_1 + sum(max(0, diff_i))) / 2).",
+          "insight": "Express $a_i = b_i + c_i$ where $b$ is non-decreasing and $c$ is non-increasing; the optimal $\\max(b_n, c_1)$ equals $\\lceil(a_1 + \\sum \\max(0, \\text{diff}_i)) / 2\\rceil$.",
           "tags": [
             "difference array",
             "greedy",
@@ -2168,7 +2168,7 @@
           "rating": 2200,
           "url": "https://codeforces.com/contest/1438/problem/D",
           "technique": "Triplet XOR Invariant",
-          "insight": "Triplets (a_i, a_j, a_k) -> XOR sum allow equalizing all odd N elements in (N-1) operations; even N requires total XOR sum = 0.",
+          "insight": "Triplets $(a_i, a_j, a_k) \\to \\text{XOR sum}$ allow equalizing all odd $N$ elements in $(N-1)$ operations; even $N$ requires total XOR sum $= 0$.",
           "tags": [
             "constructive",
             "bitmasks",
@@ -2183,7 +2183,7 @@
           "rating": 2200,
           "url": "https://codeforces.com/contest/1670/problem/E",
           "technique": "Tree Bitwise Invariant Construction",
-          "insight": "Assign 2^p to the root; alternatingly assign (2^p + i) to node and i to incident edge (or vice versa) on odd/even depths to keep all path XORs within bounds.",
+          "insight": "Assign $2^p$ to the root; alternatingly assign $(2^p + i)$ to node and $i$ to incident edge (or vice versa) on odd/even depths to keep all path XORs within bounds.",
           "tags": [
             "bitmasks",
             "constructive",
@@ -2198,7 +2198,7 @@
           "rating": 2200,
           "url": "https://codeforces.com/contest/1789/problem/D",
           "technique": "Bit-Shift Gaussian Elimination",
-          "insight": "Use the highest set bit as an elimination pivot to eliminate differing bits from left to right (or right to left) in <= n operations.",
+          "insight": "Use the highest set bit as an elimination pivot to eliminate differing bits from left to right (or right to left) in $\\le n$ operations.",
           "tags": [
             "constructive",
             "bitmasks",
@@ -2213,7 +2213,7 @@
           "rating": 2300,
           "url": "https://codeforces.com/contest/1553/problem/F",
           "technique": "Harmonic Range Updates / Modulo Arithmetic",
-          "insight": "Compute a_i mod a_j = a_i - k * a_j by querying multiples k * a_j in a Fenwick tree in O(V log V) total harmonic updates.",
+          "insight": "Compute $a_i \\bmod a_j = a_i - k \\cdot a_j$ by querying multiples $k \\cdot a_j$ in a Fenwick tree in $O(V \\log V)$ total harmonic updates.",
           "tags": [
             "fenwick",
             "math",
