@@ -294,7 +294,7 @@
               <span>1. Manhattan &harr; Chebyshev Transformation</span>
             </div>
             <p class="text-slate-300 leading-relaxed mb-2">
-              Transform coordinates via $(x, y) 	o (x+y, x-y)$.
+              Transform coordinates via $(x, y) \to (x+y, x-y)$.
             </p>
             <div class="p-2 rounded bg-slate-950/80 font-mono text-[11px] text-slate-300 border border-slate-800/80">
               $$|x_1 - x_2| + |y_1 - y_2| = \max(|X_1 - X_2|, |Y_1 - Y_2|)$$
@@ -310,10 +310,10 @@
               <span>2. 2D Vector Cross Product &amp; Orientation</span>
             </div>
             <p class="text-slate-300 leading-relaxed mb-2">
-              For vectors $ec{u}=(x_1, y_1)$ and $ec{v}=(x_2, y_2)$:
+              For vectors $\vec{u}=(x_1, y_1)$ and $\vec{v}=(x_2, y_2)$:
             </p>
             <div class="p-2 rounded bg-slate-950/80 font-mono text-[11px] text-slate-300 border border-slate-800/80">
-              $$ec{u} 	imes ec{v} = x_1 y_2 - x_2 y_1 = 2 	imes 	ext{Area}(	riangle)$$
+              $$\vec{u} \times \vec{v} = x_1 y_2 - x_2 y_1 = 2 \times \text{Area}(\triangle)$$
             </div>
             <p class="text-slate-400 mt-2">
               $&gt; 0$: Counter-Clockwise (Left Turn); $&lt; 0$: Clockwise (Right Turn); $= 0$: Collinear.
@@ -329,7 +329,7 @@
               Relates polygon area, strictly interior points ($I$), and boundary points ($B$):
             </p>
             <div class="p-2 rounded bg-slate-950/80 font-mono text-[11px] text-slate-300 border border-slate-800/80">
-              $$	ext{Area} = I + rac{B}{2} - 1, \quad B = \sum_{i} \gcd(|\Delta x_i|, |\Delta y_i|)$$
+              $$\text{Area} = I + \frac{B}{2} - 1, \quad B = \sum_{i} \gcd(|\Delta x_i|, |\Delta y_i|)$$
             </div>
             <p class="text-slate-400 mt-2">
               Allows evaluating parity invariants $\pmod 2$ in $O(1)$ by grouping coordinate residues.
@@ -345,7 +345,7 @@
               Binary search on radius $R$. Each point within $2R$ defines a valid polar angle interval on circle $C(0, R)$.
             </p>
             <div class="p-2 rounded bg-slate-950/80 font-mono text-[11px] text-slate-300 border border-slate-800/80">
-              $$lpha = 	ext{atan2}(y_i, x_i), \quad \Delta = rccos(d_i / 2R)$$
+              $$\alpha = \text{atan2}(y_i, x_i), \quad \Delta = \arccos(d_i / 2R)$$
             </div>
             <p class="text-slate-400 mt-2">
               Split wrap-around intervals at $2\pi$ and find maximum interval overlap using a sweep line.
