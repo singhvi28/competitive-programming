@@ -3,22 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Competitive Programming Master Curriculum | 1900–2300</title>
+  <title>Competitive Programming & Interview Mastery Hub</title>
   
-  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
-  
-  <!-- Google Fonts: Inter & JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-  
-  <!-- KaTeX for math rendering -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
-
-  <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
 
   <script>
@@ -46,100 +36,45 @@
   </script>
 
   <style>
-    body {
-      background-color: #07090e;
-      color: #e2e8f0;
-    }
+    body { background-color: #07090e; color: #e2e8f0; }
     .glass-panel {
       background: rgba(15, 23, 42, 0.75);
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
       border: 1px solid rgba(255, 255, 255, 0.08);
     }
-    .glass-card {
-      background: rgba(17, 24, 39, 0.7);
+    .track-card {
+      background: rgba(17, 24, 39, 0.75);
       backdrop-filter: blur(8px);
-      border: 1px solid rgba(255, 255, 255, 0.06);
-      transition: all 0.2s ease-in-out;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .glass-card:hover {
-      border-color: rgba(99, 102, 241, 0.4);
-      transform: translateY(-1px);
-      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+    .track-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.6);
     }
-    .glow-indigo {
-      box-shadow: 0 0 35px -5px rgba(99, 102, 241, 0.25);
-    }
-    /* Custom scrollbar */
-    ::-webkit-scrollbar {
-      width: 8px;
-      height: 8px;
-    }
-    ::-webkit-scrollbar-track {
-      background: #0b0f19;
-    }
-    ::-webkit-scrollbar-thumb {
-      background: #1f293d;
-      border-radius: 4px;
-    }
-    ::-webkit-scrollbar-thumb:hover {
-      background: #374151;
-    }
-    .checkbox-custom {
-      appearance: none;
-      background-color: rgba(255, 255, 255, 0.05);
-      border: 1.5px solid rgba(255, 255, 255, 0.2);
-      border-radius: 6px;
-      cursor: pointer;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      transition: all 0.15s ease-in-out;
-    }
-    .checkbox-custom:checked {
-      background-color: #10b981;
-      border-color: #10b981;
-    }
-    .checkbox-custom:checked::after {
-      content: "✓";
-      color: white;
-      font-size: 13px;
-      font-weight: 800;
-    }
-    .solved-card {
-      opacity: 0.75;
-      background: rgba(6, 78, 59, 0.15) !important;
-      border-color: rgba(16, 185, 129, 0.25) !important;
-    }
+    .track-cf:hover { border-color: rgba(99, 102, 241, 0.6); }
+    .track-lc:hover { border-color: rgba(245, 158, 11, 0.6); }
   </style>
 </head>
-<body class="min-h-screen font-sans selection:bg-indigo-500 selection:text-white pb-20">
+<body class="min-h-screen font-sans selection:bg-indigo-500 selection:text-white flex flex-col justify-between">
 
   <!-- Sticky Navbar -->
   <header class="sticky top-0 z-50 glass-panel border-b border-slate-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
       <div class="flex items-center space-x-3">
         <div class="h-9 w-9 rounded-lg bg-gradient-to-tr from-indigo-600 via-purple-600 to-pink-500 flex items-center justify-center shadow-lg shadow-indigo-500/30">
-          <i data-lucide="code-2" class="w-5 h-5 text-white"></i>
+          <i data-lucide="terminal" class="w-5 h-5 text-white"></i>
         </div>
-        <div>
-          <span class="text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-white via-slate-200 to-indigo-300">CP Master Roadmap</span>
-          <span class="text-xs font-mono px-2 py-0.5 ml-2 rounded bg-indigo-950/80 text-indigo-400 border border-indigo-800/50">1900–2300</span>
-        </div>
+        <span class="text-base sm:text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-white via-slate-200 to-indigo-300">Competitive Programming Hub</span>
       </div>
 
       <div class="flex items-center space-x-3">
-        <!-- Progress badge in nav -->
-        <div class="hidden sm:flex items-center space-x-2 px-3 py-1.5 rounded-full bg-slate-900 border border-slate-800">
-          <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400"></i>
-          <span id="nav-progress-text" class="text-xs font-mono font-medium text-slate-300">0 / 144 (0%)</span>
-        </div>
-
-        <a href="#roadmap-section" class="text-xs font-medium text-slate-300 hover:text-white px-3 py-1.5 rounded-lg hover:bg-slate-800 transition">
-          6-Week Plan
+        <a href="curriculum" class="text-xs font-medium text-slate-300 hover:text-indigo-400 px-3 py-1.5 rounded-lg hover:bg-slate-800 transition">
+          CF Master (1900–2300)
         </a>
-        <a href="#geometry-section" class="text-xs font-medium text-slate-300 hover:text-white px-3 py-1.5 rounded-lg hover:bg-slate-800 transition">
-          Geometry Sheet
+        <a href="leetcode-hards" class="text-xs font-medium text-slate-300 hover:text-amber-400 px-3 py-1.5 rounded-lg hover:bg-slate-800 transition">
+          LeetCode Hards (301)
         </a>
         <a href="https://github.com/singhvi28/competitive-programming" target="_blank" class="p-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-lg transition">
           <i data-lucide="github" class="w-4 h-4"></i>
@@ -149,596 +84,103 @@
   </header>
 
   <!-- Hero Section -->
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
-    <div class="relative overflow-hidden rounded-2xl glass-panel p-6 sm:p-8 mb-8 glow-indigo border border-indigo-500/20">
-      <div class="absolute -right-16 -bottom-16 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none"></div>
-      <div class="absolute -left-16 -top-16 w-64 h-64 bg-purple-500/10 rounded-full blur-3xl pointer-events-none"></div>
-
-      <div class="relative z-10">
-        <div class="flex flex-wrap items-center justify-between gap-4 mb-4">
-          <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/30 text-indigo-400 text-xs font-mono">
-            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            <span>144 Problems &bull; Contest ID &ge; 1300 &bull; Verified Official CF Ratings</span>
-          </div>
-          <div class="flex items-center space-x-2">
-            <button onclick="exportProgress()" class="text-xs font-mono px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 flex items-center space-x-1.5 transition">
-              <i data-lucide="download" class="w-3.5 h-3.5"></i>
-              <span>Export</span>
-            </button>
-            <label class="text-xs font-mono px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 flex items-center space-x-1.5 cursor-pointer transition">
-              <i data-lucide="upload" class="w-3.5 h-3.5"></i>
-              <span>Import</span>
-              <input type="file" id="import-file" class="hidden" onchange="importProgress(event)" accept=".json">
-            </label>
-            <button onclick="resetProgress()" class="text-xs font-mono px-3 py-1.5 rounded-lg bg-red-950/40 hover:bg-red-900/60 text-red-400 border border-red-800/40 flex items-center space-x-1.5 transition" title="Reset all saved progress">
-              <i data-lucide="rotate-ccw" class="w-3.5 h-3.5"></i>
-              <span>Reset</span>
-            </button>
-          </div>
-        </div>
-
-        <h1 class="text-2xl sm:text-4xl font-extrabold tracking-tight text-white mb-3">
-          Competitive Programming Master Curriculum
-        </h1>
-        <p class="text-sm sm:text-base text-slate-300 max-w-3xl leading-relaxed mb-6">
-          A comprehensive high-yield problem set engineered for the 
-          <span class="text-purple-400 font-semibold">Expert (1600–1899)</span> to 
-          <span class="text-orange-400 font-semibold">Candidate Master &amp; Master (1900–2300)</span> transition. Covers tree decompositions, HLD, centroid D&amp;C, dynamic Cartesian reductions, 2-SAT, min-cost flows, randomized XOR hashes, and competitive geometry.
-        </p>
-
-        <!-- Progress Overview Bar -->
-        <div class="bg-slate-900/90 rounded-xl p-4 border border-slate-800">
-          <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
-            <div class="flex items-center space-x-3">
-              <span class="text-xs font-semibold uppercase tracking-wider text-slate-400">Overall Mastery</span>
-              <span id="stats-total-fraction" class="text-sm font-bold font-mono text-white">0 / 144</span>
-            </div>
-            <div class="flex items-center space-x-4 text-xs font-mono text-slate-400">
-              <span><span class="inline-block w-2.5 h-2.5 rounded-full bg-purple-400 mr-1"></span>1900: <b id="stat-1900" class="text-slate-200">0/0</b></span>
-              <span><span class="inline-block w-2.5 h-2.5 rounded-full bg-orange-400 mr-1"></span>2000: <b id="stat-2000" class="text-slate-200">0/0</b></span>
-              <span><span class="inline-block w-2.5 h-2.5 rounded-full bg-amber-400 mr-1"></span>2100: <b id="stat-2100" class="text-slate-200">0/0</b></span>
-              <span><span class="inline-block w-2.5 h-2.5 rounded-full bg-rose-400 mr-1"></span>2200: <b id="stat-2200" class="text-slate-200">0/0</b></span>
-              <span><span class="inline-block w-2.5 h-2.5 rounded-full bg-red-500 mr-1"></span>2300: <b id="stat-2300" class="text-slate-200">0/0</b></span>
-            </div>
-          </div>
-          <div class="w-full bg-slate-800 rounded-full h-2.5 overflow-hidden">
-            <div id="global-progress-bar" class="bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-400 h-2.5 rounded-full transition-all duration-300" style="width: 0%"></div>
-          </div>
-        </div>
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 sm:pt-20 pb-16 flex-1 flex flex-col justify-center">
+    <div class="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
+      <div class="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/30 text-indigo-400 text-xs font-mono mb-4">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span>Curated High-Impact Algorithm Portfolios</span>
       </div>
+      <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white mb-4 leading-tight">
+        Master Advanced Algorithms &amp; High-Frequency Interviews
+      </h1>
+      <p class="text-slate-300 text-sm sm:text-lg leading-relaxed">
+        Choose your preparation track: tackle modern Codeforces Div 1/2 transition problems to reach Candidate Master &amp; Master, or master the complete set of 301 classified LeetCode Hard interview classics.
+      </p>
     </div>
 
-    <!-- Filters & Search Toolbar -->
-    <div class="glass-panel p-4 rounded-xl mb-8 border border-slate-800 space-y-4">
-      <div class="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3">
-        <!-- Search input -->
-        <div class="relative flex-1">
-          <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
-            <i data-lucide="search" class="w-4 h-4"></i>
+    <!-- Two Main Tracks Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto w-full">
+      <!-- Track 1: Codeforces Curriculum -->
+      <a href="curriculum" class="track-card track-cf rounded-2xl p-6 sm:p-8 flex flex-col justify-between group relative overflow-hidden">
+        <div class="absolute -right-12 -bottom-12 w-48 h-48 bg-indigo-500/10 rounded-full blur-2xl group-hover:bg-indigo-500/20 transition duration-500"></div>
+
+        <div class="relative z-10 space-y-4">
+          <div class="flex items-center justify-between">
+            <div class="w-12 h-12 rounded-xl bg-indigo-500/10 border border-indigo-500/30 flex items-center justify-center text-indigo-400 group-hover:scale-110 transition">
+              <i data-lucide="award" class="w-6 h-6"></i>
+            </div>
+            <span class="text-xs font-mono px-3 py-1 rounded-full bg-indigo-950 text-indigo-400 border border-indigo-800">144 Problems</span>
           </div>
-          <input 
-            type="text" 
-            id="search-input" 
-            placeholder="Search problems, techniques (e.g. Euler Tour, 2-SAT, Pick's, HLD, SegTree, Dinic)..." 
-            class="w-full pl-10 pr-10 py-2 rounded-lg bg-slate-900/90 text-sm text-white placeholder-slate-400 border border-slate-700/80 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition font-sans"
-            oninput="applyFilters()"
-          >
-          <button id="clear-search" onclick="clearSearch()" class="hidden absolute inset-y-0 right-0 pr-3 flex items-center text-slate-400 hover:text-white">
-            <i data-lucide="x" class="w-4 h-4"></i>
-          </button>
-        </div>
 
-        <!-- Status filter -->
-        <div class="flex items-center space-x-1.5 bg-slate-900/90 p-1 rounded-lg border border-slate-800">
-          <button onclick="setStatusFilter('all')" id="filter-status-all" class="status-btn px-3 py-1.5 rounded-md text-xs font-medium bg-indigo-600 text-white transition">All</button>
-          <button onclick="setStatusFilter('unsolved')" id="filter-status-unsolved" class="status-btn px-3 py-1.5 rounded-md text-xs font-medium text-slate-400 hover:text-white transition">To-Do</button>
-          <button onclick="setStatusFilter('solved')" id="filter-status-solved" class="status-btn px-3 py-1.5 rounded-md text-xs font-medium text-slate-400 hover:text-white transition">Solved</button>
-        </div>
-      </div>
-
-      <!-- Rating Pills & Topic Selectors -->
-      <div class="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-slate-800/80">
-        <div class="flex flex-wrap items-center gap-1.5">
-          <span class="text-xs font-semibold text-slate-400 mr-1 flex items-center">
-            <i data-lucide="tag" class="w-3 h-3 mr-1"></i> Rating:
-          </span>
-          <button onclick="toggleRating('all')" id="rate-all" class="rate-pill px-2.5 py-1 rounded text-xs font-mono font-medium bg-indigo-600 text-white border border-indigo-500 transition">All</button>
-          <button onclick="toggleRating(1900)" id="rate-1900" class="rate-pill px-2.5 py-1 rounded text-xs font-mono font-medium bg-slate-900 text-purple-400 border border-slate-800 hover:border-purple-500/50 transition">1900</button>
-          <button onclick="toggleRating(2000)" id="rate-2000" class="rate-pill px-2.5 py-1 rounded text-xs font-mono font-medium bg-slate-900 text-orange-400 border border-slate-800 hover:border-orange-500/50 transition">2000</button>
-          <button onclick="toggleRating(2100)" id="rate-2100" class="rate-pill px-2.5 py-1 rounded text-xs font-mono font-medium bg-slate-900 text-amber-400 border border-slate-800 hover:border-amber-500/50 transition">2100</button>
-          <button onclick="toggleRating(2200)" id="rate-2200" class="rate-pill px-2.5 py-1 rounded text-xs font-mono font-medium bg-slate-900 text-rose-400 border border-slate-800 hover:border-rose-500/50 transition">2200</button>
-          <button onclick="toggleRating(2300)" id="rate-2300" class="rate-pill px-2.5 py-1 rounded text-xs font-mono font-medium bg-slate-900 text-red-400 border border-slate-800 hover:border-red-500/50 transition">2300</button>
-        </div>
-
-        <div id="active-filter-summary" class="text-xs font-mono text-slate-400">
-          Showing <span id="visible-count" class="text-indigo-400 font-bold">144</span> problems
-        </div>
-      </div>
-    </div>
-
-    <!-- 6-Week Structured Roadmap (Collapsible) -->
-    <section id="roadmap-section" class="mb-10">
-      <div class="glass-panel rounded-2xl p-6 border border-slate-800">
-        <div class="flex items-center justify-between cursor-pointer" onclick="toggleSection('roadmap-content', 'roadmap-chevron')">
-          <div class="flex items-center space-x-3">
-            <div class="w-8 h-8 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400">
-              <i data-lucide="calendar-days" class="w-4 h-4"></i>
-            </div>
-            <div>
-              <h2 class="text-lg font-bold text-white">Recommended 6-Week Master Transition Sequence</h2>
-              <p class="text-xs text-slate-400">Structured weekly drill path across all 8 transition modules</p>
-            </div>
-          </div>
-          <i id="roadmap-chevron" data-lucide="chevron-down" class="w-5 h-5 text-slate-400 transition-transform duration-200"></i>
-        </div>
-
-        <div id="roadmap-content" class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          <!-- Populated dynamically via JS -->
-        </div>
-      </div>
-    </section>
-
-    <!-- Computational Geometry Mastery Reference Card -->
-    <section id="geometry-section" class="mb-10">
-      <div class="glass-panel rounded-2xl p-6 border border-indigo-500/20">
-        <div class="flex items-center justify-between cursor-pointer" onclick="toggleSection('geometry-content', 'geometry-chevron')">
-          <div class="flex items-center space-x-3">
-            <div class="w-8 h-8 rounded-lg bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center text-indigo-400">
-              <i data-lucide="compass" class="w-4 h-4"></i>
-            </div>
-            <div>
-              <h2 class="text-lg font-bold text-white">Competitive Geometry Reference (1900–2300)</h2>
-              <p class="text-xs text-slate-400">Essential mathematical primitives, coordinate rotations, and lattice theorems</p>
-            </div>
-          </div>
-          <i id="geometry-chevron" data-lucide="chevron-down" class="w-5 h-5 text-slate-400 transition-transform duration-200"></i>
-        </div>
-
-        <div id="geometry-content" class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4 text-xs font-sans">
-          <div class="bg-slate-900/80 p-4 rounded-xl border border-slate-800">
-            <div class="flex items-center space-x-2 text-indigo-400 font-bold mb-2">
-              <i data-lucide="repeat" class="w-3.5 h-3.5"></i>
-              <span>1. Manhattan &harr; Chebyshev Transformation</span>
-            </div>
-            <p class="text-slate-300 leading-relaxed mb-2">
-              Transform coordinates via $(x, y) \to (x+y, x-y)$.
-            </p>
-            <div class="p-2 rounded bg-slate-950/80 font-mono text-[11px] text-slate-300 border border-slate-800/80">
-              $$|x_1 - x_2| + |y_1 - y_2| = \max(|X_1 - X_2|, |Y_1 - Y_2|)$$
-            </div>
-            <p class="text-slate-400 mt-2">
-              Converts diamond $L_1$ metrics into axis-aligned squares, enabling 1D/2D Segment Trees &amp; Sparse Tables.
+          <div>
+            <h2 class="text-xl sm:text-2xl font-bold text-white group-hover:text-indigo-300 transition">
+              Codeforces Master Curriculum
+            </h2>
+            <div class="text-xs font-mono text-purple-400 font-semibold mb-2">Target: 1900–2300 Rating Transition</div>
+            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+              Targeted transition techniques: Euler tour segment trees, DSU on tree (sack), HLD, Cartesian tree DP, 2-SAT, min-cost flows, randomized XOR hashing, and competitive geometry.
             </p>
           </div>
 
-          <div class="bg-slate-900/80 p-4 rounded-xl border border-slate-800">
-            <div class="flex items-center space-x-2 text-purple-400 font-bold mb-2">
-              <i data-lucide="maximize-2" class="w-3.5 h-3.5"></i>
-              <span>2. 2D Vector Cross Product &amp; Orientation</span>
-            </div>
-            <p class="text-slate-300 leading-relaxed mb-2">
-              For vectors $\vec{u}=(x_1, y_1)$ and $\vec{v}=(x_2, y_2)$:
-            </p>
-            <div class="p-2 rounded bg-slate-950/80 font-mono text-[11px] text-slate-300 border border-slate-800/80">
-              $$\vec{u} \times \vec{v} = x_1 y_2 - x_2 y_1 = 2 \times \text{Area}(\triangle)$$
-            </div>
-            <p class="text-slate-400 mt-2">
-              $&gt; 0$: Counter-Clockwise (Left Turn); $&lt; 0$: Clockwise (Right Turn); $= 0$: Collinear.
-            </p>
-          </div>
-
-          <div class="bg-slate-900/80 p-4 rounded-xl border border-slate-800">
-            <div class="flex items-center space-x-2 text-emerald-400 font-bold mb-2">
-              <i data-lucide="grid" class="w-3.5 h-3.5"></i>
-              <span>3. Pick's Theorem on Lattice Polygons</span>
-            </div>
-            <p class="text-slate-300 leading-relaxed mb-2">
-              Relates polygon area, strictly interior points ($I$), and boundary points ($B$):
-            </p>
-            <div class="p-2 rounded bg-slate-950/80 font-mono text-[11px] text-slate-300 border border-slate-800/80">
-              $$\text{Area} = I + \frac{B}{2} - 1, \quad B = \sum_{i} \gcd(|\Delta x_i|, |\Delta y_i|)$$
-            </div>
-            <p class="text-slate-400 mt-2">
-              Allows evaluating parity invariants $\pmod 2$ in $O(1)$ by grouping coordinate residues.
-            </p>
-          </div>
-
-          <div class="bg-slate-900/80 p-4 rounded-xl border border-slate-800">
-            <div class="flex items-center space-x-2 text-amber-400 font-bold mb-2">
-              <i data-lucide="disc" class="w-3.5 h-3.5"></i>
-              <span>4. Angular Sweep Line on Circles</span>
-            </div>
-            <p class="text-slate-300 leading-relaxed mb-2">
-              Binary search on radius $R$. Each point within $2R$ defines a valid polar angle interval on circle $C(0, R)$.
-            </p>
-            <div class="p-2 rounded bg-slate-950/80 font-mono text-[11px] text-slate-300 border border-slate-800/80">
-              $$\alpha = \text{atan2}(y_i, x_i), \quad \Delta = \arccos(d_i / 2R)$$
-            </div>
-            <p class="text-slate-400 mt-2">
-              Split wrap-around intervals at $2\pi$ and find maximum interval overlap using a sweep line.
-            </p>
+          <div class="grid grid-cols-2 gap-2 text-[11px] font-mono text-slate-400 pt-2 border-t border-slate-800">
+            <div>&bull; 8 Modular Tracks</div>
+            <div>&bull; 6-Week Structured Plan</div>
+            <div>&bull; Geometry Cheat Sheet</div>
+            <div>&bull; LocalStorage Progress</div>
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- Modules & Problems List Container -->
-    <div id="modules-container" class="space-y-8">
-      <!-- Injected dynamically via JS -->
+        <div class="relative z-10 pt-6 flex items-center justify-between text-indigo-400 text-sm font-semibold group-hover:translate-x-1 transition">
+          <span>Launch Codeforces Track</span>
+          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </div>
+      </a>
+
+      <!-- Track 2: LeetCode Hards Guide -->
+      <a href="leetcode-hards" class="track-card track-lc rounded-2xl p-6 sm:p-8 flex flex-col justify-between group relative overflow-hidden">
+        <div class="absolute -right-12 -bottom-12 w-48 h-48 bg-amber-500/10 rounded-full blur-2xl group-hover:bg-amber-500/20 transition duration-500"></div>
+
+        <div class="relative z-10 space-y-4">
+          <div class="flex items-center justify-between">
+            <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 group-hover:scale-110 transition">
+              <i data-lucide="flame" class="w-6 h-6"></i>
+            </div>
+            <span class="text-xs font-mono px-3 py-1 rounded-full bg-amber-950 text-amber-400 border border-amber-800">301 Problems</span>
+          </div>
+
+          <div>
+            <h2 class="text-xl sm:text-2xl font-bold text-white group-hover:text-amber-300 transition">
+              LeetCode Hard Classified Guide
+            </h2>
+            <div class="text-xs font-mono text-amber-400 font-semibold mb-2">High-Signal Interview Classification</div>
+            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+              3-Tier classification: 44 Direct Interview Classics (Google/Meta staples), 128 Niche Concept Lessons, and 129 CP-tier Hard Problems with company tags and pattern breakdowns.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-2 gap-2 text-[11px] font-mono text-slate-400 pt-2 border-t border-slate-800">
+            <div>&bull; 3 High-Signal Tiers</div>
+            <div>&bull; Company Filter Tags</div>
+            <div>&bull; Concept Insights</div>
+            <div>&bull; Progress Checklists</div>
+          </div>
+        </div>
+
+        <div class="relative z-10 pt-6 flex items-center justify-between text-amber-400 text-sm font-semibold group-hover:translate-x-1 transition">
+          <span>Launch LeetCode Track</span>
+          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </div>
+      </a>
     </div>
   </main>
 
-  <!-- Notification Toast -->
-  <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 transition-all duration-300 px-4 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs font-mono shadow-2xl flex items-center space-x-2 pointer-events-none">
-    <i id="toast-icon" data-lucide="info" class="w-4 h-4 text-indigo-400"></i>
-    <span id="toast-msg">Notification</span>
-  </div>
+  <!-- Footer -->
+  <footer class="border-t border-slate-800/80 py-6 text-center text-xs text-slate-400 font-mono">
+    <p>Competitive Programming Hub &bull; Built &amp; Deployed by <a href="https://github.com/singhvi28" target="_blank" class="text-indigo-400 hover:underline">@singhvi28</a></p>
+  </footer>
 
   <script>
-    // Embedded curriculum data
-    const DATA = {"modules": [{"id": "trees", "title": "1. Tree Decompositions, HLD & Subtree Aggregates", "icon": "tree", "description": "Tree problems in the 1900\u20132300 range test Euler Tour subtree flattening, Small-to-Large merging (sack), Heavy-Light Decomposition (HLD), and Centroid Decomposition / Tree Divide & Conquer.", "problems": [{"id": "1328E", "name": "Tree Queries", "contestId": 1328, "index": "E", "rating": 1900, "url": "https://codeforces.com/contest/1328/problem/E", "technique": "Euler Tour / LCA", "insight": "Flatten trees into enter/exit timestamp intervals to reduce ancestor-descendant queries to subsegment containment.", "tags": ["dfs and similar", "graphs", "trees"]}, {"id": "1739D", "name": "Reset K Edges", "contestId": 1739, "index": "D", "rating": 1900, "url": "https://codeforces.com/contest/1739/problem/D", "technique": "Binary Search + Tree Greedy", "insight": "Binary search on the tree height; greedily cut edges from deepest subtrees whose depth from their current component root reaches the target limit.", "tags": ["binary search", "greedy", "trees"]}, {"id": "1797D", "name": "Li Hua and Tree", "contestId": 1797, "index": "D", "rating": 1900, "url": "https://codeforces.com/contest/1797/problem/D", "technique": "Dynamic Heavy Edge Tracking", "insight": "Maintain subtree sizes and heavy child pointers dynamically; rotate the heavy son to the parent in O(log N) using std::set.", "tags": ["brute force", "data structures", "trees"]}, {"id": "1882D", "name": "Tree XOR", "contestId": 1882, "index": "D", "rating": 1900, "url": "https://codeforces.com/contest/1882/problem/D", "technique": "Tree Rerooting DP", "insight": "Bit-by-bit contribution: when transitioning root u -> v, exactly subtree sizes of u and v flip their contribution multiplier to the total cost.", "tags": ["dp", "rerooting", "trees", "bitmasks"]}, {"id": "1899G", "name": "Unusual Entertainment", "contestId": 1899, "index": "G", "rating": 1900, "url": "https://codeforces.com/contest/1899/problem/G", "technique": "Euler Tour + Offline Fenwick", "insight": "Map subtree containment to range queries on permutation indices; answer queries offline using a Fenwick tree or merge-sort tree.", "tags": ["data structures", "dsu", "trees"]}, {"id": "1891F", "name": "A Growing Tree", "contestId": 1891, "index": "F", "rating": 2000, "url": "https://codeforces.com/contest/1891/problem/F", "technique": "Euler Tour + Fenwick Point Updates", "insight": "Process dynamic vertex additions offline: map tree additions to subtree range increments at vertex creation timestamps.", "tags": ["data structures", "dfs and similar", "trees"]}, {"id": "1923E", "name": "Count Paths", "contestId": 1923, "index": "E", "rating": 2000, "url": "https://codeforces.com/contest/1923/problem/E", "technique": "DSU on Tree (Sack)", "insight": "Count simple paths whose endpoints share a color by maintaining dominant color frequencies and merging small-to-large in O(N log N).", "tags": ["data structures", "dsu on tree", "trees"]}, {"id": "1857G", "name": "Counting Graphs", "contestId": 1857, "index": "G", "rating": 2000, "url": "https://codeforces.com/contest/1857/problem/G", "technique": "Kruskal MST / Component Combinatorics", "insight": "Process MST edges in increasing weight order; merging components of size sz1 and sz2 allows (sz1 * sz2 - 1) optional edges with weights in [w_i + 1, S].", "tags": ["dsu", "combinatorics", "trees"]}, {"id": "1446C", "name": "Xor Tree", "contestId": 1446, "index": "C", "rating": 2100, "url": "https://codeforces.com/contest/1446/problem/C", "technique": "Bit-Trie Divide & Conquer", "insight": "In a binary trie, any node with both children can keep at most 1 element from one branch to prevent cycles in the XOR minimum spanning tree.", "tags": ["trie", "divide and conquer", "trees"]}, {"id": "1671E", "name": "Preorder", "contestId": 1671, "index": "E", "rating": 2100, "url": "https://codeforces.com/contest/1671/problem/E", "technique": "Tree Isomorphism DP / Canonical Hashing", "insight": "Recursively compute the canonical lexicographically minimal preorder traversal for each subtree; branching factor is 2 only if child subtrees are non-isomorphic.", "tags": ["dp", "hashing", "trees"]}, {"id": "1790F", "name": "Timofey and Black-White Tree", "contestId": 1790, "index": "F", "rating": 2100, "url": "https://codeforces.com/contest/1790/problem/F", "technique": "Centroid Decomp / Sqrt Distance Bounding", "insight": "Maintain minimum distance to black nodes by updating centroid ancestor paths, or prune traversals at the current global minimum in O(N sqrt(N)).", "tags": ["divide and conquer", "trees", "centroid"]}, {"id": "1975E", "name": "Chain Queries", "contestId": 1975, "index": "E", "rating": 2100, "url": "https://codeforces.com/contest/1975/problem/E", "technique": "Tree Invariants & HLD Tracking", "insight": "Maintain whether a subset of nodes forms a simple path by dynamically tracking black nodes whose parent is white.", "tags": ["data structures", "trees", "invariants"]}, {"id": "2031E", "name": "Penchick and Chloe's Trees", "contestId": 2031, "index": "E", "rating": 2100, "url": "https://codeforces.com/contest/2031/problem/E", "technique": "Tree DP + Priority Queue Merging", "insight": "Minimize tree depth by greedy bottom-up pooling of child subproblem depths using a min-heap.", "tags": ["dp", "greedy", "trees"]}, {"id": "1551F", "name": "Equidistant Vertices", "contestId": 1551, "index": "F", "rating": 2200, "url": "https://codeforces.com/contest/1551/problem/F", "technique": "Tree Center / Depth Combinatorics DP", "insight": "Root the tree at every candidate center; for a fixed distance d, count combinations choosing 1 node from k distinct branches using knapsack DP.", "tags": ["combinatorics", "dp", "trees"]}, {"id": "1615D", "name": "X(or)-mas Tree", "contestId": 1615, "index": "D", "rating": 2200, "url": "https://codeforces.com/contest/1615/problem/D", "technique": "DSU with Potentials / 2-SAT on Trees", "insight": "Translate path XOR parity conditions into potential differences between nodes, detecting contradictions via DSU with parity tracking.", "tags": ["bitmasks", "dsu", "trees"]}, {"id": "1806E", "name": "Tree Master", "contestId": 1806, "index": "E", "rating": 2200, "url": "https://codeforces.com/contest/1806/problem/E", "technique": "Sqrt Decomposition on Trees", "insight": "Answer heavy depth-indexed ancestor product queries by memoizing pairs of high-degree nodes at the same tree depth.", "tags": ["data structures", "sqrt decomp", "trees"]}, {"id": "1901E", "name": "Compressed Tree", "contestId": 1901, "index": "E", "rating": 2200, "url": "https://codeforces.com/contest/1901/problem/E", "technique": "Tree DP / Degree-Case Optimization", "insight": "Analyze node degree cases: degree 0, 1 (path endpoint), 2 (identity pass-through), or >=3 (all positive child subtrees retained).", "tags": ["dp", "greedy", "trees"]}, {"id": "2033G", "name": "Sakurako and Chefir", "contestId": 2033, "index": "G", "rating": 2200, "url": "https://codeforces.com/contest/2033/problem/G", "technique": "HLD / Euler Tour SegTree", "insight": "Answer maximum tree-path jumps by combining Euler tour segment trees with binary lifting to query branch maximums.", "tags": ["data structures", "hld", "trees"]}, {"id": "1540B", "name": "Tree Array", "contestId": 1540, "index": "B", "rating": 2300, "url": "https://codeforces.com/contest/1540/problem/B", "technique": "LCA Inversion DP / Probabilities", "insight": "By linearity of expectation, sum the probability that u appears before v for each pair (u, v) using grid walk DP based on depths to LCA(u, v).", "tags": ["probabilities", "dp", "trees", "lca"]}, {"id": "1681F", "name": "Unique Occurrences", "contestId": 1681, "index": "F", "rating": 2300, "url": "https://codeforces.com/contest/1681/problem/F", "technique": "Centroid / D&C + DSU Rollback", "insight": "For each edge color, isolate active components using tree divide & conquer with DSU rollbacks to count paths containing exactly one edge of each color in O(N log^2 N).", "tags": ["divide and conquer", "dsu rollback", "trees"]}, {"id": "1805E", "name": "There Should Be a Lot of Maximums", "contestId": 1805, "index": "E", "rating": 2300, "url": "https://codeforces.com/contest/1805/problem/E", "technique": "Euler Tour Prefix/Suffix Aggregation", "insight": "Track tree-wide frequencies across edge removals using Euler tour prefix and suffix frequency multiset aggregations.", "tags": ["dfs and similar", "trees", "data structures"]}, {"id": "1916E", "name": "Happy Life in University", "contestId": 1916, "index": "E", "rating": 2300, "url": "https://codeforces.com/contest/1916/problem/E", "technique": "Range Update SegTree / HLD", "insight": "Maintain distinct color counts on root-to-node paths via lazy range updates on Euler subsegments.", "tags": ["data structures", "hld", "trees"]}]}, {"id": "data-structures", "title": "2. Data Structures, Cartesian Trees & Offline Reductions", "icon": "layers", "description": "Div. 1 A/B data structure problems prioritize offline sorting, monotonic invariants, Cartesian tree reductions, and square-root thresholding.", "problems": [{"id": "1738D", "name": "Permutation Addicts", "contestId": 1738, "index": "D", "rating": 1900, "url": "https://codeforces.com/contest/1738/problem/D", "technique": "Bipartite Reduction / Topological Sort", "insight": "Map prefix/suffix extrema to directed edges forming a tree; reconstruct the permutation by topological DFS ordering based on branch sizes.", "tags": ["constructive", "dsu", "graphs"]}, {"id": "1927F", "name": "Microcycle", "contestId": 1927, "index": "F", "rating": 1900, "url": "https://codeforces.com/contest/1927/problem/F", "technique": "Kruskal Spanning Tree / Back-Edge Cycle", "insight": "Sort edges in descending weight; the first edge that connects two already-connected components identifies the cycle with maximum minimal edge.", "tags": ["dsu", "dfs and similar", "graphs"]}, {"id": "1690G", "name": "Count the Trains", "contestId": 1690, "index": "G", "rating": 2000, "url": "https://codeforces.com/contest/1690/problem/G", "technique": "Monotonic std::set", "insight": "Maintain non-increasing prefix minima dynamically by deleting dominated intervals in amortized O(log N).", "tags": ["binary search", "data structures", "sortings"]}, {"id": "1827B1", "name": "Range Sorting (Easy Version)", "contestId": 1827, "index": "B1", "rating": 2000, "url": "https://codeforces.com/contest/1827/problem/B1", "technique": "Monotonic Stack / Contribution Counting", "insight": "The range sorting cost equals (r - l) minus the count of irreducible break points; count contribution of each index using monotonic stacks.", "tags": ["monotonic stack", "dp", "contribution"]}, {"id": "1851G", "name": "Vlad and the Mountains", "contestId": 1851, "index": "G", "rating": 2000, "url": "https://codeforces.com/contest/1851/problem/G", "technique": "Offline Query Sorting + DSU", "insight": "Sort elevation constraints and queries offline; add allowed edges progressively to answer path reachability via DSU.", "tags": ["dsu", "offline", "sortings"]}, {"id": "1987E", "name": "Wonderful Tree!", "contestId": 1987, "index": "E", "rating": 2000, "url": "https://codeforces.com/contest/1987/problem/E", "technique": "Tree Greedy Upward Flow / DSU", "insight": "Satisfy node sum invariants by greedily pushing excess capacity up from deepest available descendants with minimum distance penalty.", "tags": ["data structures", "greedy", "trees"]}, {"id": "1483C", "name": "Skyline Photo", "contestId": 1483, "index": "C", "rating": 2100, "url": "https://codeforces.com/contest/1483/problem/C", "technique": "Monotonic Stack + SegTree", "insight": "Maintain active building segments using a monotonic stack while propagating optimal DP transitions into a Segment Tree.", "tags": ["data structures", "dp", "monotonic stack"]}, {"id": "1555E", "name": "Boring Segments", "contestId": 1555, "index": "E", "rating": 2100, "url": "https://codeforces.com/contest/1555/problem/E", "technique": "Two Pointers + Lazy Range Addition SegTree", "insight": "Sort segments by weight; use two pointers to maintain a valid covering of [1, M] using a lazy Segment Tree storing range minimums.", "tags": ["two pointers", "lazy segtree", "data structures"]}, {"id": "1913D", "name": "Array Collapse", "contestId": 1913, "index": "D", "rating": 2100, "url": "https://codeforces.com/contest/1913/problem/D", "technique": "Monotonic Stack DP / Cartesian Tree", "insight": "Optimize O(N^2) deletion DP into O(N) by bounding subproblems using Cartesian tree / nearest smaller element boundaries.", "tags": ["cartesian tree", "dp", "monotonic stack"]}, {"id": "1919D", "name": "01 Tree", "contestId": 1919, "index": "D", "rating": 2100, "url": "https://codeforces.com/contest/1919/problem/D", "technique": "Monotonic Reductions / DSU", "insight": "A valid leaf configuration allows repeatedly eliminating local maxima that are adjacent to elements of value (max - 1); simulate in O(N log N).", "tags": ["greedy", "dsu", "data structures"]}, {"id": "1400E", "name": "Clear the Multiset", "contestId": 1400, "index": "E", "rating": 2200, "url": "https://codeforces.com/contest/1400/problem/E", "technique": "Divide & Conquer / SegTree Range Min", "insight": "Compare doing 1 horizontal subtraction of size min(A) across the whole range vs solving left and right subproblems independently in O(N).", "tags": ["divide and conquer", "dp", "greedy"]}, {"id": "1556E", "name": "Equilibrium", "contestId": 1556, "index": "E", "rating": 2200, "url": "https://codeforces.com/contest/1556/problem/E", "technique": "Prefix Sums + Sparse Table Range Extrema", "insight": "Express balance as difference array D_i = b_i - a_i; verify prefix sum conditions (P_r = P_{l-1} and P_k >= P_{l-1}) via Range Max/Min queries.", "tags": ["data structures", "sparse table", "prefix sums"]}, {"id": "1557D", "name": "Ezzat and Grid", "contestId": 1557, "index": "D", "rating": 2200, "url": "https://codeforces.com/contest/1557/problem/D", "technique": "Coordinate Compression + Lazy SegTree", "insight": "Find the longest chain of intersecting segments across rows via coordinate compression and range maximum query SegTree with backpointers.", "tags": ["data structures", "lazy segtree"]}, {"id": "1580C", "name": "Train Maintenance", "contestId": 1580, "index": "C", "rating": 2200, "url": "https://codeforces.com/contest/1580/problem/C", "technique": "Sqrt Decomposition / Period Threshold", "insight": "Split periodic schedules at sqrt(M): update difference arrays for large periods, and maintain mod-k frequency tables for small periods.", "tags": ["sqrt decomp", "data structures"]}, {"id": "1618G", "name": "Trader Problem", "contestId": 1618, "index": "G", "rating": 2200, "url": "https://codeforces.com/contest/1618/problem/G", "technique": "Offline Sorting + DSU Blocks", "insight": "Sort value differences and queries offline; merge adjacent items into contiguous blocks that trade freely and maintain top-k prefix sums.", "tags": ["dsu", "offline", "sortings"]}, {"id": "1841E", "name": "Fill the Matrix", "contestId": 1841, "index": "E", "rating": 2200, "url": "https://codeforces.com/contest/1841/problem/E", "technique": "Cartesian Tree / Monotonic Segments", "insight": "Decompose the unfilled matrix space into rectangular blocks using Cartesian tree divide & conquer; greedily place contiguous sequences in largest blocks.", "tags": ["cartesian tree", "greedy", "data structures"]}, {"id": "2000H", "name": "Ksyusha and the Loaded Set", "contestId": 2000, "index": "H", "rating": 2200, "url": "https://codeforces.com/contest/2000/problem/H", "technique": "Dynamic SegTree / Max Segment Gap", "insight": "Maintain gaps between consecutive present elements in a Segment Tree to query the first available contiguous interval of length k in O(log V).", "tags": ["data structures", "dynamic segtree"]}, {"id": "1691E", "name": "Number of Groups", "contestId": 1691, "index": "E", "rating": 2300, "url": "https://codeforces.com/contest/1691/problem/E", "technique": "Sweep Line + Two Priority Queues DSU", "insight": "Instead of O(N^2) segment intersections, sweep coordinates and unify overlapping segments across different colors via priority queues in O(N log N).", "tags": ["sweep line", "dsu", "data structures"]}, {"id": "1797E", "name": "Li Hua and Array", "contestId": 1797, "index": "E", "rating": 2300, "url": "https://codeforces.com/contest/1797/problem/E", "technique": "SegTree Beats / Totient Depth Convergence", "insight": "Take advantage of the fact that phi(x) reaches 1 in O(log V) steps to prune Segment Tree range updates to O(N log^2 V) amortized.", "tags": ["segtree beats", "number theory", "data structures"]}]}, {"id": "random-hashing", "title": "3. Randomization, Polynomial Hashing & Treaps / Cartesian Trees", "icon": "dice", "description": "Randomization and Cartesian trees turn complex structural matching, range frequency checks, and non-deterministic state spaces into simple O(1) or O(log N) algorithms.", "problems": [{"id": "1470B", "name": "Strange Definition", "contestId": 1470, "index": "B", "rating": 1900, "url": "https://codeforces.com/contest/1470/problem/B", "technique": "Prime Factor Square-Free Hash", "insight": "Two numbers multiply to a square iff their square-free prime factor masks are identical; after 1 step, all even-frequency masks collapse to 1.", "tags": ["number theory", "hashing", "bitmasks"]}, {"id": "1800F", "name": "Dasha and Nightmares", "contestId": 1800, "index": "F", "rating": 1900, "url": "https://codeforces.com/contest/1800/problem/F", "technique": "Bitmask XOR Hashing + Meet-in-the-Middle", "insight": "Iterate over which character is omitted (26 choices); pair bitmasks whose XOR sum equals the full 25-bit mask with zero collisions.", "tags": ["bitmasks", "hashing", "meet-in-the-middle"]}, {"id": "1950G", "name": "Shuffling Songs", "contestId": 1950, "index": "G", "rating": 1900, "url": "https://codeforces.com/contest/1950/problem/G", "technique": "Bitmask DP + String Hashing", "insight": "Hash genres and writers to integers; run Hamiltonian path bitmask DP in O(2^N * N) to find the maximum song subset matching consecutive traits.", "tags": ["bitmask dp", "hashing", "graphs"]}, {"id": "2014H", "name": "Robin Hood Archery", "contestId": 2014, "index": "H", "rating": 1900, "url": "https://codeforces.com/contest/2014/problem/H", "technique": "Randomized 64-bit XOR Hashing", "insight": "Assign a random 64-bit integer to each value; a subarray [L, R] can be paired up into identical pairs if and only if its range XOR sum equals 0.", "tags": ["hashing", "randomized", "prefix xor"]}, {"id": "1773A", "name": "Amazing Trick", "contestId": 1773, "index": "A", "rating": 1900, "url": "https://codeforces.com/contest/1773/problem/A", "technique": "Randomized Las Vegas Derangement", "insight": "Randomly shuffle permutations and match cycles; prove that the expected number of iterations until a valid derangement is found is bounded by O(1).", "tags": ["probabilities", "randomized", "las vegas"]}, {"id": "1574D", "name": "The Strongest Build", "contestId": 1574, "index": "D", "rating": 2000, "url": "https://codeforces.com/contest/1574/problem/D", "technique": "Max-Heap BFS + Vector Hashing", "insight": "Start from the maximal tuple; perform BFS over coordinate decrements using a priority queue and 64-bit tuple hash to skip banned combinations in O(M log M).", "tags": ["hashing", "bfs", "greedy"]}, {"id": "1624E", "name": "Masha-forgetful", "contestId": 1624, "index": "E", "rating": 2000, "url": "https://codeforces.com/contest/1624/problem/E", "technique": "Polynomial Rolling Hash + DP", "insight": "Any valid partition into segments of length >= 2 decomposes into blocks of length 2 and 3; hash all substrings of length 2/3 for O(N) string DP.", "tags": ["hashing", "dp", "strings"]}, {"id": "1753C", "name": "Wish I Knew How to Sort", "contestId": 1753, "index": "C", "rating": 2000, "url": "https://codeforces.com/contest/1753/problem/C", "technique": "Expected Value DP / Inversion Probabilities", "insight": "State is the number of 0s currently in the correct prefix of length count(0); compute transition probability p_k and solve 1D expected value DP.", "tags": ["probabilities", "math", "dp"]}, {"id": "1943B", "name": "Non-Palindromic Substring", "contestId": 1943, "index": "B", "rating": 2000, "url": "https://codeforces.com/contest/1943/problem/B", "technique": "Rolling Hash / Palindrome Invariants", "insight": "A substring has no good k-length partition iff it has period 1 (all same char) or period 2 (alternating chars); verify via rolling polynomial hashes in O(1).", "tags": ["hashing", "strings", "invariants"]}, {"id": "1493D", "name": "GCD of an Array", "contestId": 1493, "index": "D", "rating": 2100, "url": "https://codeforces.com/contest/1493/problem/D", "technique": "Prime Multi-set Maps / Dynamic GCD", "insight": "For each prime p, maintain a multiset of prime exponents across all array elements; track the min exponent dynamically to maintain global GCD in O(Q log N log V).", "tags": ["number theory", "data structures", "hashing"]}, {"id": "1525E", "name": "Assimilation IV", "contestId": 1525, "index": "E", "rating": 2100, "url": "https://codeforces.com/contest/1525/problem/E", "technique": "Linearity of Expectation / Complement Counting", "insight": "Calculate expected coverage as sum over all cities of P(city is covered); compute complement P(city is never reached) by sorting required monument arrival times.", "tags": ["probabilities", "combinatorics", "math"]}, {"id": "1800G", "name": "Symmetree", "contestId": 1800, "index": "G", "rating": 2200, "url": "https://codeforces.com/contest/1800/problem/G", "technique": "Merkle Tree Randomized Hashing", "insight": "Compute randomized subtree hash signatures to detect tree symmetry/isomorphism bottom-up in O(N).", "tags": ["tree hashing", "trees", "isomorphism"]}, {"id": "1898E", "name": "Sofia and Strings", "contestId": 1898, "index": "E", "rating": 2200, "url": "https://codeforces.com/contest/1898/problem/E", "technique": "Character Queue Invariants / Greedy", "insight": "Sorting a substring allows pulling smaller characters forward but never jumping over strictly smaller characters; maintain 26 character index queues in O(N).", "tags": ["greedy", "strings", "data structures"]}, {"id": "1996G", "name": "Penacony", "contestId": 1996, "index": "G", "rating": 2200, "url": "https://codeforces.com/contest/1996/problem/G", "technique": "XOR Hashing / Dual Cut on Cycle", "insight": "Assign random 64-bit masks to paths; use difference arrays on the cyclic graph to find the edge covered by the maximum path mask subset.", "tags": ["graphs", "hashing", "xor"]}, {"id": "1743F", "name": "Intersection and Union", "contestId": 1743, "index": "F", "rating": 2300, "url": "https://codeforces.com/contest/1743/problem/F", "technique": "Segment Tree Matrix DP / Probabilities", "insight": "Model bitwise transitions as 2x2 transition matrices over {0, 1} states; maintain matrix products with a Segment Tree over coordinate events.", "tags": ["matrices", "segtree", "dp", "probabilities"]}, {"id": "1748E", "name": "Yet Another Array Counting Problem", "contestId": 1748, "index": "E", "rating": 2300, "url": "https://codeforces.com/contest/1748/problem/E", "technique": "Cartesian Tree + Tree DP", "insight": "Range maximum queries uniquely define a Cartesian Tree; formulate an O(N * M) tree DP on the Cartesian Tree structure.", "tags": ["cartesian tree", "divide and conquer", "dp"]}]}, {"id": "dp-optimizations", "title": "4. Dynamic Programming Optimizations", "icon": "cpu", "description": "Focus on reducing transitions from O(N^2) to O(N log N) or O(N) using monotonicity, prefix sums, Fenwick / Segment trees, and state pruning.", "problems": [{"id": "1369D", "name": "TediousLee", "contestId": 1369, "index": "D", "rating": 1900, "url": "https://codeforces.com/contest/1369/problem/D", "technique": "Tree Substructure DP", "insight": "Level n Rauxa tree contains 1 root, 1 level (n-1) tree, and 2 level (n-2) trees; transition DP greedily claiming claw roots whenever child claws are free.", "tags": ["dp", "trees", "greedy"]}, {"id": "1611E2", "name": "Escape The Maze (hard version)", "contestId": 1611, "index": "E2", "rating": 1900, "url": "https://codeforces.com/contest/1611/problem/E2", "technique": "Multi-Source BFS + Tree DP", "insight": "Precompute nearest friend distance using multi-source BFS; DFS from root to find minimal set of subtrees where friend arrives strictly before Vlad.", "tags": ["bfs", "dp", "trees", "greedy"]}, {"id": "1746D", "name": "Paths on the Tree", "contestId": 1746, "index": "D", "rating": 1900, "url": "https://codeforces.com/contest/1746/problem/D", "technique": "Tree DP / Quotient Splitting", "insight": "For any node with k paths, every child receives either floor(k/c) or ceil(k/c) paths; branch into at most 2 states per subtree.", "tags": ["dp", "trees", "greedy"]}, {"id": "1774E", "name": "Two Chess Pieces", "contestId": 1774, "index": "E", "rating": 1900, "url": "https://codeforces.com/contest/1774/problem/E", "technique": "Tree Traversal Subtree DP", "insight": "A piece must visit all required nodes plus any d-th ancestors of the other piece; isolate marked subtree sizes to evaluate minimum total edge traversals.", "tags": ["dp", "trees", "greedy"]}, {"id": "1929D", "name": "Sasha and a Walk in the City", "contestId": 1929, "index": "D", "rating": 1900, "url": "https://codeforces.com/contest/1929/problem/D", "technique": "Tree DP / Subtree Combinatorics", "insight": "Bound the count of dangerous vertices on any downward path to at most 2, aggregating valid independent subsets bottom-up.", "tags": ["combinatorics", "dp", "trees"]}, {"id": "1680E", "name": "Moving Chips", "contestId": 1680, "index": "E", "rating": 2000, "url": "https://codeforces.com/contest/1680/problem/E", "technique": "Bitmask Column DP on 2xN Grid", "insight": "Compress column states into 2 choices: ending chip on row 0 or row 1; transition across non-empty column boundaries adding minimum shift costs.", "tags": ["bitmasks", "dp", "greedy"]}, {"id": "1988D", "name": "The Omnipotent Monster Killer", "contestId": 1988, "index": "D", "rating": 2000, "url": "https://codeforces.com/contest/1988/problem/D", "technique": "Tree DP / Degree-Bounded Rounds", "insight": "Prove that any tree can be cleared in at most ceil(log_2 N) + 1 rounds; run tree DP over O(log N) attack turns.", "tags": ["dp", "trees", "state pruning"]}, {"id": "1667B", "name": "Optimal Partition", "contestId": 1667, "index": "B", "rating": 2100, "url": "https://codeforces.com/contest/1667/problem/B", "technique": "3-Way Fenwick Tree DP", "insight": "Partition subsegments based on prefix sum signs (positive, zero, negative); query 3 separate Fenwick trees for optimal transitions in O(N log N).", "tags": ["fenwick", "dp", "data structures"]}, {"id": "1407D", "name": "Discrete Centrifugal Jumps", "contestId": 1407, "index": "D", "rating": 2200, "url": "https://codeforces.com/contest/1407/problem/D", "technique": "Monotonic Stack DP Transitions", "insight": "A valid jump cannot cross intermediate elements exceeding both endpoints; restrict transitions to strictly nearest larger/smaller elements in O(N).", "tags": ["dp", "monotonic stack", "graphs"]}, {"id": "1468A", "name": "LaIS", "contestId": 1468, "index": "A", "rating": 2200, "url": "https://codeforces.com/contest/1468/problem/A", "technique": "Fenwick DP + Monotonic Stack", "insight": "Extend LIS DP to allow one non-decreasing dip by querying past DP maxima up to the nearest greater element to the left via Fenwick tree.", "tags": ["data structures", "dp", "fenwick"]}, {"id": "1515E", "name": "Phoenix and Computers", "contestId": 1515, "index": "E", "rating": 2200, "url": "https://codeforces.com/contest/1515/problem/E", "technique": "Component Merge DP", "insight": "Construct the sequence by placing contiguous blocks of computers manually turned on, counting interleavings using binomial coefficients.", "tags": ["combinatorics", "dp", "math"]}, {"id": "1552F", "name": "Telepanting", "contestId": 1552, "index": "F", "rating": 2200, "url": "https://codeforces.com/contest/1552/problem/F", "technique": "Prefix Sum DP + Binary Search", "insight": "The time to travel from portal i to x_i after activation equals x_i - y_i plus total delay of all intermediate portals; evaluate via prefix sums in O(N).", "tags": ["dp", "binary search", "prefix sums"]}, {"id": "1788E", "name": "Sum Over Zero", "contestId": 1788, "index": "E", "rating": 2200, "url": "https://codeforces.com/contest/1788/problem/E", "technique": "Prefix Sums + Fenwick DP", "insight": "Rewrite condition sum_{k=l}^r a_k >= 0 as P_r >= P_{l-1}; query the maximum past DP[l-1] - (l-1) using a coordinate-compressed Fenwick tree.", "tags": ["dp", "fenwick", "data structures"]}, {"id": "1858D", "name": "Trees and Segments", "contestId": 1858, "index": "D", "rating": 2200, "url": "https://codeforces.com/contest/1858/problem/D", "technique": "Prefix/Suffix DP + Two Pointers", "insight": "Precompute max consecutive 0s achievable in prefix and suffix using two pointers; combine with a fixed run of 1s of length len_1 to optimize over all weights.", "tags": ["two pointers", "dp", "greedy"]}, {"id": "2030E", "name": "MEXimize the Score", "contestId": 2030, "index": "E", "rating": 2200, "url": "https://codeforces.com/contest/2030/problem/E", "technique": "Contribution Counting + Combinatorics DP", "insight": "Evaluate total sum of MEX as sum over k of P(MEX >= k); compute distribution of minimum frequencies across values 0 to k-1 via dynamic programming.", "tags": ["combinatorics", "dp", "contribution"]}, {"id": "2056D", "name": "Unique Median", "contestId": 2056, "index": "D", "rating": 2200, "url": "https://codeforces.com/contest/2056/problem/D", "technique": "Prefix Balance DP / Coordinate Shifts", "insight": "Fix the unique median value M; replace >M with +1, <M with -1, and use prefix balance frequency arrays to count subarrays where M is strictly dominant.", "tags": ["dp", "prefix sums", "data structures"]}, {"id": "1870E", "name": "Another MEX Problem", "contestId": 1870, "index": "E", "rating": 2300, "url": "https://codeforces.com/contest/1870/problem/E", "technique": "Minimal MEX Subsegment DP / Bitset", "insight": "Only minimal subsegments defining each distinct MEX can be part of the optimal partition; prune transitions to at most O(N) active segments in O(N^2 / 64).", "tags": ["dp", "bitset", "mex"]}]}, {"id": "graphs-2sat", "title": "5. Graph Structure, 2-SAT & Connectivity", "icon": "git-merge", "description": "Graph problems in this range focus on Tarjan bridge/cut-vertex trees, DFS back-edge properties, 2-SAT implication graphs, and SCC reachability DAGs.", "problems": [{"id": "1404B", "name": "Tree Tag", "contestId": 1404, "index": "B", "rating": 1900, "url": "https://codeforces.com/contest/1404/problem/B", "technique": "Tree Diameter & Game Strategy", "insight": "Alice wins iff dist(a, b) <= da, or 2*da >= db, or 2*da >= tree_diameter; otherwise Bob can always escape to an antipodal branch.", "tags": ["games", "tree diameter", "dfs and similar"]}, {"id": "1715D", "name": "2+ doors", "contestId": 1715, "index": "D", "rating": 1900, "url": "https://codeforces.com/contest/1715/problem/D", "technique": "2-SAT / Bitwise Implications", "insight": "Decompose into independent bit planes; enforce forced bits first, then greedily assign 0s where no future constraint is violated.", "tags": ["2-sat", "bitmasks", "greedy"]}, {"id": "1846G", "name": "Rudolf and CodeVid-23", "contestId": 1846, "index": "G", "rating": 1900, "url": "https://codeforces.com/contest/1846/problem/G", "technique": "Dijkstra on Bitmask State Graph", "insight": "Model patient symptoms as a bitmask of size <= 10; build a directed state graph with 2^N vertices and find shortest path from initial mask to 0 in O(M * 2^N).", "tags": ["shortest paths", "bitmasks", "dijkstra"]}, {"id": "1986F", "name": "Non-academic Problem", "contestId": 1986, "index": "F", "rating": 1900, "url": "https://codeforces.com/contest/1986/problem/F", "technique": "Tarjan Bridges / Cut Edges", "insight": "Identify bridges using Tarjan DFS; removing edge (u, v) splits the graph into components of size s and N-s, minimizing pair reachability.", "tags": ["bridges", "tarjan", "graphs"]}, {"id": "1726D", "name": "Edge Split", "contestId": 1726, "index": "D", "rating": 2000, "url": "https://codeforces.com/contest/1726/problem/D", "technique": "DFS Back-Edges / Cycle Prevention", "insight": "A spanning tree has M - N + 1 back-edges; when they form a 3-cycle, swap one back-edge with a tree edge to eliminate cycles in the non-tree subgraph.", "tags": ["dfs tree", "dsu", "graphs"]}, {"id": "1815B", "name": "Sum Graph", "contestId": 1815, "index": "B", "rating": 2000, "url": "https://codeforces.com/contest/1815/problem/B", "technique": "Interactive / Graph Diameter Paths", "insight": "Add edges to create a simple path graph; query longest distance from an arbitrary node to find the endpoints, reconstructing node values in <= 2*N queries.", "tags": ["interactive", "shortest paths", "graphs"]}, {"id": "1364D", "name": "Ehab's Last Corollary", "contestId": 1364, "index": "D", "rating": 2100, "url": "https://codeforces.com/contest/1364/problem/D", "technique": "DFS Tree Cycles vs Independent Set", "insight": "In any connected graph, find either an induced cycle of length <= k or an independent set of size ceil(k/2) using DFS tree back-edges.", "tags": ["dfs tree", "graphs", "greedy"]}, {"id": "1547G", "name": "How Many Paths?", "contestId": 1547, "index": "G", "rating": 2100, "url": "https://codeforces.com/contest/1547/problem/G", "technique": "SCC / Topological DAG DP", "insight": "Classify paths from vertex 1 into {0, 1, 2, inf} by detecting cycle reachability with SCCs / DFS back-edges and propagating along the DAG.", "tags": ["scc", "dag", "graphs"]}, {"id": "1335F", "name": "Robots on a Grid", "contestId": 1335, "index": "F", "rating": 2200, "url": "https://codeforces.com/contest/1335/problem/F", "technique": "Functional Graph Cycles / Modulo Invariants", "insight": "Each cell has out-degree 1 forming a functional graph; count cycle lengths L and group cells by their distance modulo L to check black cell availability.", "tags": ["functional graphs", "dsu", "dfs and similar"]}, {"id": "1470D", "name": "Strange Housing", "contestId": 1470, "index": "D", "rating": 2200, "url": "https://codeforces.com/contest/1470/problem/D", "technique": "Greedy BFS Independent Set", "insight": "A connected graph always admits a valid configuration by greedily picking nodes in BFS order and skipping immediate neighbors of selected nodes.", "tags": ["bfs", "greedy", "graphs"]}, {"id": "1503C", "name": "Travelling Salesman Problem", "contestId": 1503, "index": "C", "rating": 2200, "url": "https://codeforces.com/contest/1503/problem/C", "technique": "Shortest Paths / Line Sweep Greedy", "insight": "Base cost is sum(c_i); sort cities by a_i and greedily bridge gaps between max(a_j + c_j) and the next city a_{i+1} in O(N log N).", "tags": ["greedy", "shortest paths", "sortings"]}, {"id": "1583E", "name": "Moment of Bloom", "contestId": 1583, "index": "E", "rating": 2200, "url": "https://codeforces.com/contest/1583/problem/E", "technique": "Spanning Tree Parity Invariant", "insight": "Path endpoints require odd-degree vertices; on a spanning tree, pair up odd-parity branches greedily to reconstruct paths or detect odd-degree vertices.", "tags": ["graphs", "trees", "eulerian"]}, {"id": "1659E", "name": "AND-MEX Walk", "contestId": 1659, "index": "E", "rating": 2200, "url": "https://codeforces.com/contest/1659/problem/E", "technique": "Bitwise Reachability Components via DSU", "insight": "Answer is 0 if u and v are connected by an edge subset sharing any single bit; answer is 1 if u can reach any even-weight incident edge in bit b.", "tags": ["dsu", "bitmasks", "graphs"]}, {"id": "1704E", "name": "Count Seconds", "contestId": 1704, "index": "E", "rating": 2200, "url": "https://codeforces.com/contest/1704/problem/E", "technique": "Topological DAG DP + Simulation", "insight": "Simulate the first N seconds directly to eliminate zero-value underflow boundaries, then propagate all remaining values algebraically in topological order modulo 998244353.", "tags": ["topological sort", "dag", "dp"]}, {"id": "1777E", "name": "Edge Reverse", "contestId": 1777, "index": "E", "rating": 2200, "url": "https://codeforces.com/contest/1777/problem/E", "technique": "Binary Search + SCC Condensation", "insight": "Binary search on the maximum edge weight to reverse; verify if reversing edges of weight <= W makes the graph have a unique source in the SCC DAG.", "tags": ["binary search", "scc", "graphs"]}]}, {"id": "flows-mcmf", "title": "6. Network Flow, Min-Cost Flow & Bipartite Matchings", "icon": "workflow", "description": "At the 1900\u20132300 level, flow problems appear as bipartite matching via K\u00f6nig theorem, Hall Marriage Theorem bounds, Min-Cut partitions, or Min-Cost Flow slope trick reductions.", "problems": [{"id": "1423B", "name": "Valuable Paper", "contestId": 1423, "index": "B", "rating": 1900, "url": "https://codeforces.com/contest/1423/problem/B", "technique": "Binary Search + Dinic / Hopcroft-Karp", "insight": "Binary search on the maximum allowable edge weight; build a bipartite graph on factory-warehouse pairs and test for a perfect matching of size N.", "tags": ["binary search", "flows", "graph matchings"]}, {"id": "1914F", "name": "Programming Competition", "contestId": 1914, "index": "F", "rating": 1900, "url": "https://codeforces.com/contest/1914/problem/F", "technique": "Tree Matchings / Greedy Subtree Merging", "insight": "Pair up employees from different subtrees bottom-up; if one child subtree size exceeds half the total, recursively pair inside the heavy child.", "tags": ["graph matchings", "greedy", "trees"]}, {"id": "1926G", "name": "Vlad and Trouble at MIT", "contestId": 1926, "index": "G", "rating": 1900, "url": "https://codeforces.com/contest/1926/problem/G", "technique": "Min-Cut / Max-Flow Formulation", "insight": "Partition tree vertices into Party vs Sleep sets separated by minimum closed walls; model as Min-Cut on a flow network (or solve via tree DP).", "tags": ["flows", "min-cut", "trees"]}, {"id": "2089B1", "name": "Canteen (Easy Version)", "contestId": 2089, "index": "B1", "rating": 1900, "url": "https://codeforces.com/contest/2089/problem/B1", "technique": "Greedy Min-Cost Flow on a Line", "insight": "Model food demands and supplies along a linear chain; greedily satisfy nearest requests while maintaining capacity bounds in O(N).", "tags": ["flows", "greedy", "two pointers"]}, {"id": "1438C", "name": "Engineer Artem", "contestId": 1438, "index": "C", "rating": 2000, "url": "https://codeforces.com/contest/1438/problem/C", "technique": "Bipartite 2-Coloring Grid Invariant", "insight": "Color the grid in chessboard pattern; ensure all (i+j) even cells have even values and (i+j) odd cells have odd values by adding at most 1 to any cell.", "tags": ["bipartite", "constructive", "math"]}, {"id": "1770D", "name": "Koxia and Game", "contestId": 1770, "index": "D", "rating": 2000, "url": "https://codeforces.com/contest/1770/problem/D", "technique": "Functional Graph / Hall Matchings", "insight": "Model (a_i, b_i) as edges; a valid choice of elements exists if each connected component is a pseudo-tree (contains exactly one cycle).", "tags": ["graph matchings", "dsu", "graphs"]}, {"id": "2085D", "name": "Serval and Kaitenzushi Buffet", "contestId": 2085, "index": "D", "rating": 2000, "url": "https://codeforces.com/contest/2085/problem/D", "technique": "Interval Matching / Greedy Flow", "insight": "Model conveyor belt pickup intervals as an assignment problem; greedily assign items using priority queues to maximize total matched throughput.", "tags": ["greedy", "graph matchings", "data structures"]}, {"id": "1472F", "name": "New Year's Puzzle", "contestId": 1472, "index": "F", "rating": 2100, "url": "https://codeforces.com/contest/1472/problem/F", "technique": "Domino Tiling / Bipartite Parity", "insight": "A 2xN grid with blocked cells has a valid domino tiling iff the chessboard parity differences between consecutive single-blocked cells match.", "tags": ["greedy", "bipartite", "sortings"]}, {"id": "1866G", "name": "Grouped Carriages", "contestId": 1866, "index": "G", "rating": 2100, "url": "https://codeforces.com/contest/1866/problem/G", "technique": "Hall Marriage Theorem / Greedy Flow", "insight": "Binary search on the maximum carriage capacity Z; greedily satisfy range flow constraints using a Segment Tree / priority queue.", "tags": ["binary search", "flows", "greedy"]}, {"id": "2192E", "name": "Swap to Rearrange", "contestId": 2192, "index": "E", "rating": 2100, "url": "https://codeforces.com/contest/2192/problem/E", "technique": "Eulerian Circuit / Regular Bipartite Matching", "insight": "Transform string balance swap requirements into a 2-regular directed graph; find an Eulerian circuit to decompose swaps into valid cycles in O(N).", "tags": ["eulerian", "graph matchings", "graphs"]}, {"id": "1486E", "name": "Paired Payment", "contestId": 1486, "index": "E", "rating": 2200, "url": "https://codeforces.com/contest/1486/problem/E", "technique": "Layered State Graph Dijkstra", "insight": "Cost of paired edges (w1 + w2)^2 expands as w1^2 + 2*w1*w2 + w2^2; construct a layered state graph with states (u, last_w) and run Dijkstra.", "tags": ["shortest paths", "graphs", "dijkstra"]}, {"id": "1741G", "name": "Kirill and Company", "contestId": 1741, "index": "G", "rating": 2200, "url": "https://codeforces.com/contest/1741/problem/G", "technique": "Shortest Path DAG + Bipartite Matching", "insight": "Construct the shortest-path DAG from vertex 1; compress friend subsets into bitmasks (<= 6 people without cars) and find maximal path coverage.", "tags": ["flows", "shortest paths", "bitmasks"]}, {"id": "1955H", "name": "The Most Reckless Defense", "contestId": 1955, "index": "H", "rating": 2300, "url": "https://codeforces.com/contest/1955/problem/H", "technique": "Assignment / Min-Cost Flow with DP", "insight": "Model tower range coverage costs as a minimum-cost bipartite assignment problem, optimizing transitions over circular radii via bitmask DP.", "tags": ["flows", "graph matchings", "dp"]}, {"id": "2089B2", "name": "Canteen (Hard Version)", "contestId": 2089, "index": "B2", "rating": 2300, "url": "https://codeforces.com/contest/2089/problem/B2", "technique": "Min-Cost Flow / Greedy Segment Tree", "insight": "Express the minimum food transport cost as a min-cost flow problem on a line; simulate successive shortest augmenting paths using a Segment Tree in O(N log N).", "tags": ["flows", "min-cost flow", "data structures"]}, {"id": "2159C", "name": "Twin Polynomials", "contestId": 2159, "index": "C", "rating": 2300, "url": "https://codeforces.com/contest/2159/problem/C", "technique": "Matching Combinatorics & Polynomial Basis", "insight": "Express matching counts between root sets as polynomial coefficients; apply inclusion-exclusion over shared factors in O(N log N).", "tags": ["combinatorics", "graph matchings", "math"]}]}, {"id": "geometry", "title": "7. Computational Geometry (1900\u20132300)", "icon": "compass", "description": "Competitive geometry up to 2300 focuses on metric transformations, convex hulls & rotating calipers, angular sweep line, and lattice point geometry (Pick Theorem).", "problems": [{"id": "1689D", "name": "Lena and Matrix", "contestId": 1689, "index": "D", "rating": 1900, "url": "https://codeforces.com/contest/1689/problem/D", "technique": "Manhattan -> Chebyshev Transform", "insight": "Rotate coordinates (x, y) -> (x+y, x-y); the maximum Manhattan distance to any point is determined solely by the 4 extreme boundary values.", "tags": ["geometry", "manhattan-chebyshev"]}, {"id": "1819B", "name": "The Butcher", "contestId": 1819, "index": "B", "rating": 1900, "url": "https://codeforces.com/contest/1819/problem/B", "technique": "2D Bounding Box Guillotine Cuts", "insight": "The original rectangle dimensions (W, H) must match either the max width or max height among remaining pieces; greedily peel off cuts.", "tags": ["geometry", "greedy", "two pointers"]}, {"id": "1354C2", "name": "Not So Simple Polygon Embedding", "contestId": 1354, "index": "C2", "rating": 2000, "url": "https://codeforces.com/contest/1354/problem/C2", "technique": "Regular 2n-gon Orientation", "insight": "Find the optimal rotation angle that minimizes the bounding box of a regular 2n-gon using trigonometric projections and symmetry.", "tags": ["geometry", "math", "binary search"]}, {"id": "1725C", "name": "Circular Mirror", "contestId": 1725, "index": "C", "rating": 2000, "url": "https://codeforces.com/contest/1725/problem/C", "technique": "Polar Circle Coordinates / Chords", "insight": "Points whose angular distance is exactly pi form diameter pairs; decompose the circle into D diameter chords and independent points.", "tags": ["geometry", "combinatorics", "math"]}, {"id": "2063D", "name": "Game With Triangles", "contestId": 2063, "index": "D", "rating": 2000, "url": "https://codeforces.com/contest/2063/problem/D", "technique": "Geometric Triangles on Parallel Lines", "insight": "Points lie on y=0 and y=2; triangle area is determined by base length. Formulate max score as a concave function and ternary search.", "tags": ["geometry", "ternary search", "greedy"]}, {"id": "2172I", "name": "Birthday", "contestId": 2172, "index": "I", "rating": 2000, "url": "https://codeforces.com/contest/2172/problem/I", "technique": "Polygon Partition & Convex Decomposition", "insight": "Decompose the cake boundary into monotone angular wedges; evaluate valid cutting lines using cross product orientation tests.", "tags": ["geometry", "math"]}, {"id": "1710B", "name": "Rain", "contestId": 1710, "index": "B", "rating": 2100, "url": "https://codeforces.com/contest/1710/problem/B", "technique": "1D/2D Tent Functions -> Halfplanes", "insight": "The water height is a piecewise linear function. Removing cloud j must decrease all violated peak heights, mapping to 4 linear halfplane checks.", "tags": ["geometry", "halfplanes", "math"]}, {"id": "2074G", "name": "Game With Triangles: Season 2", "contestId": 2074, "index": "G", "rating": 2100, "url": "https://codeforces.com/contest/2074/problem/G", "technique": "Convex Polygon DP / Base Splitting", "insight": "Optimize triangle selections across multiple lines via convex DP hull transitions and slope monotonicity in O(N log N).", "tags": ["dp", "geometry", "convex hull"]}, {"id": "1477C", "name": "Nezzar and Nice Beatmap", "contestId": 1477, "index": "C", "rating": 2200, "url": "https://codeforces.com/contest/1477/problem/C", "technique": "Greedy Vector Dot Products", "insight": "To guarantee every consecutive angle < 90 deg, greedily jump to the strictly farthest remaining point in O(N^2).", "tags": ["geometry", "constructive", "vectors"]}, {"id": "1666I", "name": "Interactive Treasure Hunt", "contestId": 1666, "index": "I", "rating": 2200, "url": "https://codeforces.com/contest/1666/problem/I", "technique": "Manhattan Metric Grid Queries", "insight": "Use sum and difference queries (r1+r2, c1+c2) from boundary corners to uniquely locate two hidden points in <= 7 interactive scan operations.", "tags": ["interactive", "geometry", "manhattan"]}, {"id": "1765F", "name": "Chemistry Lab", "contestId": 1765, "index": "F", "rating": 2200, "url": "https://codeforces.com/contest/1765/problem/F", "technique": "Piecewise Linear Geometry / Convex DP", "insight": "Model concentration ratios as continuous line segments; find optimal contract allocations by maintaining the upper convex envelope.", "tags": ["geometry", "dp", "convex hull"]}, {"id": "1776B", "name": "Vittorio Plays with LEGO Bricks", "contestId": 1776, "index": "B", "rating": 2200, "url": "https://codeforces.com/contest/1776/problem/B", "technique": "Interval DP on 45-Degree Triangles", "insight": "Triangles with slope +/-1 intersect at height h = (x_r - x_l)/2; formulate an O(N^3) interval DP merging adjacent overlapping triangles.", "tags": ["geometry", "interval dp"]}, {"id": "2225E", "name": "Covering Points with Circles", "contestId": 2225, "index": "E", "rating": 2200, "url": "https://codeforces.com/contest/2225/problem/E", "technique": "Circle Geometry / Polar Invariants", "insight": "Construct minimal circle covers by analyzing the convex hull of point clusters and finding common tangent alignments.", "tags": ["geometry", "constructive", "circles"]}, {"id": "1548D1", "name": "Gregor and the Odd Cows (Easy)", "contestId": 1548, "index": "D1", "rating": 2300, "url": "https://codeforces.com/contest/1548/problem/D1", "technique": "Pick Theorem + Modulo 4 Coordinates", "insight": "Apply Area = I + B/2 - 1 (mod 2). Since coordinates are multiples of 2, classify all points into (x mod 4, y mod 4) in O(1).", "tags": ["geometry", "pick theorem", "number theory"]}, {"id": "1575B", "name": "Building an Amusement Park", "contestId": 1575, "index": "B", "rating": 2300, "url": "https://codeforces.com/contest/1575/problem/B", "technique": "Binary Search + Angular Sweep Line", "insight": "Binary search on radius R; each point P_i inside distance 2R covers a valid polar angle interval on circle C(0, R). Find max interval overlap.", "tags": ["geometry", "angular sweep", "binary search"]}, {"id": "1799E", "name": "City Union", "contestId": 1799, "index": "E", "rating": 2300, "url": "https://codeforces.com/contest/1799/problem/E", "technique": "Manhattan Convex Hull / Bounding Box Unions", "insight": "A city is connected and convex iff its row and column intervals are contiguous; iteratively expand the bounding boxes of the 2 components until union is convex.", "tags": ["geometry", "dsu", "constructive"]}, {"id": "1842E", "name": "Tenzing and Triangle", "contestId": 1842, "index": "E", "rating": 2300, "url": "https://codeforces.com/contest/1842/problem/E", "technique": "Sweep-Line Geometry + Lazy SegTree DP", "insight": "Right-isosceles triangles under line x+y=k have cost proportional to side length; sweep coordinate x and maintain DP transitions via range additions.", "tags": ["geometry", "lazy segtree", "dp"]}]}, {"id": "linear-basis-bits", "title": "8. Linear Basis, Bitwise Invariants & Number Theory", "icon": "binary", "description": "CF heavily favors linear algebra over GF(2), invariant reductions, contribution counting per bit, and bit-trie operations.", "problems": [{"id": "1383B", "name": "GameGame", "contestId": 1383, "index": "B", "rating": 1900, "url": "https://codeforces.com/contest/1383/problem/B", "technique": "Bitwise Game Theory / MSB Parity", "insight": "Find the highest bit where the total count of 1s is odd. If count % 4 == 1, Koa (first) wins; if count % 4 == 3, parity of remaining 0s decides winner.", "tags": ["games", "bitmasks", "math"]}, {"id": "1492D", "name": "Genius's Gambit", "contestId": 1492, "index": "D", "rating": 1900, "url": "https://codeforces.com/contest/1492/problem/D", "technique": "Bitwise Constructive / Carry Shifting", "insight": "To get x - y with exactly k ones, shift a single 1 by k positions across zeros (1...0... - 0...1... = 0111...1); handle edge cases k=0 and lack of 0s.", "tags": ["bitmasks", "constructive", "math"]}, {"id": "1747D", "name": "Yet Another Problem", "contestId": 1747, "index": "D", "rating": 1900, "url": "https://codeforces.com/contest/1747/problem/D", "technique": "Prefix XOR Parity + Range Query SegTree", "insight": "A range of odd length can be zeroed in 1 step iff range XOR sum is 0; even length can be zeroed in 2 steps iff there is an internal odd prefix with XOR sum 0.", "tags": ["binary search", "bitmasks", "prefix xor"]}, {"id": "1957D", "name": "A BIT of an Inequality", "contestId": 1957, "index": "D", "rating": 1900, "url": "https://codeforces.com/contest/1957/problem/D", "technique": "Bit Contribution / XOR Parities", "insight": "Find the MSB for each element; count valid subarrays by tracking prefix and suffix XOR parities at that specific bit position.", "tags": ["bitmasks", "contribution", "math"]}, {"id": "1895D", "name": "XOR Construction", "contestId": 1895, "index": "D", "rating": 1900, "url": "https://codeforces.com/contest/1895/problem/D", "technique": "Trie Max XOR / Bit Invariant", "insight": "Prefix XORs determine all values relative to a_0; insert all prefix XORs into a bit-trie to verify if an a_0 exists such that all values are < n.", "tags": ["bitmasks", "trie", "constructive"]}, {"id": "1415D", "name": "XOR-gun", "contestId": 1415, "index": "D", "rating": 2000, "url": "https://codeforces.com/contest/1415/problem/D", "technique": "Pigeonhole Principle on Bits", "insight": "By the Pigeonhole Principle, among > 60 numbers, three must share the same MSB and can be merged in 1 step; for N <= 60, brute force in O(N^3).", "tags": ["bitmasks", "pigeonhole", "brute force"]}, {"id": "1416C", "name": "XOR Inverse", "contestId": 1416, "index": "C", "rating": 2000, "url": "https://codeforces.com/contest/1416/problem/C", "technique": "Bit-Trie Divide & Conquer", "insight": "Determine the optimal inversion bit by bit from MSB to LSB independently using a binary Trie to count inversions created vs resolved.", "tags": ["trie", "divide and conquer", "bitmasks"]}, {"id": "1618F", "name": "Reverse", "contestId": 1618, "index": "F", "rating": 2000, "url": "https://codeforces.com/contest/1618/problem/F", "technique": "Binary String Invariants / Reachability", "insight": "Appending 0/1 and reversing only allows trimming trailing zeros and appending 1s; test whether binary representation of x is a substring of y or rev(y).", "tags": ["bitmasks", "strings", "constructive"]}, {"id": "1665D", "name": "GCD Guess", "contestId": 1665, "index": "D", "rating": 2000, "url": "https://codeforces.com/contest/1665/problem/D", "technique": "Interactive / 2-adic Valuation Recovery", "insight": "Recover x modulo 2^30 bit by bit: query gcd(x + (2^i - cur), x + (2^i - cur) + 2^{i+1}); if divisible by 2^{i+1}, the i-th bit is determined.", "tags": ["interactive", "bitmasks", "number theory"]}, {"id": "2061E", "name": "Kevin and And", "contestId": 2061, "index": "E", "rating": 2000, "url": "https://codeforces.com/contest/2061/problem/E", "technique": "Greedy Bitwise AND Operations / Matroid", "insight": "Precompute max reduction for each element using k operations via subset DP over m masks; the marginal gains are concave, so greedily take top-k reductions.", "tags": ["bitmasks", "greedy", "dp"]}, {"id": "1322B", "name": "Present", "contestId": 1322, "index": "B", "rating": 2100, "url": "https://codeforces.com/contest/1322/problem/B", "technique": "Bitwise Addition Parity / Two Pointers", "insight": "For bit k, take elements modulo 2^{k+1}; the k-th sum bit is 1 iff (a_i + a_j) mod 2^{k+1} falls in [2^k, 2^{k+1}-1] or [3*2^k, 2^{k+2}-2]. Count via two pointers.", "tags": ["bitmasks", "two pointers", "binary search"]}, {"id": "1466F", "name": "Euclid's nightmare", "contestId": 1466, "index": "F", "rating": 2100, "url": "https://codeforces.com/contest/1466/problem/F", "technique": "Linear Basis over GF(2) / DSU", "insight": "Treat vectors over GF(2) as edges in a graph with a virtual source 0; greedily maintain linear independence by adding non-cyclic edges via DSU.", "tags": ["linear basis", "dsu", "matroid"]}, {"id": "1605D", "name": "Treelabeling", "contestId": 1605, "index": "D", "rating": 2100, "url": "https://codeforces.com/contest/1605/problem/D", "technique": "Power-of-Two MSB Grouping", "insight": "Partition tree vertices into bipartite sets; decompose the smaller component into powers of 2 matching MSB ranges so no u XOR v can equal min(u, v).", "tags": ["bitmasks", "trees", "constructive"]}, {"id": "1748D", "name": "ConstructOR", "contestId": 1748, "index": "D", "rating": 2100, "url": "https://codeforces.com/contest/1748/problem/D", "technique": "Bitwise Construction / 2-adic Inverse", "insight": "Construct x satisfying (a | x) is a multiple of 2^k and divisible by d using bit-by-bit fixing with modular inverse modulo 2^k.", "tags": ["bitmasks", "number theory", "math"]}, {"id": "1775E", "name": "The Human Equation", "contestId": 1775, "index": "E", "rating": 2100, "url": "https://codeforces.com/contest/1775/problem/E", "technique": "Prefix Array Invariant Extrema", "insight": "Alternating +/-1 operations change adjacent prefix sums by +/-1; the minimum operations required equals max(P) - min(P).", "tags": ["greedy", "invariants", "prefix sums"]}, {"id": "1787E", "name": "The Harmonization of XOR", "contestId": 1787, "index": "E", "rating": 2100, "url": "https://codeforces.com/contest/1787/problem/E", "technique": "XOR Basis Partitioning / Pairing", "insight": "Pair each number i with i XOR x if <= n; greedily form independent sets with XOR sum x and merge all remaining elements into the last set.", "tags": ["bitmasks", "constructive", "greedy"]}, {"id": "1868B2", "name": "Candy Party (Hard Version)", "contestId": 1868, "index": "B2", "rating": 2100, "url": "https://codeforces.com/contest/1868/problem/B2", "technique": "Power-of-Two Net Flow Invariants", "insight": "Each person can give 2^x and receive 2^y; decompose difference (a_i - avg) into minimal power of two additions/subtractions and balance total net flows.", "tags": ["bitmasks", "greedy", "invariants"]}, {"id": "1338C", "name": "Perfect Triples", "contestId": 1338, "index": "C", "rating": 2200, "url": "https://codeforces.com/contest/1338/problem/C", "technique": "Base-4 Bitwise Patterns / Fractals", "insight": "The triplet components follow a recursive base-4 digit permutation mapping: (0->0, 1->2, 2->3, 3->1) for the second element b.", "tags": ["bitmasks", "constructive", "math"]}, {"id": "1406D", "name": "Three Sequences", "contestId": 1406, "index": "D", "rating": 2200, "url": "https://codeforces.com/contest/1406/problem/D", "technique": "Difference Array Invariants", "insight": "Express a_i = b_i + c_i where b is non-decreasing and c is non-increasing; the optimal max(b_n, c_1) equals ceil((a_1 + sum(max(0, diff_i))) / 2).", "tags": ["difference array", "greedy", "math"]}, {"id": "1438D", "name": "Powerful Ksenia", "contestId": 1438, "index": "D", "rating": 2200, "url": "https://codeforces.com/contest/1438/problem/D", "technique": "Triplet XOR Invariant", "insight": "Triplets (a_i, a_j, a_k) -> XOR sum allow equalizing all odd N elements in (N-1) operations; even N requires total XOR sum = 0.", "tags": ["constructive", "bitmasks", "invariants"]}, {"id": "1670E", "name": "Hemose on the Tree", "contestId": 1670, "index": "E", "rating": 2200, "url": "https://codeforces.com/contest/1670/problem/E", "technique": "Tree Bitwise Invariant Construction", "insight": "Assign 2^p to the root; alternatingly assign (2^p + i) to node and i to incident edge (or vice versa) on odd/even depths to keep all path XORs within bounds.", "tags": ["bitmasks", "constructive", "trees"]}, {"id": "1789D", "name": "Serval and Shift-Shift-Shift", "contestId": 1789, "index": "D", "rating": 2200, "url": "https://codeforces.com/contest/1789/problem/D", "technique": "Bit-Shift Gaussian Elimination", "insight": "Use the highest set bit as an elimination pivot to eliminate differing bits from left to right (or right to left) in <= n operations.", "tags": ["constructive", "bitmasks", "gaussian elimination"]}, {"id": "1553F", "name": "Vasya and Array", "contestId": 1553, "index": "F", "rating": 2300, "url": "https://codeforces.com/contest/1553/problem/F", "technique": "Harmonic Range Updates / Modulo Arithmetic", "insight": "Compute a_i mod a_j = a_i - k * a_j by querying multiples k * a_j in a Fenwick tree in O(V log V) total harmonic updates.", "tags": ["fenwick", "math", "number theory"]}]}], "schedule": [{"week": "Week 1", "title": "Trees, HLD & Centroid Decomposition", "problems": ["1328E", "1739D", "1797D", "1882D", "1899G", "1891F", "1923E", "1857G", "1446C", "1671E", "1790F", "1975E", "2031E", "1551F", "1615D", "1806E", "1901E", "2033G", "1540B", "1681F", "1805E", "1916E"], "summary": "Master enter/exit timestamp flattening, dynamic heavy child rotations, small-to-large merging (sack), HLD path queries, and tree divide & conquer."}, {"week": "Week 2", "title": "Data Structures & Cartesian Trees", "problems": ["1738D", "1927F", "1690G", "1827B1", "1851G", "1987E", "1483C", "1555E", "1913D", "1919D", "1400E", "1556E", "1557D", "1580C", "1618G", "1841E", "2000H", "1691E", "1797E"], "summary": "Build Cartesian trees from monotonic stacks, maintain sweep-line priority queues, and prune state updates with square root thresholding."}, {"week": "Week 3", "title": "Randomization & Polynomial Hashing", "problems": ["1470B", "1800F", "1950G", "2014H", "1773A", "1574D", "1624E", "1753C", "1943B", "1493D", "1525E", "1800G", "1898E", "1996G", "1743F", "1748E"], "summary": "Apply 64-bit randomized XOR hashing, Merkle tree signatures, Las Vegas randomized derangements, and Cartesian tree DP."}, {"week": "Week 4", "title": "DP Optimizations & State Transitions", "problems": ["1369D", "1611E2", "1746D", "1774E", "1929D", "1680E", "1988D", "1667B", "1407D", "1468A", "1515E", "1552F", "1788E", "1858D", "2030E", "2056D", "1870E"], "summary": "Delegate transitions to Fenwick / Segment trees, exploit monotonic stack boundaries, quotient splitting, and component merge DP."}, {"week": "Week 5", "title": "Graphs, 2-SAT & Network Flows", "problems": ["1404B", "1715D", "1846G", "1986F", "1726D", "1815B", "1364D", "1547G", "1335F", "1470D", "1503C", "1583E", "1659E", "1704E", "1777E", "1423B", "1914F", "1926G", "2089B1", "1438C", "1770D", "2085D", "1472F", "1866G", "2192E", "1486E", "1741G", "1955H", "2089B2", "2159C"], "summary": "Master Tarjan bridges, DFS tree back-edges, 2-SAT implication graphs, Dinic bipartite matchings, and min-cost flow slope tricks."}, {"week": "Week 6", "title": "Geometry & Linear Basis Invariants", "problems": ["1689D", "1819B", "1354C2", "1725C", "2063D", "2172I", "1710B", "2074G", "1477C", "1666I", "1765F", "1776B", "2225E", "1548D1", "1575B", "1799E", "1842E", "1383B", "1492D", "1747D", "1957D", "1895D", "1415D", "1416C", "1618F", "1665D", "2061E", "1322B", "1466F", "1605D", "1748D", "1775E", "1787E", "1868B2", "1338C", "1406D", "1438D", "1670E", "1789D", "1553F"], "summary": "Drill Manhattan-to-Chebyshev rotations, angular sweep line, Pick Theorem, GF(2) linear basis, bit-trie D&C, and invariant reductions."}]};
-    
-    // Solved state management via localStorage
-    let solvedSet = new Set(JSON.parse(localStorage.getItem('cf_curriculum_solved') || '[]'));
-    let activeRating = 'all';
-    let activeStatus = 'all';
-
-    function saveSolvedState() {
-      localStorage.setItem('cf_curriculum_solved', JSON.stringify(Array.from(solvedSet)));
-      updateStats();
-    }
-
-    function toggleSolved(probId) {
-      if (solvedSet.has(probId)) {
-        solvedSet.delete(probId);
-        showToast('Marked ' + probId + ' as To-Do', 'info');
-      } else {
-        solvedSet.add(probId);
-        showToast('Marked ' + probId + ' as Solved! 🎉', 'success');
-      }
-      saveSolvedState();
-      
-      const card = document.getElementById('card-' + probId);
-      const checkbox = document.getElementById('chk-' + probId);
-      if (card && checkbox) {
-        if (solvedSet.has(probId)) {
-          card.classList.add('solved-card');
-          checkbox.checked = true;
-        } else {
-          card.classList.remove('solved-card');
-          checkbox.checked = false;
-        }
-      }
-      applyFilters();
-    }
-
-    function toggleSection(contentId, chevronId) {
-      const content = document.getElementById(contentId);
-      const chevron = document.getElementById(chevronId);
-      if (content.classList.contains('hidden')) {
-        content.classList.remove('hidden');
-        chevron.classList.remove('rotate-180');
-      } else {
-        content.classList.add('hidden');
-        chevron.classList.add('rotate-180');
-      }
-    }
-
-    function setStatusFilter(status) {
-      activeStatus = status;
-      document.querySelectorAll('.status-btn').forEach(btn => {
-        btn.classList.remove('bg-indigo-600', 'text-white');
-        btn.classList.add('text-slate-400');
-      });
-      const activeBtn = document.getElementById('filter-status-' + status);
-      if (activeBtn) {
-        activeBtn.classList.add('bg-indigo-600', 'text-white');
-        activeBtn.classList.remove('text-slate-400');
-      }
-      applyFilters();
-    }
-
-    function toggleRating(rating) {
-      activeRating = rating;
-      document.querySelectorAll('.rate-pill').forEach(btn => {
-        btn.classList.remove('bg-indigo-600', 'text-white');
-      });
-      const activeBtn = document.getElementById('rate-' + rating);
-      if (activeBtn) {
-        activeBtn.classList.add('bg-indigo-600', 'text-white');
-      }
-      applyFilters();
-    }
-
-    function clearSearch() {
-      const input = document.getElementById('search-input');
-      input.value = '';
-      document.getElementById('clear-search').classList.add('hidden');
-      applyFilters();
-    }
-
-    function getRatingBadge(rating) {
-      if (rating <= 1900) {
-        return `<span class="px-2 py-0.5 rounded text-[11px] font-mono font-bold bg-purple-950/80 text-purple-400 border border-purple-800/60">${rating}</span>`;
-      } else if (rating <= 2100) {
-        return `<span class="px-2 py-0.5 rounded text-[11px] font-mono font-bold bg-orange-950/80 text-orange-400 border border-orange-800/60">${rating}</span>`;
-      } else if (rating <= 2200) {
-        return `<span class="px-2 py-0.5 rounded text-[11px] font-mono font-bold bg-rose-950/80 text-rose-400 border border-rose-800/60">${rating}</span>`;
-      } else {
-        return `<span class="px-2 py-0.5 rounded text-[11px] font-mono font-bold bg-red-950/80 text-red-400 border border-red-800/60">${rating}</span>`;
-      }
-    }
-
-    function renderCurriculum() {
-      const container = document.getElementById('modules-container');
-      container.innerHTML = '';
-
-      DATA.modules.forEach(module => {
-        const modId = module.id;
-        const totalMod = module.problems.length;
-        
-        let problemsHtml = '';
-        module.problems.forEach(p => {
-          const isSolved = solvedSet.has(p.id);
-          const solvedClass = isSolved ? 'solved-card' : '';
-          const checkedAttr = isSolved ? 'checked' : '';
-
-          const tagsHtml = p.tags.map(t => `<span class="px-2 py-0.5 rounded-full bg-slate-800 text-[10px] font-mono text-slate-400 border border-slate-700/60">#${t}</span>`).join(' ');
-
-          problemsHtml += `
-            <div id="card-${p.id}" data-prob-id="${p.id}" data-rating="${p.rating}" data-search="${p.id} ${p.name.toLowerCase()} ${p.technique.toLowerCase()} ${p.insight.toLowerCase()} ${p.tags.join(' ')}" class="problem-card glass-card p-4 sm:p-5 rounded-xl flex flex-col md:flex-row md:items-center justify-between gap-4 ${solvedClass}">
-              <div class="flex items-start space-x-3.5 flex-1">
-                <div class="pt-0.5">
-                  <input type="checkbox" id="chk-${p.id}" ${checkedAttr} onclick="toggleSolved('${p.id}')" class="checkbox-custom w-5 h-5">
-                </div>
-                <div class="space-y-1.5 flex-1">
-                  <div class="flex flex-wrap items-center gap-2">
-                    <a href="${p.url}" target="_blank" class="text-sm sm:text-base font-bold text-white hover:text-indigo-400 transition flex items-center space-x-1.5">
-                      <span>${p.id} - ${p.name}</span>
-                      <i data-lucide="external-link" class="w-3.5 h-3.5 text-slate-400"></i>
-                    </a>
-                    ${getRatingBadge(p.rating)}
-                    <span class="px-2.5 py-0.5 rounded text-[11px] font-mono font-medium bg-indigo-950/60 text-indigo-300 border border-indigo-800/40">
-                      ${p.technique}
-                    </span>
-                  </div>
-
-                  <p class="text-xs sm:text-sm text-slate-300 leading-relaxed font-sans">
-                    ${p.insight}
-                  </p>
-
-                  <div class="flex flex-wrap items-center gap-1.5 pt-1">
-                    ${tagsHtml}
-                  </div>
-                </div>
-              </div>
-
-              <div class="flex items-center space-x-2 self-end md:self-center pl-8 md:pl-0">
-                <button onclick="copyText('${p.url}')" class="px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-mono border border-slate-700 flex items-center space-x-1 transition" title="Copy Link">
-                  <i data-lucide="copy" class="w-3.5 h-3.5"></i>
-                </button>
-                <a href="${p.url}" target="_blank" class="px-3.5 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-medium font-mono flex items-center space-x-1.5 shadow-lg shadow-indigo-600/20 transition">
-                  <span>Solve</span>
-                  <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
-                </a>
-              </div>
-            </div>
-          `;
-        });
-
-        const sectionHtml = `
-          <section id="section-${modId}" class="module-section glass-panel rounded-2xl p-5 sm:p-6 border border-slate-800">
-            <div class="flex items-center justify-between cursor-pointer mb-2" onclick="toggleSection('content-${modId}', 'chevron-${modId}')">
-              <div class="flex items-center space-x-3">
-                <div class="w-8 h-8 rounded-lg bg-slate-800 border border-slate-700 flex items-center justify-center text-indigo-400">
-                  <i data-lucide="${module.icon || 'layers'}" class="w-4 h-4"></i>
-                </div>
-                <div>
-                  <h3 class="text-base sm:text-lg font-bold text-white">${module.title}</h3>
-                  <p class="text-xs text-slate-400 hidden sm:block">${module.description}</p>
-                </div>
-              </div>
-              <div class="flex items-center space-x-3">
-                <span id="mod-stat-${modId}" class="text-xs font-mono px-2.5 py-1 rounded-full bg-slate-800 text-slate-300 border border-slate-700">0 / ${totalMod}</span>
-                <i id="chevron-${modId}" data-lucide="chevron-down" class="w-5 h-5 text-slate-400 transition-transform duration-200"></i>
-              </div>
-            </div>
-            <p class="text-xs text-slate-400 sm:hidden mb-3">${module.description}</p>
-
-            <div id="content-${modId}" class="mt-4 space-y-3">
-              ${problemsHtml}
-            </div>
-          </section>
-        `;
-        container.innerHTML += sectionHtml;
-      });
-
-      renderRoadmap();
-      updateStats();
-      lucide.createIcons();
-      renderMathInElement(document.body, {
-        delimiters: [
-          {left: '$$', right: '$$', display: true},
-          {left: '$', right: '$', display: false}
-        ],
-        throwOnError: false
-      });
-    }
-
-    function renderRoadmap() {
-      const roadmapContainer = document.getElementById('roadmap-content');
-      roadmapContainer.innerHTML = '';
-
-      DATA.schedule.forEach(week => {
-        let probBadges = week.problems.map(pid => {
-          const isDone = solvedSet.has(pid);
-          const doneClass = isDone ? 'bg-emerald-950/80 text-emerald-400 border-emerald-800/80 line-through' : 'bg-slate-950/80 text-slate-300 border-slate-800 hover:border-indigo-500';
-          return `<a href="https://codeforces.com/contest/${pid.slice(0, -1)}/problem/${pid.slice(-1)}" target="_blank" class="px-2 py-0.5 rounded text-[11px] font-mono border transition ${doneClass}">${pid}</a>`;
-        }).join(' ');
-
-        roadmapContainer.innerHTML += `
-          <div class="bg-slate-900/80 p-4 rounded-xl border border-slate-800 flex flex-col justify-between space-y-3">
-            <div>
-              <div class="flex items-center justify-between mb-1">
-                <span class="text-xs font-mono font-bold text-indigo-400">${week.week}</span>
-                <span class="text-[11px] font-mono text-slate-400">${week.problems.length} problems</span>
-              </div>
-              <h4 class="text-sm font-bold text-white mb-1.5">${week.title}</h4>
-              <p class="text-xs text-slate-400 leading-relaxed">${week.summary}</p>
-            </div>
-            <div class="flex flex-wrap gap-1.5 pt-2 border-t border-slate-800/80">
-              ${probBadges}
-            </div>
-          </div>
-        `;
-      });
-    }
-
-    function applyFilters() {
-      const searchVal = document.getElementById('search-input').value.toLowerCase().trim();
-      document.getElementById('clear-search').classList.toggle('hidden', searchVal.length === 0);
-
-      let visibleCount = 0;
-
-      document.querySelectorAll('.module-section').forEach(section => {
-        let modVisible = 0;
-        const cards = section.querySelectorAll('.problem-card');
-        
-        cards.forEach(card => {
-          const pid = card.getAttribute('data-prob-id');
-          const rating = parseInt(card.getAttribute('data-rating'));
-          const searchData = card.getAttribute('data-search');
-          const isSolved = solvedSet.has(pid);
-
-          let matchesSearch = searchVal === '' || searchData.includes(searchVal);
-          let matchesRating = (activeRating === 'all') || (rating === parseInt(activeRating));
-          let matchesStatus = (activeStatus === 'all') || 
-                              (activeStatus === 'solved' && isSolved) || 
-                              (activeStatus === 'unsolved' && !isSolved);
-
-          if (matchesSearch && matchesRating && matchesStatus) {
-            card.classList.remove('hidden');
-            modVisible++;
-            visibleCount++;
-          } else {
-            card.classList.add('hidden');
-          }
-        });
-
-        section.classList.toggle('hidden', modVisible === 0);
-      });
-
-      document.getElementById('visible-count').innerText = visibleCount;
-    }
-
-    function updateStats() {
-      let total = 0;
-      let solved = 0;
-      let ratingStats = { 1900: [0, 0], 2000: [0, 0], 2100: [0, 0], 2200: [0, 0], 2300: [0, 0] };
-
-      DATA.modules.forEach(mod => {
-        let modSolved = 0;
-        mod.problems.forEach(p => {
-          total++;
-          const r = p.rating;
-          if (ratingStats[r]) ratingStats[r][1]++;
-          if (solvedSet.has(p.id)) {
-            solved++;
-            modSolved++;
-            if (ratingStats[r]) ratingStats[r][0]++;
-          }
-        });
-        const modStatEl = document.getElementById('mod-stat-' + mod.id);
-        if (modStatEl) {
-          modStatEl.innerText = `${modSolved} / ${mod.problems.length}`;
-        }
-      });
-
-      const pct = total > 0 ? Math.round((solved / total) * 100) : 0;
-      document.getElementById('global-progress-bar').style.width = pct + '%';
-      document.getElementById('stats-total-fraction').innerText = `${solved} / ${total} (${pct}%)`;
-      document.getElementById('nav-progress-text').innerText = `${solved} / ${total} (${pct}%)`;
-
-      for (let r in ratingStats) {
-        const el = document.getElementById('stat-' + r);
-        if (el) {
-          el.innerText = `${ratingStats[r][0]}/${ratingStats[r][1]}`;
-        }
-      }
-
-      renderRoadmap();
-    }
-
-    function showToast(msg, type = 'info') {
-      const toast = document.getElementById('toast');
-      const toastMsg = document.getElementById('toast-msg');
-      const toastIcon = document.getElementById('toast-icon');
-
-      toastMsg.innerText = msg;
-      toast.classList.remove('opacity-0', 'translate-y-20');
-      
-      setTimeout(() => {
-        toast.classList.add('opacity-0', 'translate-y-20');
-      }, 2500);
-    }
-
-    function copyText(text) {
-      navigator.clipboard.writeText(text);
-      showToast('Copied link to clipboard!', 'info');
-    }
-
-    function exportProgress() {
-      const dataStr = 'data:text/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(Array.from(solvedSet)));
-      const downloadAnchor = document.createElement('a');
-      downloadAnchor.setAttribute('href', dataStr);
-      downloadAnchor.setAttribute('download', 'competitive_programming_progress.json');
-      document.body.appendChild(downloadAnchor);
-      downloadAnchor.click();
-      downloadAnchor.remove();
-      showToast('Progress exported successfully!', 'info');
-    }
-
-    function importProgress(e) {
-      const file = e.target.files[0];
-      if (!file) return;
-      const reader = new FileReader();
-      reader.onload = function(evt) {
-        try {
-          const imported = JSON.parse(evt.target.result);
-          if (Array.isArray(imported)) {
-            solvedSet = new Set(imported);
-            saveSolvedState();
-            renderCurriculum();
-            showToast('Progress imported successfully!', 'info');
-          }
-        } catch(err) {
-          showToast('Invalid JSON file format', 'error');
-        }
-      };
-      reader.readAsText(file);
-    }
-
-    function resetProgress() {
-      if (confirm('Are you sure you want to reset all solved progress?')) {
-        solvedSet.clear();
-        saveSolvedState();
-        renderCurriculum();
-        showToast('All progress reset', 'info');
-      }
-    }
-
-    // Keyboard shortcut to focus search with '/'
-    document.addEventListener('keydown', (e) => {
-      if (e.key === '/' && document.activeElement.tagName !== 'INPUT') {
-        e.preventDefault();
-        document.getElementById('search-input').focus();
-      }
-    });
-
-    // Initialize app on load
-    window.addEventListener('DOMContentLoaded', () => {
-      renderCurriculum();
-    });
+    lucide.createIcons();
   </script>
 </body>
 </html>
