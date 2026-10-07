@@ -8,8 +8,8 @@ A curated, high-yield multi-track training portal designed for competitive progr
 
 ## 🎯 Tracks
 
-### 1. [Codeforces Master Transition Curriculum](https://singhvi28.github.io/competitive-programming/curriculum)
-- **Target Audience**: Expert (1600–1899) transitioning to Candidate Master / Master (1900–2300).
+### 1. [Codeforces Candidate Master Curriculum](https://singhvi28.github.io/competitive-programming/curriculum)
+- **Target Audience**: Expert (1600–1899) transitioning to Candidate Master (1900–2300).
 - **Curated Dataset**: **144 verified modern problems** (Contest ID $\ge 1300$, ratings $1900–2300$).
 - **Modules**:
   1. Tree Decompositions, HLD & Centroid Decomposition
@@ -62,7 +62,7 @@ A curated, high-yield multi-track training portal designed for competitive progr
 ```
 ├── index.html                   # Central Portal Landing Page
 ├── curriculum/
-│   └── index.html               # Codeforces Master Curriculum Page
+│   └── index.html               # Codeforces Candidate Master Curriculum Page
 ├── curriculum.html              # Fallback / Direct Link
 ├── leetcode-hards/
 │   └── index.html               # LeetCode Classified Hards Page
