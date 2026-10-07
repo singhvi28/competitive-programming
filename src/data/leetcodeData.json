@@ -1,0 +1,2171 @@
+[
+  {
+    "title": "Category 1 \u2014 Highly Likely to Be Asked Directly",
+    "description": "These are frequently reported as real interview questions at top companies. The patterns they test are canonical and interviewers reach for them by default.",
+    "problems": [
+      {
+        "id": "4",
+        "name": "Median of Two Sorted Arrays",
+        "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/description/",
+        "why": "The definitive binary search on partition problem. Google/Meta staple.",
+        "companies": [
+          "Google",
+          "Meta"
+        ]
+      },
+      {
+        "id": "10",
+        "name": "Regular Expression Matching",
+        "url": "https://leetcode.com/problems/regular-expression-matching/description/",
+        "why": "Classic 2D DP with a real-world framing. Google asks this almost ritually.",
+        "companies": [
+          "Google"
+        ]
+      },
+      {
+        "id": "23",
+        "name": "Merge k Sorted Lists",
+        "url": "https://leetcode.com/problems/merge-k-sorted-lists/description/",
+        "why": "Heap fundamentals. Asked everywhere, often as a follow-up to merge 2 lists.",
+        "companies": []
+      },
+      {
+        "id": "25",
+        "name": "Reverse Nodes in k-Group",
+        "url": "https://leetcode.com/problems/reverse-nodes-in-k-group/description/",
+        "why": "Linked list pointer manipulation at its hardest. FAANG favorite.",
+        "companies": []
+      },
+      {
+        "id": "37",
+        "name": "Sudoku Solver",
+        "url": "https://leetcode.com/problems/sudoku-solver/description/",
+        "why": "The go-to backtracking problem with real constraint pruning.",
+        "companies": []
+      },
+      {
+        "id": "41",
+        "name": "First Missing Positive",
+        "url": "https://leetcode.com/problems/first-missing-positive/description/",
+        "why": "O(n) time, O(1) space index-as-hash trick. Frequently asked at top companies.",
+        "companies": []
+      },
+      {
+        "id": "42",
+        "name": "Trapping Rain Water",
+        "url": "https://leetcode.com/problems/trapping-rain-water/description/",
+        "why": "Two-pointer classic. One of the most asked hard problems in existence.",
+        "companies": []
+      },
+      {
+        "id": "51",
+        "name": "N-Queens",
+        "url": "https://leetcode.com/problems/n-queens/description/",
+        "why": "Canonical backtracking. Taught in every algorithms course and asked in every loop.",
+        "companies": []
+      },
+      {
+        "id": "68",
+        "name": "Text Justification",
+        "url": "https://leetcode.com/problems/text-justification/description/",
+        "why": "Tedious simulation that tests careful implementation. A Google classic.",
+        "companies": [
+          "Google"
+        ]
+      },
+      {
+        "id": "76",
+        "name": "Minimum Window Substring",
+        "url": "https://leetcode.com/problems/minimum-window-substring/description/",
+        "why": "The definitive sliding window problem. Asked across all tiers.",
+        "companies": []
+      },
+      {
+        "id": "84",
+        "name": "Largest Rectangle in Histogram",
+        "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/description/",
+        "why": "The canonical monotonic stack problem. Teach this before any other stack problem.",
+        "companies": []
+      },
+      {
+        "id": "85",
+        "name": "Maximal Rectangle",
+        "url": "https://leetcode.com/problems/maximal-rectangle/description/",
+        "why": "Direct extension of 84 onto a 2D grid. Commonly asked at Amazon/Google.",
+        "companies": [
+          "Google",
+          "Amazon"
+        ]
+      },
+      {
+        "id": "123",
+        "name": "Best Time to Buy and Sell Stock III",
+        "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/",
+        "why": "State machine DP. The clearest forcing function to learn DP state transitions.",
+        "companies": []
+      },
+      {
+        "id": "124",
+        "name": "Binary Tree Maximum Path Sum",
+        "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/description/",
+        "why": "Tree recursion with a global result. Asked constantly at Meta/Google.",
+        "companies": [
+          "Google",
+          "Meta"
+        ]
+      },
+      {
+        "id": "127",
+        "name": "Word Ladder",
+        "url": "https://leetcode.com/problems/word-ladder/description/",
+        "why": "Classic BFS on implicit graph. Appears at Amazon and Google routinely.",
+        "companies": [
+          "Google",
+          "Amazon"
+        ]
+      },
+      {
+        "id": "135",
+        "name": "Candy",
+        "url": "https://leetcode.com/problems/candy/description/",
+        "why": "Two-pass greedy to satisfy conflicting directional constraints. Deceptively tricky; appears in OAs and interviews at top companies.",
+        "companies": []
+      },
+      {
+        "id": "212",
+        "name": "Word Search II",
+        "url": "https://leetcode.com/problems/word-search-ii/description/",
+        "why": "Trie + backtracking. A high-signal problem that tests two patterns at once.",
+        "companies": []
+      },
+      {
+        "id": "218",
+        "name": "The Skyline Problem",
+        "url": "https://leetcode.com/problems/the-skyline-problem/description/",
+        "why": "Sweep line + event-heap. A Google classic that directly tests multi-event processing; frequently reported as an interview question at top companies.",
+        "companies": [
+          "Google"
+        ]
+      },
+      {
+        "id": "224",
+        "name": "Basic Calculator",
+        "url": "https://leetcode.com/problems/basic-calculator/description/",
+        "why": "Stack-based expression evaluation. Google asks this and its variants constantly.",
+        "companies": [
+          "Google"
+        ]
+      },
+      {
+        "id": "239",
+        "name": "Sliding Window Maximum",
+        "url": "https://leetcode.com/problems/sliding-window-maximum/description/",
+        "why": "Monotonic deque. The cleanest intro to deque-based optimization.",
+        "companies": []
+      },
+      {
+        "id": "273",
+        "name": "Integer to English Words",
+        "url": "https://leetcode.com/problems/integer-to-english-words/description/",
+        "why": "Recursive chunking with edge cases. Amazon and Google favorite.",
+        "companies": [
+          "Google",
+          "Amazon"
+        ]
+      },
+      {
+        "id": "295",
+        "name": "Find Median from Data Stream",
+        "url": "https://leetcode.com/problems/find-median-from-data-stream/description/",
+        "why": "Two-heap design. One of the most classic design problems asked in interviews.",
+        "companies": []
+      },
+      {
+        "id": "297",
+        "name": "Serialize and Deserialize Binary Tree",
+        "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/",
+        "why": "Tree encoding/decoding. A direct signal for systems thinking + tree knowledge.",
+        "companies": []
+      },
+      {
+        "id": "312",
+        "name": "Burst Balloons",
+        "url": "https://leetcode.com/problems/burst-balloons/description/",
+        "why": "Interval DP \u2014 think about the last balloon remaining, not the first removed. A well-known hard problem that appears across top-company OAs.",
+        "companies": []
+      },
+      {
+        "id": "354",
+        "name": "Russian Doll Envelopes",
+        "url": "https://leetcode.com/problems/russian-doll-envelopes/description/",
+        "why": "LIS via dimension-elimination sort. Reported at Google; teaches a reusable 2D-to-1D reduction that transfers to many related problems.",
+        "companies": [
+          "Google"
+        ]
+      },
+      {
+        "id": "410",
+        "name": "Split Array Largest Sum",
+        "url": "https://leetcode.com/problems/split-array-largest-sum/description/",
+        "why": "Binary search on the answer + greedy feasibility. One of the cleanest and most transferable binary-search patterns \u2014 directly asked across top companies.",
+        "companies": []
+      },
+      {
+        "id": "432",
+        "name": "All O`one Data Structure",
+        "url": "https://leetcode.com/problems/all-oone-data-structure/description/",
+        "why": "O(1) min/max-by-frequency design using a doubly linked list + hashmap. A clean design problem asked at Meta, Google, and similar.",
+        "companies": [
+          "Google",
+          "Meta"
+        ]
+      },
+      {
+        "id": "460",
+        "name": "LFU Cache",
+        "url": "https://leetcode.com/problems/lfu-cache/description/",
+        "why": "Frequency-keyed linked list design \u2014 harder than LRU but a real interview question at top companies testing design depth.",
+        "companies": []
+      },
+      {
+        "id": "778",
+        "name": "Swim in Rising Water",
+        "url": "https://leetcode.com/problems/swim-in-rising-water/description/",
+        "why": "Dijkstra on a minimax path, or binary search + BFS. Appears in OAs; tests two equivalent approaches to a classic graph problem.",
+        "companies": []
+      },
+      {
+        "id": "857",
+        "name": "Minimum Cost to Hire K Workers",
+        "url": "https://leetcode.com/problems/minimum-cost-to-hire-k-workers/description/",
+        "why": "Greedy by wage/quality ratio + max-heap. A reported Google interview problem; teaches fixing one constraint to optimize the other.",
+        "companies": [
+          "Google"
+        ]
+      },
+      {
+        "id": "895",
+        "name": "Maximum Frequency Stack",
+        "url": "https://leetcode.com/problems/maximum-frequency-stack/description/",
+        "why": "Frequency-bucketed stack design. Widely reported across companies; the cleanest implementation pattern for frequency-keyed data structures.",
+        "companies": []
+      },
+      {
+        "id": "968",
+        "name": "Binary Tree Cameras",
+        "url": "https://leetcode.com/problems/binary-tree-cameras/description/",
+        "why": "Greedy 3-state tree DP for minimum dominating set. A well-known hard tree problem that shows up in OAs and interviews.",
+        "companies": []
+      },
+      {
+        "id": "987",
+        "name": "Vertical Order Traversal of a Binary Tree",
+        "url": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/description/",
+        "why": "BFS + multi-key sort. Frequently asked at Meta.",
+        "companies": [
+          "Meta"
+        ]
+      },
+      {
+        "id": "1095",
+        "name": "Find in Mountain Array",
+        "url": "https://leetcode.com/problems/find-in-mountain-array/description/",
+        "why": "Two-phase binary search on a unimodal array. Asked in OAs and interviews; tests ability to chain binary searches correctly.",
+        "companies": []
+      },
+      {
+        "id": "1192",
+        "name": "Critical Connections in a Network",
+        "url": "https://leetcode.com/problems/critical-connections-in-a-network/description/",
+        "why": "Tarjan's bridge-finding algorithm. Asked at LinkedIn and Meta; the canonical solution to the bridge class of graph problems.",
+        "companies": [
+          "Meta",
+          "LinkedIn"
+        ]
+      },
+      {
+        "id": "1235",
+        "name": "Maximum Profit in Job Scheduling",
+        "url": "https://leetcode.com/problems/maximum-profit-in-job-scheduling/description/",
+        "why": "DP + binary search on intervals. Appears at Google and Uber in actual rounds.",
+        "companies": [
+          "Google",
+          "Uber"
+        ]
+      },
+      {
+        "id": "1293",
+        "name": "Shortest Path in a Grid with Obstacles Elimination",
+        "url": "https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/description/",
+        "why": "BFS with augmented state (eliminations remaining). Widely reported at Google and Amazon; the canonical augmented BFS problem.",
+        "companies": [
+          "Google",
+          "Amazon"
+        ]
+      },
+      {
+        "id": "1340",
+        "name": "Jump Game V",
+        "url": "https://leetcode.com/problems/jump-game-v/description/",
+        "why": "Memoized DFS with a monotonic range constraint. Appears in OAs testing non-obvious recursive graph traversal.",
+        "companies": []
+      },
+      {
+        "id": "1345",
+        "name": "Jump Game IV",
+        "url": "https://leetcode.com/problems/jump-game-iv/description/",
+        "why": "BFS on an implicit graph grouped by value. A clean BFS problem that tests graph-construction thinking; common in OAs.",
+        "companies": []
+      },
+      {
+        "id": "1383",
+        "name": "Maximum Performance of a Team",
+        "url": "https://leetcode.com/problems/maximum-performance-of-a-team/description/",
+        "why": "Sort by efficiency + min-heap on speed. Reported at Amazon and Google; the cleanest two-constraint greedy selection problem.",
+        "companies": [
+          "Google",
+          "Amazon"
+        ]
+      },
+      {
+        "id": "1406",
+        "name": "Stone Game III",
+        "url": "https://leetcode.com/problems/stone-game-iii/description/",
+        "why": "Game theory DP where both players play optimally from a shared sequence. A canonical problem in the Stone Game series; seen across OAs.",
+        "companies": []
+      },
+      {
+        "id": "1510",
+        "name": "Stone Game IV",
+        "url": "https://leetcode.com/problems/stone-game-iv/description/",
+        "why": "DP with perfect-square game moves. Appears in OAs testing game theory DP beyond the basic stone-game pattern.",
+        "companies": []
+      },
+      {
+        "id": "2360",
+        "name": "Longest Cycle in a Graph",
+        "url": "https://leetcode.com/problems/longest-cycle-in-a-graph/description/",
+        "why": "Functional graph traversal \u2014 each node has out-degree 1. A clean DFS coloring problem that appears in OAs at top companies.",
+        "companies": []
+      },
+      {
+        "id": "2642",
+        "name": "Design Graph With Shortest Path Calculator",
+        "url": "https://leetcode.com/problems/design-graph-with-shortest-path-calculator/description/",
+        "why": "On-demand Dijkstra embedded in a design class. Clean, interview-sized, and directly reported as asked.",
+        "companies": []
+      }
+    ]
+  },
+  {
+    "title": "Category 2 \u2014 Teaches a Niche but Interview-Relevant Concept",
+    "description": "The exact problem is unlikely to appear, but the underlying technique is fair game. Knowing these makes you better at a whole class of problems.",
+    "problems": [
+      {
+        "id": "30",
+        "name": "Substring with Concatenation of All Words",
+        "url": "https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/",
+        "why": "Fixed-width multi-word sliding window with frequency maps",
+        "companies": []
+      },
+      {
+        "id": "52",
+        "name": "N-Queens II",
+        "url": "https://leetcode.com/problems/n-queens-ii/description/",
+        "why": "Counting vs constructing in backtracking; bitmask optimization",
+        "companies": []
+      },
+      {
+        "id": "60",
+        "name": "Permutation Sequence",
+        "url": "https://leetcode.com/problems/permutation-sequence/description/",
+        "why": "Factorial number system for direct k-th permutation",
+        "companies": []
+      },
+      {
+        "id": "115",
+        "name": "Distinct Subsequences",
+        "url": "https://leetcode.com/problems/distinct-subsequences/description/",
+        "why": "DP on subsequences \u2014 a less-taught but recurring pattern",
+        "companies": []
+      },
+      {
+        "id": "132",
+        "name": "Palindrome Partitioning II",
+        "url": "https://leetcode.com/problems/palindrome-partitioning-ii/description/",
+        "why": "DP + palindrome precomputation layered together",
+        "companies": []
+      },
+      {
+        "id": "149",
+        "name": "Max Points on a Line",
+        "url": "https://leetcode.com/problems/max-points-on-a-line/description/",
+        "why": "Slope as reduced fraction in a hashmap; geometry without libraries",
+        "companies": []
+      },
+      {
+        "id": "154",
+        "name": "Find Minimum in Rotated Sorted Array II",
+        "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/",
+        "why": "Binary search with duplicates; when worst case degrades to O(n)",
+        "companies": []
+      },
+      {
+        "id": "188",
+        "name": "Best Time to Buy and Sell Stock IV",
+        "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/",
+        "why": "Generalized k-transaction DP state machine",
+        "companies": []
+      },
+      {
+        "id": "214",
+        "name": "Shortest Palindrome",
+        "url": "https://leetcode.com/problems/shortest-palindrome/description/",
+        "why": "KMP failure function for string matching beyond naive search",
+        "companies": []
+      },
+      {
+        "id": "220",
+        "name": "Contains Duplicate III",
+        "url": "https://leetcode.com/problems/contains-duplicate-iii/description/",
+        "why": "Bucket sort trick for range-based duplicate detection",
+        "companies": []
+      },
+      {
+        "id": "233",
+        "name": "Number of Digit One",
+        "url": "https://leetcode.com/problems/number-of-digit-one/description/",
+        "why": "Digit-by-digit counting math; foundation for digit DP",
+        "companies": []
+      },
+      {
+        "id": "315",
+        "name": "Count of Smaller Numbers After Self",
+        "url": "https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/",
+        "why": "Merge sort with index tracking; BIT as an alternative",
+        "companies": []
+      },
+      {
+        "id": "327",
+        "name": "Count of Range Sum",
+        "url": "https://leetcode.com/problems/count-of-range-sum/description/",
+        "why": "Merge sort / BIT for counting elements in a range during a sweep; generalizes the merge-sort counting pattern",
+        "companies": []
+      },
+      {
+        "id": "330",
+        "name": "Patching Array",
+        "url": "https://leetcode.com/problems/patching-array/description/",
+        "why": "Greedy reachability invariant: extend the representable prefix range by always patching the smallest missing value",
+        "companies": []
+      },
+      {
+        "id": "403",
+        "name": "Frog Jump",
+        "url": "https://leetcode.com/problems/frog-jump/description/",
+        "why": "DP with per-node state sets; hashmap-based memoization on graphs",
+        "companies": []
+      },
+      {
+        "id": "480",
+        "name": "Sliding Window Median",
+        "url": "https://leetcode.com/problems/sliding-window-median/description/",
+        "why": "Two heaps with lazy deletion; generalizes 295 to a window",
+        "companies": []
+      },
+      {
+        "id": "493",
+        "name": "Reverse Pairs",
+        "url": "https://leetcode.com/problems/reverse-pairs/description/",
+        "why": "Modified merge sort \u2014 same framework as 315 but with a stricter non-adjacent comparison condition",
+        "companies": []
+      },
+      {
+        "id": "502",
+        "name": "IPO",
+        "url": "https://leetcode.com/problems/ipo/description/",
+        "why": "Greedy unlocking + max-heap scheduling",
+        "companies": []
+      },
+      {
+        "id": "632",
+        "name": "Smallest Range Covering Elements from K Lists",
+        "url": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/",
+        "why": "Sliding window with a heap as the window boundary",
+        "companies": []
+      },
+      {
+        "id": "668",
+        "name": "Kth Smallest Number in Multiplication Table",
+        "url": "https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/description/",
+        "why": "Binary search on value with a count function; structured matrix navigation without explicit enumeration",
+        "companies": []
+      },
+      {
+        "id": "710",
+        "name": "Random Pick with Blacklist",
+        "url": "https://leetcode.com/problems/random-pick-with-blacklist/description/",
+        "why": "Remapping blacklist into valid range; compact hashing under constraints",
+        "companies": []
+      },
+      {
+        "id": "719",
+        "name": "Find K-th Smallest Pair Distance",
+        "url": "https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/",
+        "why": "Binary search on answer + sliding window count",
+        "companies": []
+      },
+      {
+        "id": "726",
+        "name": "Number of Atoms",
+        "url": "https://leetcode.com/problems/number-of-atoms/description/",
+        "why": "Stack-based recursive parser for nested structure",
+        "companies": []
+      },
+      {
+        "id": "732",
+        "name": "My Calendar III",
+        "url": "https://leetcode.com/problems/my-calendar-iii/description/",
+        "why": "Segment tree with lazy propagation for interval overlap counting",
+        "companies": []
+      },
+      {
+        "id": "741",
+        "name": "Cherry Pickup",
+        "url": "https://leetcode.com/problems/cherry-pickup/description/",
+        "why": "3D DP with a single agent traversing a grid twice; the harder predecessor to Cherry Pickup II (1463)",
+        "companies": []
+      },
+      {
+        "id": "765",
+        "name": "Couples Holding Hands",
+        "url": "https://leetcode.com/problems/couples-holding-hands/description/",
+        "why": "Union-Find on cyclic swaps; minimum swaps via cycle counting",
+        "companies": []
+      },
+      {
+        "id": "805",
+        "name": "Split Array With Same Average",
+        "url": "https://leetcode.com/problems/split-array-with-same-average/description/",
+        "why": "Meet in the middle on subsets; bisect the state space when 2^n is too large",
+        "companies": []
+      },
+      {
+        "id": "828",
+        "name": "Count Unique Characters of All Substrings",
+        "url": "https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/description/",
+        "why": "Contribution technique: per-character impact across all substrings",
+        "companies": []
+      },
+      {
+        "id": "834",
+        "name": "Sum of Distances in Tree",
+        "url": "https://leetcode.com/problems/sum-of-distances-in-tree/description/",
+        "why": "Rerooting DP: reuse parent computation to avoid O(n\u00b2)",
+        "companies": []
+      },
+      {
+        "id": "862",
+        "name": "Shortest Subarray with Sum at Least K",
+        "url": "https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/description/",
+        "why": "Monotonic deque on prefix sums; handles negatives where sliding window fails",
+        "companies": []
+      },
+      {
+        "id": "887",
+        "name": "Super Egg Drop",
+        "url": "https://leetcode.com/problems/super-egg-drop/description/",
+        "why": "DP reframed inversely: \"given t trials and k eggs, max floors testable\"",
+        "companies": []
+      },
+      {
+        "id": "902",
+        "name": "Numbers At Most N Given Digit Set",
+        "url": "https://leetcode.com/problems/numbers-at-most-n-given-digit-set/description/",
+        "why": "Digit DP / digit counting from first principles",
+        "companies": []
+      },
+      {
+        "id": "924",
+        "name": "Minimize Malware Spread",
+        "url": "https://leetcode.com/problems/minimize-malware-spread/description/",
+        "why": "Union-Find with component-size tracking and exclusive node contribution",
+        "companies": []
+      },
+      {
+        "id": "980",
+        "name": "Unique Paths III",
+        "url": "https://leetcode.com/problems/unique-paths-iii/description/",
+        "why": "Bitmask + backtracking on a grid; cleaner than it looks",
+        "companies": []
+      },
+      {
+        "id": "1000",
+        "name": "Minimum Cost to Merge Stones",
+        "url": "https://leetcode.com/problems/minimum-cost-to-merge-stones/description/",
+        "why": "Interval DP with a k-way feasibility constraint; extends Burst Balloons to a merge problem",
+        "companies": []
+      },
+      {
+        "id": "1012",
+        "name": "Numbers With Repeated Digits",
+        "url": "https://leetcode.com/problems/numbers-with-repeated-digits/description/",
+        "why": "Digit DP with used-digit bitmask",
+        "companies": []
+      },
+      {
+        "id": "1028",
+        "name": "Recover a Tree From Preorder Traversal",
+        "url": "https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/description/",
+        "why": "Stack simulation from encoded traversal string",
+        "companies": []
+      },
+      {
+        "id": "1044",
+        "name": "Longest Duplicate Substring",
+        "url": "https://leetcode.com/problems/longest-duplicate-substring/description/",
+        "why": "Binary search on length + Rabin-Karp rolling hash; the canonical example of string hashing for substring problems",
+        "companies": []
+      },
+      {
+        "id": "1092",
+        "name": "Shortest Common Supersequence",
+        "url": "https://leetcode.com/problems/shortest-common-supersequence/description/",
+        "why": "LCS + reconstruction; builds on a foundation problem",
+        "companies": []
+      },
+      {
+        "id": "1106",
+        "name": "Parsing A Boolean Expression",
+        "url": "https://leetcode.com/problems/parsing-a-boolean-expression/description/",
+        "why": "Recursive descent / stack parser; reinforces expression evaluation pattern",
+        "companies": []
+      },
+      {
+        "id": "1125",
+        "name": "Smallest Sufficient Team",
+        "url": "https://leetcode.com/problems/smallest-sufficient-team/description/",
+        "why": "Bitmask DP for set cover; represent required skills as a bitmask and DP over all subsets",
+        "companies": []
+      },
+      {
+        "id": "1187",
+        "name": "Make Array Strictly Increasing",
+        "url": "https://leetcode.com/problems/make-array-strictly-increasing/description/",
+        "why": "DP + binary search; value-replacement with sorted auxiliary array",
+        "companies": []
+      },
+      {
+        "id": "1223",
+        "name": "Dice Roll Simulation",
+        "url": "https://leetcode.com/problems/dice-roll-simulation/description/",
+        "why": "DP with per-face consecutive constraint",
+        "companies": []
+      },
+      {
+        "id": "1269",
+        "name": "Number of Ways to Stay in the Same Place After Some Steps",
+        "url": "https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/description/",
+        "why": "DP with reachability pruning on large constraints",
+        "companies": []
+      },
+      {
+        "id": "1289",
+        "name": "Minimum Falling Path Sum II",
+        "url": "https://leetcode.com/problems/minimum-falling-path-sum-ii/description/",
+        "why": "DP column optimization: track top-2 minimums to skip same-column restriction",
+        "companies": []
+      },
+      {
+        "id": "1312",
+        "name": "Minimum Insertion Steps to Make a String Palindrome",
+        "url": "https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/description/",
+        "why": "Interval DP; equivalent to LCS with the string's reverse",
+        "companies": []
+      },
+      {
+        "id": "1354",
+        "name": "Construct Target Array With Multiple Sums",
+        "url": "https://leetcode.com/problems/construct-target-array-with-multiple-sums/description/",
+        "why": "Reverse simulation with max-heap; modular arithmetic to avoid TLE",
+        "companies": []
+      },
+      {
+        "id": "1368",
+        "name": "Minimum Cost to Make at Least One Valid Path in a Grid",
+        "url": "https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/description/",
+        "why": "0-1 BFS (deque); edge weight 0 or 1 as a BFS optimization",
+        "companies": []
+      },
+      {
+        "id": "1377",
+        "name": "Frog Position After T Seconds",
+        "url": "https://leetcode.com/problems/frog-position-after-t-seconds/description/",
+        "why": "DFS on tree with probability tracking; edge case handling at leaves",
+        "companies": []
+      },
+      {
+        "id": "1392",
+        "name": "Longest Happy Prefix",
+        "url": "https://leetcode.com/problems/longest-happy-prefix/description/",
+        "why": "KMP failure function application; or Z-array",
+        "companies": []
+      },
+      {
+        "id": "1425",
+        "name": "Constrained Subsequence Sum",
+        "url": "https://leetcode.com/problems/constrained-subsequence-sum/description/",
+        "why": "Sliding window max DP with monotonic deque",
+        "companies": []
+      },
+      {
+        "id": "1449",
+        "name": "Form Largest Integer With Digits That Add up to Target",
+        "url": "https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/",
+        "why": "Unbounded knapsack with lexicographic comparison twist",
+        "companies": []
+      },
+      {
+        "id": "1458",
+        "name": "Max Dot Product of Two Subsequences",
+        "url": "https://leetcode.com/problems/max-dot-product-of-two-subsequences/description/",
+        "why": "DP variant of LCS with product maximization",
+        "companies": []
+      },
+      {
+        "id": "1463",
+        "name": "Cherry Pickup II",
+        "url": "https://leetcode.com/problems/cherry-pickup-ii/description/",
+        "why": "3D DP with two simultaneous agents; avoids double-count elegantly",
+        "companies": []
+      },
+      {
+        "id": "1483",
+        "name": "Kth Ancestor of a Tree Node",
+        "url": "https://leetcode.com/problems/kth-ancestor-of-a-tree-node/description/",
+        "why": "Binary lifting / sparse table on trees",
+        "companies": []
+      },
+      {
+        "id": "1499",
+        "name": "Max Value of Equation",
+        "url": "https://leetcode.com/problems/max-value-of-equation/description/",
+        "why": "Monotonic deque to maximize a transformed expression",
+        "companies": []
+      },
+      {
+        "id": "1526",
+        "name": "Minimum Number of Increments on Subarrays to Form a Target Array",
+        "url": "https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/description/",
+        "why": "Monotonic stack to count rising edges",
+        "companies": []
+      },
+      {
+        "id": "1547",
+        "name": "Minimum Cost to Cut a Stick",
+        "url": "https://leetcode.com/problems/minimum-cost-to-cut-a-stick/description/",
+        "why": "Interval DP in the style of matrix chain multiplication",
+        "companies": []
+      },
+      {
+        "id": "1553",
+        "name": "Minimum Number of Days to Eat N Oranges",
+        "url": "https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/description/",
+        "why": "Memoized BFS/DFS with arithmetic jumps; avoids linear traversal",
+        "companies": []
+      },
+      {
+        "id": "1579",
+        "name": "Remove Max Number of Edges to Keep Graph Fully Traversable",
+        "url": "https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/description/",
+        "why": "Dual union-find; shared vs exclusive edges in spanning tree construction",
+        "companies": []
+      },
+      {
+        "id": "1649",
+        "name": "Create Sorted Array through Instructions",
+        "url": "https://leetcode.com/problems/create-sorted-array-through-instructions/description/",
+        "why": "BIT / merge sort for counting smaller/larger during insertion",
+        "companies": []
+      },
+      {
+        "id": "1665",
+        "name": "Minimum Initial Energy to Finish Tasks",
+        "url": "https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/description/",
+        "why": "Greedy sort by (minimum - actual) to determine task ordering",
+        "companies": []
+      },
+      {
+        "id": "1671",
+        "name": "Minimum Number of Removals to Make Mountain Array",
+        "url": "https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/description/",
+        "why": "LIS from left + LIS from right; peak enumeration",
+        "companies": []
+      },
+      {
+        "id": "1697",
+        "name": "Checking Existence of Edge Length Limited Paths",
+        "url": "https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/description/",
+        "why": "Offline sort + union-find; process queries in edge-weight order",
+        "companies": []
+      },
+      {
+        "id": "1851",
+        "name": "Minimum Interval to Include Each Query",
+        "url": "https://leetcode.com/problems/minimum-interval-to-include-each-query/description/",
+        "why": "Offline sweep line + min-heap with lazy cleanup",
+        "companies": []
+      },
+      {
+        "id": "1955",
+        "name": "Count Number of Special Subsequences",
+        "url": "https://leetcode.com/problems/count-number-of-special-subsequences/description/",
+        "why": "DP tracking how many subsequences are at each of 3 stages",
+        "companies": []
+      },
+      {
+        "id": "1970",
+        "name": "Last Day Where You Can Still Cross",
+        "url": "https://leetcode.com/problems/last-day-where-you-can-still-cross/description/",
+        "why": "Binary search on time + BFS, or reverse union-find",
+        "companies": []
+      },
+      {
+        "id": "2045",
+        "name": "Second Minimum Time to Reach Destination",
+        "url": "https://leetcode.com/problems/second-minimum-time-to-reach-destination/description/",
+        "why": "BFS tracking first and second minimum times with parity",
+        "companies": []
+      },
+      {
+        "id": "2050",
+        "name": "Parallel Courses III",
+        "url": "https://leetcode.com/problems/parallel-courses-iii/description/",
+        "why": "Topological sort + DP for critical path on DAG",
+        "companies": []
+      },
+      {
+        "id": "2092",
+        "name": "Find All People With Secret",
+        "url": "https://leetcode.com/problems/find-all-people-with-secret/description/",
+        "why": "Time-aware union-find; rollback or re-process by time group",
+        "companies": []
+      },
+      {
+        "id": "2106",
+        "name": "Maximum Fruits Harvested After at Most K Steps",
+        "url": "https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/description/",
+        "why": "Sliding window on 1D walk with direction change constraint",
+        "companies": []
+      },
+      {
+        "id": "2111",
+        "name": "Minimum Operations to Make the Array K-Increasing",
+        "url": "https://leetcode.com/problems/minimum-operations-to-make-the-array-k-increasing/description/",
+        "why": "LIS on k interleaved subsequences",
+        "companies": []
+      },
+      {
+        "id": "2141",
+        "name": "Maximum Running Time of N Computers",
+        "url": "https://leetcode.com/problems/maximum-running-time-of-n-computers/description/",
+        "why": "Binary search on time + greedy feasibility",
+        "companies": []
+      },
+      {
+        "id": "2147",
+        "name": "Number of Ways to Divide a Long Corridor",
+        "url": "https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/description/",
+        "why": "Counting gaps between seat pairs with multiplication principle",
+        "companies": []
+      },
+      {
+        "id": "2167",
+        "name": "Minimum Time to Remove All Cars Containing Illegal Goods",
+        "url": "https://leetcode.com/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/description/",
+        "why": "DP scanning from both ends; prefix/suffix cost combination",
+        "companies": []
+      },
+      {
+        "id": "2197",
+        "name": "Replace Non-Coprime Numbers in Array",
+        "url": "https://leetcode.com/problems/replace-non-coprime-numbers-in-array/description/",
+        "why": "Stack + LCM/GCD; merge-while-possible pattern",
+        "companies": []
+      },
+      {
+        "id": "2203",
+        "name": "Minimum Weighted Subgraph With the Required Paths",
+        "url": "https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths/description/",
+        "why": "Dijkstra from 3 sources; meeting-point optimization on graph",
+        "companies": []
+      },
+      {
+        "id": "2218",
+        "name": "Maximum Value of K Coins From Piles",
+        "url": "https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/description/",
+        "why": "2D knapsack DP; grouped items with prefix sums",
+        "companies": []
+      },
+      {
+        "id": "2251",
+        "name": "Number of Flowers in Full Bloom",
+        "url": "https://leetcode.com/problems/number-of-flowers-in-full-bloom/description/",
+        "why": "Offline binary search on sorted start/end events",
+        "companies": []
+      },
+      {
+        "id": "2262",
+        "name": "Total Appeal of A String",
+        "url": "https://leetcode.com/problems/total-appeal-of-a-string/description/",
+        "why": "Per-character contribution across all substrings using last-seen tracking",
+        "companies": []
+      },
+      {
+        "id": "2267",
+        "name": "Check if There Is a Valid Parentheses String Path",
+        "url": "https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/description/",
+        "why": "Grid DP with balance range instead of exact balance",
+        "companies": []
+      },
+      {
+        "id": "2290",
+        "name": "Minimum Obstacle Removal to Reach Corner",
+        "url": "https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/description/",
+        "why": "0-1 BFS; the right tool when edge weights are only 0 or 1",
+        "companies": []
+      },
+      {
+        "id": "2296",
+        "name": "Design a Text Editor",
+        "url": "https://leetcode.com/problems/design-a-text-editor/description/",
+        "why": "Two-stack rope model for cursor-based text editing",
+        "companies": []
+      },
+      {
+        "id": "2302",
+        "name": "Count Subarrays With Score Less Than K",
+        "url": "https://leetcode.com/problems/count-subarrays-with-score-less-than-k/description/",
+        "why": "Sliding window with monotonic score property",
+        "companies": []
+      },
+      {
+        "id": "2321",
+        "name": "Maximum Score Of Spliced Array",
+        "url": "https://leetcode.com/problems/maximum-score-of-spliced-array/description/",
+        "why": "Kadane's on the difference array; best contiguous swap",
+        "companies": []
+      },
+      {
+        "id": "2354",
+        "name": "Number of Excellent Pairs",
+        "url": "https://leetcode.com/problems/number-of-excellent-pairs/description/",
+        "why": "Bit count property + two-pointer on sorted frequency",
+        "companies": []
+      },
+      {
+        "id": "2376",
+        "name": "Count Special Integers",
+        "url": "https://leetcode.com/problems/count-special-integers/description/",
+        "why": "Digit DP with used-digit bitmask on tight constraint",
+        "companies": []
+      },
+      {
+        "id": "2382",
+        "name": "Maximum Segment Sum After Removals",
+        "url": "https://leetcode.com/problems/maximum-segment-sum-after-removals/description/",
+        "why": "Reverse union-find: process deletions as insertions backwards",
+        "companies": []
+      },
+      {
+        "id": "2398",
+        "name": "Maximum Number of Robots Within Budget",
+        "url": "https://leetcode.com/problems/maximum-number-of-robots-within-budget/description/",
+        "why": "Sliding window max (deque) + sliding sum",
+        "companies": []
+      },
+      {
+        "id": "2407",
+        "name": "Longest Increasing Subsequence II",
+        "url": "https://leetcode.com/problems/longest-increasing-subsequence-ii/description/",
+        "why": "Segment tree on values for LIS with a gap constraint; extends standard LIS with a range query",
+        "companies": []
+      },
+      {
+        "id": "2435",
+        "name": "Paths in Matrix Whose Sum Is Divisible by K",
+        "url": "https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/description/",
+        "why": "DP with modular remainder as state",
+        "companies": []
+      },
+      {
+        "id": "2448",
+        "name": "Minimum Cost to Make Array Equal",
+        "url": "https://leetcode.com/problems/minimum-cost-to-make-array-equal/description/",
+        "why": "Weighted median via ternary search or sorted prefix sums",
+        "companies": []
+      },
+      {
+        "id": "2449",
+        "name": "Minimum Number of Operations to Make Arrays Similar",
+        "url": "https://leetcode.com/problems/minimum-number-of-operations-to-make-arrays-similar/description/",
+        "why": "Greedy matching by parity and sorted order",
+        "companies": []
+      },
+      {
+        "id": "2458",
+        "name": "Height of Binary Tree After Subtree Removal Queries",
+        "url": "https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/description/",
+        "why": "DFS precomputing top-2 heights per depth level",
+        "companies": []
+      },
+      {
+        "id": "2463",
+        "name": "Minimum Total Distance Traveled",
+        "url": "https://leetcode.com/problems/minimum-total-distance-traveled/description/",
+        "why": "DP assigning robots to factories with position sorting",
+        "companies": []
+      },
+      {
+        "id": "2509",
+        "name": "Cycle Length Queries in a Tree",
+        "url": "https://leetcode.com/problems/cycle-length-queries-in-a-tree/description/",
+        "why": "Binary lifting / LCA on a complete binary tree",
+        "companies": []
+      },
+      {
+        "id": "2528",
+        "name": "Maximize the Minimum Powered City",
+        "url": "https://leetcode.com/problems/maximize-the-minimum-powered-city/description/",
+        "why": "Binary search on minimum + greedy sliding window placement",
+        "companies": []
+      },
+      {
+        "id": "2577",
+        "name": "Minimum Time to Visit a Cell In a Grid",
+        "url": "https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/description/",
+        "why": "Dijkstra with parity-based wait time",
+        "companies": []
+      },
+      {
+        "id": "2581",
+        "name": "Count Number of Possible Root Nodes",
+        "url": "https://leetcode.com/problems/count-number-of-possible-root-nodes/description/",
+        "why": "Rerooting DP: recompute answer as root shifts",
+        "companies": []
+      },
+      {
+        "id": "2585",
+        "name": "Number of Ways to Earn Points",
+        "url": "https://leetcode.com/problems/number-of-ways-to-earn-points/description/",
+        "why": "Bounded knapsack DP",
+        "companies": []
+      },
+      {
+        "id": "2608",
+        "name": "Shortest Cycle in a Graph",
+        "url": "https://leetcode.com/problems/shortest-cycle-in-a-graph/description/",
+        "why": "BFS from each node; girth of unweighted graph",
+        "companies": []
+      },
+      {
+        "id": "2646",
+        "name": "Minimize the Total Price of the Trips",
+        "url": "https://leetcode.com/problems/minimize-the-total-price-of-the-trips/description/",
+        "why": "Tree path counting + house robber DP on tree",
+        "companies": []
+      },
+      {
+        "id": "2681",
+        "name": "Power of Heroes",
+        "url": "https://leetcode.com/problems/power-of-heroes/description/",
+        "why": "Contribution technique after sorting; prefix sum on sorted array",
+        "companies": []
+      },
+      {
+        "id": "2719",
+        "name": "Count of Integers",
+        "url": "https://leetcode.com/problems/count-of-integers/description/",
+        "why": "Digit DP with digit-sum constraint",
+        "companies": []
+      },
+      {
+        "id": "2751",
+        "name": "Robot Collisions",
+        "url": "https://leetcode.com/problems/robot-collisions/description/",
+        "why": "Stack simulation with collision resolution; clean stack problem",
+        "companies": []
+      },
+      {
+        "id": "2846",
+        "name": "Minimum Edge Weight Equilibrium Queries in a Tree",
+        "url": "https://leetcode.com/problems/minimum-edge-weight-equilibrium-queries-in-a-tree/description/",
+        "why": "LCA + prefix edge-weight-count arrays",
+        "companies": []
+      },
+      {
+        "id": "2872",
+        "name": "Maximum Number of K-Divisible Components",
+        "url": "https://leetcode.com/problems/maximum-number-of-k-divisible-components/description/",
+        "why": "Tree DP: subtree sum divisibility as cut condition",
+        "companies": []
+      },
+      {
+        "id": "2931",
+        "name": "Maximum Spending After Buying Items",
+        "url": "https://leetcode.com/problems/maximum-spending-after-buying-items/description/",
+        "why": "Greedy globally ascending order via k-way merge heap",
+        "companies": []
+      },
+      {
+        "id": "2968",
+        "name": "Apply Operations to Maximize Frequency Score",
+        "url": "https://leetcode.com/problems/apply-operations-to-maximize-frequency-score/description/",
+        "why": "Sliding window + prefix sums to minimize cost of converging to median",
+        "companies": []
+      },
+      {
+        "id": "3008",
+        "name": "Find Beautiful Indices in the Given Array II",
+        "url": "https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-ii/description/",
+        "why": "KMP to collect both match lists, then two pointers / binary search to check proximity; extends 1392's KMP technique",
+        "companies": []
+      },
+      {
+        "id": "3072",
+        "name": "Distribute Elements Into Two Arrays II",
+        "url": "https://leetcode.com/problems/distribute-elements-into-two-arrays-ii/description/",
+        "why": "BIT for order statistics during element distribution; count elements less than x in O(log n), same technique as 1649",
+        "companies": []
+      },
+      {
+        "id": "3093",
+        "name": "Longest Common Suffix Queries",
+        "url": "https://leetcode.com/problems/longest-common-suffix-queries/description/",
+        "why": "Trie on reversed strings; suffix matching becomes prefix matching, enabling O(len) queries",
+        "companies": []
+      },
+      {
+        "id": "3113",
+        "name": "Find the Number of Subarrays Where Boundary Elements Are Maximum",
+        "url": "https://leetcode.com/problems/find-the-number-of-subarrays-where-boundary-elements-are-maximum/description/",
+        "why": "Monotonic stack with per-element subarray count",
+        "companies": []
+      },
+      {
+        "id": "3123",
+        "name": "Find Edges in Shortest Paths",
+        "url": "https://leetcode.com/problems/find-edges-in-shortest-paths/description/",
+        "why": "Dijkstra from both ends + edge membership check in shortest path DAG",
+        "companies": []
+      },
+      {
+        "id": "3187",
+        "name": "Peaks in Array",
+        "url": "https://leetcode.com/problems/peaks-in-array/description/",
+        "why": "BIT / segment tree for range peak-count queries; precompute peaks then answer range queries in O(log n)",
+        "companies": []
+      },
+      {
+        "id": "3203",
+        "name": "Find Minimum Diameter After Merging Two Trees",
+        "url": "https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/description/",
+        "why": "Tree diameter; optimal merge point is midpoints of both diameters",
+        "companies": []
+      },
+      {
+        "id": "3209",
+        "name": "Number of Subarrays With AND Value of K",
+        "url": "https://leetcode.com/problems/number-of-subarrays-with-and-value-of-k/description/",
+        "why": "Distinct AND values at each right endpoint form a set of size O(log max); iterate and count efficiently",
+        "companies": []
+      },
+      {
+        "id": "3219",
+        "name": "Minimum Cost for Cutting Cake II",
+        "url": "https://leetcode.com/problems/minimum-cost-for-cutting-cake-ii/description/",
+        "why": "Greedy: always cut along the most expensive remaining axis",
+        "companies": []
+      },
+      {
+        "id": "3229",
+        "name": "Minimum Operations to Make Array Equal to Target",
+        "url": "https://leetcode.com/problems/minimum-operations-to-make-array-equal-to-target/description/",
+        "why": "Difference array + monotonic stack for counting ascents/descents",
+        "companies": []
+      },
+      {
+        "id": "3266",
+        "name": "Final Array State After K Multiplication Operations II",
+        "url": "https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-ii/description/",
+        "why": "Binary search to find how many operations each position receives, then apply remainder via modular exponentiation",
+        "companies": []
+      },
+      {
+        "id": "3273",
+        "name": "Minimum Amount of Damage Dealt to Bob",
+        "url": "https://leetcode.com/problems/minimum-amount-of-damage-dealt-to-bob/description/",
+        "why": "Classic scheduling greedy: minimize weighted completion time",
+        "companies": []
+      },
+      {
+        "id": "3298",
+        "name": "Count Substrings That Can Be Rearranged to Contain a String II",
+        "url": "https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/description/",
+        "why": "Sliding window with frequency deficit tracking",
+        "companies": []
+      },
+      {
+        "id": "3320",
+        "name": "Count The Number of Winning Sequences",
+        "url": "https://leetcode.com/problems/count-the-number-of-winning-sequences/description/",
+        "why": "Game theory DP where players cannot repeat consecutive elements; count valid length-n sequences",
+        "companies": []
+      },
+      {
+        "id": "3333",
+        "name": "Find the Original Typed String II",
+        "url": "https://leetcode.com/problems/find-the-original-typed-string-ii/description/",
+        "why": "DP on run-length encoding of the string with combinatorics to count source strings satisfying length constraint",
+        "companies": []
+      },
+      {
+        "id": "3559",
+        "name": "Number of Ways to Assign Edge Weights II",
+        "url": "https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-ii/description/",
+        "why": "Binary lifting for LCA distance, then 2^(d-1) via modular exponentiation; elegant combination of 1483's lifting with fast power",
+        "companies": []
+      },
+      {
+        "id": "3562",
+        "name": "Maximum Profit from Trading Stocks with Discounts",
+        "url": "https://leetcode.com/problems/maximum-profit-from-trading-stocks-with-discounts/description/",
+        "why": "Tree DP with a 2D state: budget remaining \u00d7 whether parent purchased (enabling discount)",
+        "companies": []
+      },
+      {
+        "id": "3928",
+        "name": "Minimum Cost to Buy Apples II",
+        "url": "https://leetcode.com/problems/minimum-cost-to-buy-apples-ii/description/",
+        "why": "Multi-source Dijkstra: initialize all supply nodes at cost 0 and run a single Dijkstra pass",
+        "companies": []
+      },
+      {
+        "id": "3995",
+        "name": "Minimum Cost to Convert String III",
+        "url": "https://leetcode.com/problems/minimum-cost-to-convert-string-iii/description/",
+        "why": "Floyd-Warshall on the 26-character alphabet to find cheapest char-to-char conversions, then DP on string positions",
+        "companies": []
+      }
+    ]
+  },
+  {
+    "title": "Category 3 \u2014 Just Hard Stuff",
+    "description": "These require algorithms that rarely appear in interviews (suffix automaton, Aho-Corasick, convex hull, meet-in-the-middle, matrix exponentiation, digit DP on exotic constraints, geometry) or are recent competitive programming contest problems. Useful for CP, not for interview prep.",
+    "problems": [
+      {
+        "id": "483",
+        "name": "Smallest Good Base",
+        "url": "https://leetcode.com/problems/smallest-good-base/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "587",
+        "name": "Erect the Fence",
+        "url": "https://leetcode.com/problems/erect-the-fence/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "600",
+        "name": "Non-negative Integers without Consecutive Ones",
+        "url": "https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "685",
+        "name": "Redundant Connection II",
+        "url": "https://leetcode.com/problems/redundant-connection-ii/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "793",
+        "name": "Preimage Size of Factorial Zeroes Function",
+        "url": "https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "878",
+        "name": "Nth Magical Number",
+        "url": "https://leetcode.com/problems/nth-magical-number/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "882",
+        "name": "Reachable Nodes In Subdivided Graph",
+        "url": "https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "952",
+        "name": "Largest Component Size by Common Factor",
+        "url": "https://leetcode.com/problems/largest-component-size-by-common-factor/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "960",
+        "name": "Delete Columns to Make Sorted III",
+        "url": "https://leetcode.com/problems/delete-columns-to-make-sorted-iii/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "1157",
+        "name": "Online Majority Element In Subarray",
+        "url": "https://leetcode.com/problems/online-majority-element-in-subarray/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "1250",
+        "name": "Check If It Is a Good Array",
+        "url": "https://leetcode.com/problems/check-if-it-is-a-good-array/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "1316",
+        "name": "Distinct Echo Substrings",
+        "url": "https://leetcode.com/problems/distinct-echo-substrings/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "1363",
+        "name": "Largest Multiple of Three",
+        "url": "https://leetcode.com/problems/largest-multiple-of-three/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "1411",
+        "name": "Number of Ways to Paint N \u00d7 3 Grid",
+        "url": "https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "1453",
+        "name": "Maximum Number of Darts Inside of a Circular Dartboard",
+        "url": "https://leetcode.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "1489",
+        "name": "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree",
+        "url": "https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "1515",
+        "name": "Best Position for a Service Centre",
+        "url": "https://leetcode.com/problems/best-position-for-a-service-centre/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "1521",
+        "name": "Find a Value of a Mysterious Function Closest to Target",
+        "url": "https://leetcode.com/problems/find-a-value-of-a-mysterious-function-closest-to-target/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "1568",
+        "name": "Minimum Number of Days to Disconnect Island",
+        "url": "https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "1569",
+        "name": "Number of Ways to Reorder Array to Get Same BST",
+        "url": "https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "1601",
+        "name": "Maximum Number of Achievable Transfer Requests",
+        "url": "https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "1610",
+        "name": "Maximum Number of Visible Points",
+        "url": "https://leetcode.com/problems/maximum-number-of-visible-points/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "1627",
+        "name": "Graph Connectivity With Threshold",
+        "url": "https://leetcode.com/problems/graph-connectivity-with-threshold/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "1707",
+        "name": "Maximum XOR With an Element From Array",
+        "url": "https://leetcode.com/problems/maximum-xor-with-an-element-from-array/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "1735",
+        "name": "Count Ways to Make Array With Product",
+        "url": "https://leetcode.com/problems/count-ways-to-make-array-with-product/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "1745",
+        "name": "Palindrome Partitioning IV",
+        "url": "https://leetcode.com/problems/palindrome-partitioning-iv/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "1879",
+        "name": "Minimum XOR Sum of Two Arrays",
+        "url": "https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "1931",
+        "name": "Painting a Grid With Three Different Colors",
+        "url": "https://leetcode.com/problems/painting-a-grid-with-three-different-colors/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "1938",
+        "name": "Maximum Genetic Difference Query",
+        "url": "https://leetcode.com/problems/maximum-genetic-difference-query/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "2003",
+        "name": "Smallest Missing Genetic Value in Each Subtree",
+        "url": "https://leetcode.com/problems/smallest-missing-genetic-value-in-each-subtree/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "2035",
+        "name": "Partition Array Into Two Arrays to Minimize Sum Difference",
+        "url": "https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "2076",
+        "name": "Process Restricted Friend Requests",
+        "url": "https://leetcode.com/problems/process-restricted-friend-requests/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "2081",
+        "name": "Sum of k-Mirror Numbers",
+        "url": "https://leetcode.com/problems/sum-of-k-mirror-numbers/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "2088",
+        "name": "Count Fertile Pyramids in a Land",
+        "url": "https://leetcode.com/problems/count-fertile-pyramids-in-a-land/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "2156",
+        "name": "Find Substring With Given Hash Value",
+        "url": "https://leetcode.com/problems/find-substring-with-given-hash-value/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "2223",
+        "name": "Sum of Scores of Built Strings",
+        "url": "https://leetcode.com/problems/sum-of-scores-of-built-strings/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "2242",
+        "name": "Maximum Score of a Node Sequence",
+        "url": "https://leetcode.com/problems/maximum-score-of-a-node-sequence/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "2281",
+        "name": "Sum of Total Strength of Wizards",
+        "url": "https://leetcode.com/problems/sum-of-total-strength-of-wizards/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "2318",
+        "name": "Number of Distinct Roll Sequences",
+        "url": "https://leetcode.com/problems/number-of-distinct-roll-sequences/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "2338",
+        "name": "Count the Number of Ideal Arrays",
+        "url": "https://leetcode.com/problems/count-the-number-of-ideal-arrays/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "2344",
+        "name": "Minimum Deletions to Make Array Divisible",
+        "url": "https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "2426",
+        "name": "Number of Pairs Satisfying Inequality",
+        "url": "https://leetcode.com/problems/number-of-pairs-satisfying-inequality/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "2430",
+        "name": "Maximum Deletions on a String",
+        "url": "https://leetcode.com/problems/maximum-deletions-on-a-string/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "2472",
+        "name": "Maximum Number of Non-overlapping Palindrome Substrings",
+        "url": "https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "2503",
+        "name": "Maximum Number of Points From Grid Queries",
+        "url": "https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "2538",
+        "name": "Difference Between Maximum and Minimum Price Sum",
+        "url": "https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "2543",
+        "name": "Check if Point Is Reachable",
+        "url": "https://leetcode.com/problems/check-if-point-is-reachable/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "2552",
+        "name": "Count Increasing Quadruplets",
+        "url": "https://leetcode.com/problems/count-increasing-quadruplets/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "2709",
+        "name": "Greatest Common Divisor Traversal",
+        "url": "https://leetcode.com/problems/greatest-common-divisor-traversal/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "2867",
+        "name": "Count Valid Paths in a Tree",
+        "url": "https://leetcode.com/problems/count-valid-paths-in-a-tree/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "2926",
+        "name": "Maximum Balanced Subsequence Sum",
+        "url": "https://leetcode.com/problems/maximum-balanced-subsequence-sum/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "2935",
+        "name": "Maximum Strong Pair XOR II",
+        "url": "https://leetcode.com/problems/maximum-strong-pair-xor-ii/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3045",
+        "name": "Count Prefix and Suffix Pairs II",
+        "url": "https://leetcode.com/problems/count-prefix-and-suffix-pairs-ii/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3082",
+        "name": "Find the Sum of the Power of All Subsequences",
+        "url": "https://leetcode.com/problems/find-the-sum-of-the-power-of-all-subsequences/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3108",
+        "name": "Minimum Cost Walk in Weighted Graph",
+        "url": "https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3116",
+        "name": "Kth Smallest Amount With Single Denomination Combination",
+        "url": "https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3154",
+        "name": "Find Number of Ways to Reach the K-th Stair",
+        "url": "https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3161",
+        "name": "Block Placement Queries",
+        "url": "https://leetcode.com/problems/block-placement-queries/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3213",
+        "name": "Construct String with Minimum Cost",
+        "url": "https://leetcode.com/problems/construct-string-with-minimum-cost/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3250",
+        "name": "Find the Count of Monotonic Pairs I",
+        "url": "https://leetcode.com/problems/find-the-count-of-monotonic-pairs-i/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3251",
+        "name": "Find the Count of Monotonic Pairs II",
+        "url": "https://leetcode.com/problems/find-the-count-of-monotonic-pairs-ii/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3267",
+        "name": "Count Almost Equal Pairs II",
+        "url": "https://leetcode.com/problems/count-almost-equal-pairs-ii/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3307",
+        "name": "Find the K-th Character in String Game II",
+        "url": "https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3312",
+        "name": "Sorted GCD Pair Queries",
+        "url": "https://leetcode.com/problems/sorted-gcd-pair-queries/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3337",
+        "name": "Total Characters in String After Transformations II",
+        "url": "https://leetcode.com/problems/total-characters-in-string-after-transformations-ii/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3405",
+        "name": "Count the Number of Arrays with K Matching Adjacent Elements",
+        "url": "https://leetcode.com/problems/count-the-number-of-arrays-with-k-matching-adjacent-elements/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3455",
+        "name": "Shortest Matching Substring",
+        "url": "https://leetcode.com/problems/shortest-matching-substring/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3459",
+        "name": "Length of Longest V-Shaped Diagonal Segment",
+        "url": "https://leetcode.com/problems/length-of-longest-v-shaped-diagonal-segment/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3504",
+        "name": "Longest Palindrome After Substring Concatenation II",
+        "url": "https://leetcode.com/problems/longest-palindrome-after-substring-concatenation-ii/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3533",
+        "name": "Concatenated Divisibility",
+        "url": "https://leetcode.com/problems/concatenated-divisibility/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3547",
+        "name": "Maximum Sum of Edge Values in a Graph",
+        "url": "https://leetcode.com/problems/maximum-sum-of-edge-values-in-a-graph/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3563",
+        "name": "Lexicographically Smallest String After Adjacent Removals",
+        "url": "https://leetcode.com/problems/lexicographically-smallest-string-after-adjacent-removals/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3590",
+        "name": "Kth Smallest Path XOR Sum",
+        "url": "https://leetcode.com/problems/kth-smallest-path-xor-sum/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3600",
+        "name": "Maximize Spanning Tree Stability with Upgrades",
+        "url": "https://leetcode.com/problems/maximize-spanning-tree-stability-with-upgrades/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3614",
+        "name": "Process String with Special Operations II",
+        "url": "https://leetcode.com/problems/process-string-with-special-operations-ii/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3620",
+        "name": "Network Recovery Pathways",
+        "url": "https://leetcode.com/problems/network-recovery-pathways/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3621",
+        "name": "Number of Integers With Popcount-Depth Equal to K I",
+        "url": "https://leetcode.com/problems/number-of-integers-with-popcount-depth-equal-to-k-i/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3624",
+        "name": "Number of Integers With Popcount-Depth Equal to K II",
+        "url": "https://leetcode.com/problems/number-of-integers-with-popcount-depth-equal-to-k-ii/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3625",
+        "name": "Count Number of Trapezoids II",
+        "url": "https://leetcode.com/problems/count-number-of-trapezoids-ii/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3636",
+        "name": "Threshold Majority Queries",
+        "url": "https://leetcode.com/problems/threshold-majority-queries/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3640",
+        "name": "Trionic Array II",
+        "url": "https://leetcode.com/problems/trionic-array-ii/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3646",
+        "name": "Next Special Palindrome Number",
+        "url": "https://leetcode.com/problems/next-special-palindrome-number/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3651",
+        "name": "Minimum Cost Path with Teleportations",
+        "url": "https://leetcode.com/problems/minimum-cost-path-with-teleportations/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3655",
+        "name": "XOR After Range Multiplication Queries II",
+        "url": "https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3661",
+        "name": "Maximum Walls Destroyed by Robots",
+        "url": "https://leetcode.com/problems/maximum-walls-destroyed-by-robots/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3666",
+        "name": "Minimum Operations to Equalize Binary String",
+        "url": "https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3677",
+        "name": "Count Binary Palindromic Numbers",
+        "url": "https://leetcode.com/problems/count-binary-palindromic-numbers/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3681",
+        "name": "Maximum XOR of Subsequences",
+        "url": "https://leetcode.com/problems/maximum-xor-of-subsequences/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3686",
+        "name": "Number of Stable Subsequences",
+        "url": "https://leetcode.com/problems/number-of-stable-subsequences/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3691",
+        "name": "Maximum Total Subarray Value II",
+        "url": "https://leetcode.com/problems/maximum-total-subarray-value-ii/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3695",
+        "name": "Maximize Alternating Sum Using Swaps",
+        "url": "https://leetcode.com/problems/maximize-alternating-sum-using-swaps/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3699",
+        "name": "Number of ZigZag Arrays I",
+        "url": "https://leetcode.com/problems/number-of-zigzag-arrays-i/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3700",
+        "name": "Number of ZigZag Arrays II",
+        "url": "https://leetcode.com/problems/number-of-zigzag-arrays-ii/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3710",
+        "name": "Maximum Partition Factor",
+        "url": "https://leetcode.com/problems/maximum-partition-factor/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3715",
+        "name": "Sum of Perfect Square Ancestors",
+        "url": "https://leetcode.com/problems/sum-of-perfect-square-ancestors/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3725",
+        "name": "Count Ways to Choose Coprime Integers from Rows",
+        "url": "https://leetcode.com/problems/count-ways-to-choose-coprime-integers-from-rows/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3729",
+        "name": "Count Distinct Subarrays Divisible by K in Sorted Array",
+        "url": "https://leetcode.com/problems/count-distinct-subarrays-divisible-by-k-in-sorted-array/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3739",
+        "name": "Count Subarrays With Majority Element II",
+        "url": "https://leetcode.com/problems/count-subarrays-with-majority-element-ii/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3748",
+        "name": "Count Stable Subarrays",
+        "url": "https://leetcode.com/problems/count-stable-subarrays/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3762",
+        "name": "Minimum Operations to Equalize Subarrays",
+        "url": "https://leetcode.com/problems/minimum-operations-to-equalize-subarrays/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3768",
+        "name": "Minimum Inversion Count in Subarrays of Fixed Length",
+        "url": "https://leetcode.com/problems/minimum-inversion-count-in-subarrays-of-fixed-length/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3772",
+        "name": "Maximum Subgraph Score in a Tree",
+        "url": "https://leetcode.com/problems/maximum-subgraph-score-in-a-tree/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3777",
+        "name": "Minimum Deletions to Make Alternating Substring",
+        "url": "https://leetcode.com/problems/minimum-deletions-to-make-alternating-substring/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3782",
+        "name": "Last Remaining Integer After Alternating Deletion Operations",
+        "url": "https://leetcode.com/problems/last-remaining-integer-after-alternating-deletion-operations/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3785",
+        "name": "Minimum Swaps to Avoid Forbidden Values",
+        "url": "https://leetcode.com/problems/minimum-swaps-to-avoid-forbidden-values/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3786",
+        "name": "Total Sum of Interaction Cost in Tree Groups",
+        "url": "https://leetcode.com/problems/total-sum-of-interaction-cost-in-tree-groups/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3791",
+        "name": "Number of Balanced Integers in a Range",
+        "url": "https://leetcode.com/problems/number-of-balanced-integers-in-a-range/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3797",
+        "name": "Count Routes to Climb a Rectangular Grid",
+        "url": "https://leetcode.com/problems/count-routes-to-climb-a-rectangular-grid/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3812",
+        "name": "Minimum Edge Toggles on a Tree",
+        "url": "https://leetcode.com/problems/minimum-edge-toggles-on-a-tree/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3821",
+        "name": "Find Nth Smallest Integer With K One Bits",
+        "url": "https://leetcode.com/problems/find-nth-smallest-integer-with-k-one-bits/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3841",
+        "name": "Palindromic Path Queries in a Tree",
+        "url": "https://leetcode.com/problems/palindromic-path-queries-in-a-tree/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3855",
+        "name": "Sum of K-Digit Numbers in a Range",
+        "url": "https://leetcode.com/problems/sum-of-k-digit-numbers-in-a-range/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3873",
+        "name": "Maximum Points Activated with One Addition",
+        "url": "https://leetcode.com/problems/maximum-points-activated-with-one-addition/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3883",
+        "name": "Count Non Decreasing Arrays With Given Digit Sums",
+        "url": "https://leetcode.com/problems/count-non-decreasing-arrays-with-given-digit-sums/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3886",
+        "name": "Sum of Sortable Integers",
+        "url": "https://leetcode.com/problems/sum-of-sortable-integers/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3887",
+        "name": "Incremental Even-Weighted Cycle Queries",
+        "url": "https://leetcode.com/problems/incremental-even-weighted-cycle-queries/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3897",
+        "name": "Maximum Value of Concatenated Binary Segments",
+        "url": "https://leetcode.com/problems/maximum-value-of-concatenated-binary-segments/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3901",
+        "name": "Good Subsequence Queries",
+        "url": "https://leetcode.com/problems/good-subsequence-queries/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3910",
+        "name": "Count Connected Subgraphs with Even Node Sum",
+        "url": "https://leetcode.com/problems/count-connected-subgraphs-with-even-node-sum/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3911",
+        "name": "K-th Smallest Remaining Even Integer in Subarray Queries",
+        "url": "https://leetcode.com/problems/k-th-smallest-remaining-even-integer-in-subarray-queries/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3920",
+        "name": "Maximize Fixed Points After Deletions",
+        "url": "https://leetcode.com/problems/maximize-fixed-points-after-deletions/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3924",
+        "name": "Minimum Threshold Path With Limited Heavy Edges",
+        "url": "https://leetcode.com/problems/minimum-threshold-path-with-limited-heavy-edges/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3934",
+        "name": "Smallest Unique Subarray",
+        "url": "https://leetcode.com/problems/smallest-unique-subarray/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3939",
+        "name": "Count Non Adjacent Subsets in a Rooted Tree",
+        "url": "https://leetcode.com/problems/count-non-adjacent-subsets-in-a-rooted-tree/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3943",
+        "name": "Number of Pairs After Increment",
+        "url": "https://leetcode.com/problems/number-of-pairs-after-increment/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3953",
+        "name": "Maximum Score with Co-Prime Element",
+        "url": "https://leetcode.com/problems/maximum-score-with-co-prime-element/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "3971",
+        "name": "Maximum Total Value",
+        "url": "https://leetcode.com/problems/maximum-total-value/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "4013",
+        "name": "Count Subarrays With Even Odd Ratio II",
+        "url": "https://leetcode.com/problems/count-subarrays-with-even-odd-ratio-ii/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      },
+      {
+        "id": "4017",
+        "name": "Peaks in Array II",
+        "url": "https://leetcode.com/problems/peaks-in-array-ii/description/",
+        "why": "Exotic / Advanced CP-tier technique (Suffix Automaton, Matrix Exponentiation, Digit DP, Convex Hull, Math)",
+        "companies": []
+      }
+    ]
+  }
+]
