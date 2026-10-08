@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { 
   CheckCircle2, 
   Circle, 
@@ -13,7 +14,8 @@ import {
   BookOpen, 
   BrainCircuit,
   Lightbulb,
-  Cpu
+  Cpu,
+  ExternalLink
 } from 'lucide-react';
 import { CurriculumV2Topic, RoiTier } from '../../types/curriculumV2';
 import { MathRenderer } from '../common/MathRenderer';
@@ -118,15 +120,27 @@ export const TopicCard: React.FC<TopicCardProps> = ({ topic, isSolved, onToggle 
           </div>
         </div>
 
-        {/* Expand / Collapse Button */}
-        <button
-          onClick={() => setIsExpanded(!isExpanded)}
-          className="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 transition cursor-pointer flex-shrink-0 flex items-center space-x-1 text-xs font-mono"
-          title={isExpanded ? 'Collapse topic' : 'Expand deep dive'}
-        >
-          <span className="hidden sm:inline">{isExpanded ? 'Hide' : 'Deep Dive'}</span>
-          {isExpanded ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
-        </button>
+        {/* Action Buttons */}
+        <div className="flex items-center space-x-1.5 flex-shrink-0">
+          <Link
+            to={`/curriculum-v2/guide/${topic.id}`}
+            className="p-2 sm:px-2.5 sm:py-1.5 rounded-lg bg-emerald-950/60 hover:bg-emerald-900/80 text-emerald-300 border border-emerald-800/60 transition cursor-pointer flex items-center space-x-1 text-xs font-mono font-semibold"
+            title="Open Dedicated Full Page Guide"
+          >
+            <span>Guide</span>
+            <ExternalLink className="w-3.5 h-3.5" />
+          </Link>
+
+          {/* Expand / Collapse Button */}
+          <button
+            onClick={() => setIsExpanded(!isExpanded)}
+            className="p-2 sm:px-2.5 sm:py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 transition cursor-pointer flex items-center space-x-1 text-xs font-mono"
+            title={isExpanded ? 'Collapse topic' : 'Expand deep dive'}
+          >
+            <span className="hidden sm:inline">{isExpanded ? 'Hide' : 'Quick Preview'}</span>
+            {isExpanded ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+          </button>
+        </div>
       </div>
 
       {/* Quick Invariant / Recognition snippet if collapsed */}

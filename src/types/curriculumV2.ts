@@ -1,5 +1,21 @@
 export type RoiTier = 'S-tier' | 'A-tier' | 'B-tier' | 'C-tier' | 'Niche';
 
+export interface CuratedProblem {
+  id: string;
+  name: string;
+  platform: string;
+  rating: number;
+  url: string;
+  insight: string;
+  tags: string[];
+}
+
+export interface ExternalLink {
+  title: string;
+  url: string;
+  source: string;
+}
+
 export interface CurriculumV2Topic {
   id: string;
   title: string;
@@ -25,6 +41,8 @@ export interface CurriculumV2Topic {
   problemPatterns: string;
   recognitionExercises: string;
   cheatSheet: string;
+  externalLinks?: ExternalLink[];
+  curatedProblems?: CuratedProblem[];
 }
 
 export interface CurriculumV2Module {
@@ -39,6 +57,8 @@ export interface CurriculumV2Module {
   summary: string;
   topicsCount: number;
   topics: CurriculumV2Topic[];
+  externalLinks?: ExternalLink[];
+  curatedProblems?: CuratedProblem[];
 }
 
 export interface CurriculumV2Phase {
