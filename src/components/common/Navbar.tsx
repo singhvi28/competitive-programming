@@ -19,6 +19,13 @@ export const Navbar: React.FC<NavbarProps> = ({ progress }) => {
       hoverColor: 'hover:text-white hover:bg-slate-800',
     },
     {
+      to: '/curriculum-v2',
+      label: 'Curriculum V2',
+      icon: Sparkles,
+      activeColor: 'text-emerald-400 bg-emerald-950/60 border-emerald-800/60',
+      hoverColor: 'hover:text-emerald-400 hover:bg-slate-800',
+    },
+    {
       to: '/curriculum',
       label: 'CF Candidate Master',
       icon: Award,

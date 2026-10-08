@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Navbar } from './components/common/Navbar';
 import { HomePage } from './pages/HomePage';
+import { CurriculumV2Page } from './pages/CurriculumV2Page';
 import { CurriculumPage } from './pages/CurriculumPage';
 import { LeetCodeHardsPage } from './pages/LeetCodeHardsPage';
 import { VirtualContestsPage } from './pages/VirtualContestsPage';
@@ -14,6 +15,8 @@ export const App: React.FC = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/curriculum-v2" element={<CurriculumV2Page />} />
+          <Route path="/curriculum-v2/*" element={<CurriculumV2Page />} />
           <Route path="/curriculum" element={<CurriculumPage />} />
           <Route path="/curriculum/*" element={<CurriculumPage />} />
           <Route path="/leetcode-hards" element={<LeetCodeHardsPage />} />

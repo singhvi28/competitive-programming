@@ -11,12 +11,12 @@ export const MathRenderer: React.FC<MathRendererProps> = ({ text, className = ''
   const renderedParts = useMemo(() => {
     if (!text) return null;
 
-    // Split by $$...$$ (display math) and $...$ (inline math)
-    // Matches $$...$$ or $...$
-    const regex = /(\$\$[\s\S]*?\$\$|\$[^\$\n]+?\$)/g;
+    // Matches $$...$$, \[...\], $...$, and \(...\)
+    const regex = /(\$\$[\s\S]*?\$\$|\\\[[\s\S]*?\\\]|\$[^\$\n]+?\$|\\\([^\n]+?\\\))/g;
     const parts = text.split(regex);
 
     return parts.map((part, idx) => {
+      // Display math $$...$$
       if (part.startsWith('$$') && part.endsWith('$$')) {
         const math = part.slice(2, -2).trim();
         try {
@@ -27,14 +27,35 @@ export const MathRenderer: React.FC<MathRendererProps> = ({ text, className = ''
           return (
             <span
               key={idx}
-              className="block my-1.5 overflow-x-auto text-slate-100"
+              className="block my-2 overflow-x-auto text-slate-100"
               dangerouslySetInnerHTML={{ __html: html }}
             />
           );
-        } catch (e) {
+        } catch {
           return <span key={idx} className="text-red-400 font-mono">{part}</span>;
         }
-      } else if (part.startsWith('$') && part.endsWith('$')) {
+      }
+      // Display math \[...\]
+      if (part.startsWith('\\[') && part.endsWith('\\]')) {
+        const math = part.slice(2, -2).trim();
+        try {
+          const html = katex.renderToString(math, {
+            displayMode: true,
+            throwOnError: false,
+          });
+          return (
+            <span
+              key={idx}
+              className="block my-2 overflow-x-auto text-slate-100"
+              dangerouslySetInnerHTML={{ __html: html }}
+            />
+          );
+        } catch {
+          return <span key={idx} className="text-red-400 font-mono">{part}</span>;
+        }
+      }
+      // Inline math $...$
+      if (part.startsWith('$') && part.endsWith('$')) {
         const math = part.slice(1, -1).trim();
         try {
           const html = katex.renderToString(math, {
@@ -48,7 +69,26 @@ export const MathRenderer: React.FC<MathRendererProps> = ({ text, className = ''
               dangerouslySetInnerHTML={{ __html: html }}
             />
           );
-        } catch (e) {
+        } catch {
+          return <span key={idx} className="text-red-400 font-mono">{part}</span>;
+        }
+      }
+      // Inline math \(...\)
+      if (part.startsWith('\\(') && part.endsWith('\\)')) {
+        const math = part.slice(2, -2).trim();
+        try {
+          const html = katex.renderToString(math, {
+            displayMode: false,
+            throwOnError: false,
+          });
+          return (
+            <span
+              key={idx}
+              className="inline-block text-slate-100"
+              dangerouslySetInnerHTML={{ __html: html }}
+            />
+          );
+        } catch {
           return <span key={idx} className="text-red-400 font-mono">{part}</span>;
         }
       }

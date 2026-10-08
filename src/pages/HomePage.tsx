@@ -20,7 +20,49 @@ export const HomePage: React.FC = () => {
           </p>
         </div>
 
-        {/* Four Main Tracks Grid */}
+        {/* Featured Card: Curriculum V2 */}
+        <div className="max-w-7xl mx-auto w-full mb-8">
+          <Link
+            to="/curriculum-v2"
+            className="rounded-2xl p-6 sm:p-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6 group relative overflow-hidden glass-panel border border-emerald-500/30 glow-emerald transition-all duration-300 hover:border-emerald-500/60"
+          >
+            <div className="absolute -right-16 -bottom-16 w-64 h-64 bg-emerald-500/15 rounded-full blur-3xl group-hover:bg-emerald-500/25 transition duration-500" />
+            <div className="absolute -left-16 -top-16 w-64 h-64 bg-teal-500/10 rounded-full blur-3xl pointer-events-none" />
+
+            <div className="relative z-10 space-y-3 flex-1">
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="text-[10px] font-mono px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 font-bold uppercase tracking-wider animate-pulse">
+                  ★ NEW MASTERCLASS (V2)
+                </span>
+                <span className="text-[11px] font-mono px-2.5 py-0.5 rounded-full bg-slate-900 text-slate-300 border border-slate-700">
+                  22 Sections &bull; 8 Phases &bull; 1400–2800+ Rating
+                </span>
+              </div>
+
+              <h2 className="text-xl sm:text-3xl font-extrabold text-white group-hover:text-emerald-300 transition">
+                Advanced Competitive Programming Masterclass (Curriculum V2)
+              </h2>
+
+              <p className="text-slate-300 text-xs sm:text-sm leading-relaxed max-w-4xl">
+                The complete theoretical and contest curriculum from <span className="text-emerald-400 font-mono font-semibold">adv-dsa</span>: 22 comprehensive modules across 8 pedagogical phases. Includes formal invariants, recognition trigger words, contest-ready C++17 templates, KaTeX math derivations, ROI mapping, and pre-contest cheat sheets.
+              </p>
+
+              <div className="flex flex-wrap items-center gap-4 text-xs font-mono text-slate-400 pt-2">
+                <span className="text-emerald-400 font-semibold">&bull; 496 Deep Topics</span>
+                <span className="text-teal-400 font-semibold">&bull; 173 C++ Templates</span>
+                <span className="text-indigo-400 font-semibold">&bull; Full ROI Matrix</span>
+                <span className="text-purple-400 font-semibold">&bull; Master Cheat Sheet</span>
+              </div>
+            </div>
+
+            <div className="relative z-10 flex-shrink-0 flex items-center space-x-2 px-5 py-3 rounded-xl bg-emerald-600 group-hover:bg-emerald-500 text-white font-bold text-xs font-mono transition shadow-lg shadow-emerald-600/20">
+              <span>Explore Masterclass V2</span>
+              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition" />
+            </div>
+          </Link>
+        </div>
+
+        {/* Four Practice Tracks Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 max-w-7xl mx-auto w-full">
           {/* Track 1: Codeforces Curriculum */}
           <Link
