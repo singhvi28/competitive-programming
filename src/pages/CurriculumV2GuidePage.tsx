@@ -253,7 +253,7 @@ export const CurriculumV2GuidePage: React.FC = () => {
 
               {/* Theory Overview */}
               {activeTopic.extendedTheory.overview && (
-                <div className="text-sm sm:text-base text-slate-200 leading-relaxed bg-slate-900/80 p-5 rounded-xl border border-teal-500/20 shadow-sm">
+                <div className="text-sm sm:text-base text-slate-200 leading-relaxed bg-slate-900/80 p-5 rounded-xl border border-teal-500/20 shadow-sm whitespace-pre-wrap">
                   <MathRenderer text={activeTopic.extendedTheory.overview} />
                 </div>
               )}
