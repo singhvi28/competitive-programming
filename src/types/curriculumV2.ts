@@ -16,6 +16,14 @@ export interface ExternalLink {
   source: string;
 }
 
+export interface ExtendedTheory {
+  overview: string;
+  keyTheorems: string[];
+  algorithmSteps: string[];
+  invariantsAndFormulas: string;
+  edgeCases: string[];
+}
+
 export interface CurriculumV2Topic {
   id: string;
   title: string;
@@ -43,6 +51,7 @@ export interface CurriculumV2Topic {
   cheatSheet: string;
   externalLinks?: ExternalLink[];
   curatedProblems?: CuratedProblem[];
+  extendedTheory?: ExtendedTheory;
 }
 
 export interface CurriculumV2Module {
@@ -59,6 +68,7 @@ export interface CurriculumV2Module {
   topics: CurriculumV2Topic[];
   externalLinks?: ExternalLink[];
   curatedProblems?: CuratedProblem[];
+  extendedTheory?: ExtendedTheory;
 }
 
 export interface CurriculumV2Phase {

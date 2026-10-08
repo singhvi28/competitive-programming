@@ -18,7 +18,8 @@ import {
   ChevronRight,
   Target,
   Flame,
-  Globe
+  Globe,
+  BookOpen
 } from 'lucide-react';
 import curriculumV2DataRaw from '../data/curriculumV2Data.json';
 import { CurriculumV2Data, CurriculumV2Topic, RoiTier } from '../types/curriculumV2';
@@ -240,13 +241,116 @@ export const CurriculumV2GuidePage: React.FC = () => {
             </section>
           )}
 
-          {/* Section 2: Core Intuition & Invariants */}
+          {/* Section 2: Rigorous Theoretical Deep-Dive & Mathematical Mechanics */}
+          {activeTopic.extendedTheory && (
+            <section className="space-y-5">
+              <div className="flex items-center space-x-2 text-teal-400">
+                <BookOpen className="w-5 h-5" />
+                <h2 className="text-lg font-bold text-white tracking-tight uppercase font-mono text-sm">
+                  2. Theoretical Deep-Dive &amp; Mathematical Mechanics
+                </h2>
+              </div>
+
+              {/* Theory Overview */}
+              {activeTopic.extendedTheory.overview && (
+                <div className="text-sm sm:text-base text-slate-200 leading-relaxed bg-slate-900/80 p-5 rounded-xl border border-teal-500/20 shadow-sm">
+                  <MathRenderer text={activeTopic.extendedTheory.overview} />
+                </div>
+              )}
+
+              {/* Key Theorems & Mathematical Properties */}
+              {activeTopic.extendedTheory.keyTheorems.length > 0 && (
+                <div className="space-y-2.5">
+                  <h3 className="text-xs font-mono font-bold uppercase tracking-wider text-emerald-400 flex items-center space-x-1.5">
+                    <Sparkles className="w-4 h-4" />
+                    <span>Fundamental Theorems &amp; Invariants</span>
+                  </h3>
+                  <div className="grid grid-cols-1 gap-2.5">
+                    {activeTopic.extendedTheory.keyTheorems.map((theorem, idx) => (
+                      <div
+                        key={idx}
+                        className="text-xs sm:text-sm text-slate-200 bg-slate-900/90 p-4 rounded-xl border border-slate-800 flex items-start space-x-3"
+                      >
+                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 mt-2 flex-shrink-0" />
+                        <span className="leading-relaxed">
+                          <MathRenderer text={theorem} />
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Step-by-Step Algorithmic Mechanics */}
+              {activeTopic.extendedTheory.algorithmSteps.length > 0 && (
+                <div className="space-y-2.5">
+                  <h3 className="text-xs font-mono font-bold uppercase tracking-wider text-cyan-400 flex items-center space-x-1.5">
+                    <Code2 className="w-4 h-4" />
+                    <span>Algorithmic Execution Blueprint</span>
+                  </h3>
+                  <div className="grid grid-cols-1 gap-2.5">
+                    {activeTopic.extendedTheory.algorithmSteps.map((step, idx) => (
+                      <div
+                        key={idx}
+                        className="text-xs sm:text-sm text-slate-300 bg-slate-900/60 p-4 rounded-xl border border-slate-800/80 flex items-start space-x-3"
+                      >
+                        <span className="font-mono text-xs font-bold px-2 py-0.5 rounded bg-slate-800 text-cyan-400 flex-shrink-0">
+                          Step {idx + 1}
+                        </span>
+                        <span className="leading-relaxed">
+                          <MathRenderer text={step} />
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Invariant Equation & Closed-Form Recurrences */}
+              {activeTopic.extendedTheory.invariantsAndFormulas && (
+                <div className="space-y-2">
+                  <h3 className="text-xs font-mono font-bold uppercase tracking-wider text-purple-400 flex items-center space-x-1.5">
+                    <BrainCircuit className="w-4 h-4" />
+                    <span>Closed-Form Invariant Equations</span>
+                  </h3>
+                  <div className="text-sm font-mono text-slate-100 bg-slate-950 p-4 rounded-xl border border-purple-500/30 overflow-x-auto text-center">
+                    <MathRenderer text={activeTopic.extendedTheory.invariantsAndFormulas} />
+                  </div>
+                </div>
+              )}
+
+              {/* Edge Cases & Theoretical Traps */}
+              {activeTopic.extendedTheory.edgeCases.length > 0 && (
+                <div className="space-y-2.5">
+                  <h3 className="text-xs font-mono font-bold uppercase tracking-wider text-amber-400 flex items-center space-x-1.5">
+                    <AlertTriangle className="w-4 h-4" />
+                    <span>Structural Edge Cases &amp; Assumptions</span>
+                  </h3>
+                  <div className="grid grid-cols-1 gap-2">
+                    {activeTopic.extendedTheory.edgeCases.map((edge, idx) => (
+                      <div
+                        key={idx}
+                        className="text-xs sm:text-sm text-amber-200/90 bg-amber-950/15 p-3.5 rounded-xl border border-amber-900/30 flex items-start space-x-2.5"
+                      >
+                        <span className="w-1.5 h-1.5 rounded-full bg-amber-400 mt-2 flex-shrink-0" />
+                        <span className="leading-relaxed">
+                          <MathRenderer text={edge} />
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </section>
+          )}
+
+          {/* Section 3: Core Intuition & Invariants */}
           {activeTopic.coreIntuition && (
             <section className="space-y-3">
               <div className="flex items-center space-x-2 text-emerald-400">
                 <BrainCircuit className="w-5 h-5" />
                 <h2 className="text-lg font-bold text-white tracking-tight uppercase font-mono text-sm">
-                  2. Core Intuition &amp; Invariants
+                  3. Core Intuition &amp; Problem Framing
                 </h2>
               </div>
               <div className="text-sm sm:text-base text-slate-200 leading-relaxed bg-slate-900/80 p-5 rounded-xl border border-slate-800/80 whitespace-pre-wrap">
@@ -255,13 +359,13 @@ export const CurriculumV2GuidePage: React.FC = () => {
             </section>
           )}
 
-          {/* Section 3: Mathematical Derivations & Recurrences */}
+          {/* Section 4: Mathematical Derivations & Recurrences */}
           {activeTopic.derivation && (
             <section className="space-y-3">
               <div className="flex items-center space-x-2 text-purple-400">
                 <Sparkles className="w-5 h-5" />
                 <h2 className="text-lg font-bold text-white tracking-tight uppercase font-mono text-sm">
-                  3. Mathematical Derivations &amp; Formulas
+                  4. Proof Sketches &amp; Recurrences
                 </h2>
               </div>
               <div className="text-sm sm:text-base text-slate-200 leading-relaxed bg-slate-900/90 p-5 rounded-xl border border-purple-500/20 whitespace-pre-wrap overflow-x-auto">
@@ -270,14 +374,14 @@ export const CurriculumV2GuidePage: React.FC = () => {
             </section>
           )}
 
-          {/* Section 4: Contest-Ready Templates */}
+          {/* Section 5: Contest-Ready Templates */}
           {(activeTopic.templateCpp || activeTopic.templatePython) && (
             <section className="space-y-3">
               <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-2 text-cyan-400">
                   <Code2 className="w-5 h-5" />
                   <h2 className="text-lg font-bold text-white tracking-tight uppercase font-mono text-sm">
-                    4. Contest-Ready Implementation Templates
+                    5. Contest-Ready Implementation Templates
                   </h2>
                 </div>
 
@@ -340,13 +444,13 @@ export const CurriculumV2GuidePage: React.FC = () => {
             </section>
           )}
 
-          {/* Section 5: Recognition Patterns */}
+          {/* Section 6: Recognition Patterns */}
           {activeTopic.recognitionPatterns.length > 0 && (
             <section className="space-y-3">
               <div className="flex items-center space-x-2 text-indigo-400">
                 <Zap className="w-5 h-5" />
                 <h2 className="text-lg font-bold text-white tracking-tight uppercase font-mono text-sm">
-                  5. Recognition Trigger Signals &amp; Heuristics
+                  6. Recognition Trigger Signals &amp; Heuristics
                 </h2>
               </div>
               <ul className="space-y-2.5">
@@ -365,13 +469,13 @@ export const CurriculumV2GuidePage: React.FC = () => {
             </section>
           )}
 
-          {/* Section 6: Contest Bug Traps */}
+          {/* Section 7: Contest Bug Traps */}
           {activeTopic.commonBugs.length > 0 && (
             <section className="space-y-3">
               <div className="flex items-center space-x-2 text-rose-400">
                 <AlertTriangle className="w-5 h-5" />
                 <h2 className="text-lg font-bold text-white tracking-tight uppercase font-mono text-sm">
-                  6. Contest WA / TLE / RE Traps
+                  7. Contest WA / TLE / RE Traps
                 </h2>
               </div>
               <ul className="space-y-2.5">
@@ -390,14 +494,14 @@ export const CurriculumV2GuidePage: React.FC = () => {
             </section>
           )}
 
-          {/* Section 7: Practice Problems Bank (Enriched from CP-Algorithms, CF, USACO) */}
+          {/* Section 8: Practice Problems Bank (Enriched from CP-Algorithms, CF, USACO) */}
           {activeTopic.curatedProblems && activeTopic.curatedProblems.length > 0 && (
             <section className="space-y-4">
               <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-2 text-emerald-400">
                   <Flame className="w-5 h-5" />
                   <h2 className="text-lg font-bold text-white tracking-tight uppercase font-mono text-sm">
-                    7. Curated Practice Problem Bank
+                    8. Curated Practice Problem Bank
                   </h2>
                 </div>
                 <span className="text-xs font-mono text-slate-400">
@@ -453,13 +557,13 @@ export const CurriculumV2GuidePage: React.FC = () => {
             </section>
           )}
 
-          {/* Section 8: External High-Yield References */}
+          {/* Section 9: External High-Yield References */}
           {activeTopic.externalLinks && activeTopic.externalLinks.length > 0 && (
             <section className="space-y-3">
               <div className="flex items-center space-x-2 text-teal-400">
                 <Globe className="w-5 h-5" />
                 <h2 className="text-lg font-bold text-white tracking-tight uppercase font-mono text-sm">
-                  8. External Theory &amp; Deep-Dive References
+                  9. External Theory &amp; Deep-Dive References
                 </h2>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
