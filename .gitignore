@@ -2,3 +2,5 @@ node_modules/
 .DS_Store
 *.log
 index.html.built
+__pycache__/
+*.pyc
