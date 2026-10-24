@@ -288,6 +288,22 @@ Welcome to the complete offline Markdown edition of the **Competitive Programmin
 - [Sweep-line patterns](./sec-18/09-18-sweep-line-patterns.md) — `A-tier` | `1800–2500`
 - [Mo vs segment tree (drill this distinction)](./sec-18/10-18-mo-vs-segment-tree-drill-this-distinction.md) — `B-tier` | `1600–2200`
 
+### Phase 5: Dynamic Programming & Advanced Greedy
+
+#### [§19 Greedy Fundamentals & Invariants](./sec-19/README.md) (11 topics)
+
+- [Greedy Foundations, Proof Paradigms & The Exchange Argument](./sec-19/01-19-greedy-foundations-and-exchange-arguments.md) — `S-tier` | `1400–2400`
+- [Interval Scheduling, Coverage & Lexicographical Greedy](./sec-19/02-19-interval-scheduling-coverage-and-lexicographical-greedy.md) — `S-tier` | `1300–2100`
+- [Sorting Criteria, Custom Comparators & Partitioned Greedy](./sec-19/03-19-sorting-criteria-custom-comparators-and-partitioned-greedy.md) — `S-tier` | `1500–2300`
+- [Sweep-Line Invariants, Active Sets & Constructive Greedy](./sec-19/04-19-sweep-line-invariants-active-sets-and-constructive-greedy.md) — `S-tier` | `1400–2200`
+- [Priority Queue Regret & Buy-Now-Refund-Later Heuristics](./sec-19/05-19-priority-queue-regret-and-undo-maintenance.md) — `S-tier` | `1600–2400`
+- [Axis Decoupling, Median Invariants & 1D/2D Sweeps](./sec-19/06-19-axis-decoupling-median-invariants-and-sweeps.md) — `S-tier` | `1400–2200`
+- [Convex Optimization, Slope Trick & WQS Binary Search](./sec-19/07-19-convex-optimization-slope-trick-and-wqs-binary-search.md) — `A-tier` | `2000–2800`
+- [Greedy on Graphs & Trees (Dijkstra, MST, Centroid, Tree DP)](./sec-19/08-19-greedy-on-graphs-and-trees.md) — `S-tier` | `1400–2300`
+- [Matroid Theory & Matroid Intersection](./sec-19/09-19-matroid-theory-and-matroid-intersection.md) — `A-tier` | `2200–2800+`
+- [Antimatroids, Posets & Advanced Greedy Oracles (Trie, SegTree, Hall's)](./sec-19/10-19-antimatroids-posets-and-advanced-greedy-oracles.md) — `S-tier` | `1800–2600`
+- [Impartial Games, Sprague-Grundy & Periodic Invariants](./sec-19/11-19-impartial-games-sprague-grundy-and-periodic-invariants.md) — `A-tier` | `1600–2400`
+
 ### Phase 1: Range Queries & Sweeps
 
 #### [§22 Line Sweep Algorithms & Reductions](./sec-22/README.md) (15 topics)
