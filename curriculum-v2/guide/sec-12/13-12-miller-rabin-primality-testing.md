@@ -1,4 +1,4 @@
-# Miller-Rabin Primality Testing
+# 13. Miller-Rabin Primality Testing
 
 > **Section:** §12 Number Theory & Multiplicative Functions  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

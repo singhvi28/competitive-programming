@@ -1,4 +1,4 @@
-# Finding $K$ Intersections among $N$ Line Segments in $O((N + K) \log N)$
+# 10. Finding $K$ Intersections among $N$ Line Segments in $O((N + K) \log N)$
 
 > **Section:** §22 Line Sweep Algorithms & Reductions  
 > **Phase:** Phase 1 — Range Queries & Sweeps  

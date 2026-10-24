@@ -1,4 +1,4 @@
-# D&C DP vs Knuth
+# 14. D&C DP vs Knuth
 
 > **Section:** §10 Dynamic Programming Optimizations  
 > **Phase:** Phase 5 — Dynamic Programming & Advanced Greedy  

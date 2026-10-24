@@ -1,4 +1,4 @@
-# Rarely worth early / niche early
+# 20. Rarely worth early / niche early
 
 > **Section:** §10 Dynamic Programming Optimizations  
 > **Phase:** Phase 5 — Dynamic Programming & Advanced Greedy  

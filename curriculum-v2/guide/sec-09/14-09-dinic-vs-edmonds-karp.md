@@ -1,4 +1,4 @@
-# Dinic vs Edmonds–Karp
+# 14. Dinic vs Edmonds–Karp
 
 > **Section:** §09 Network Flow & Matchings  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

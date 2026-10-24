@@ -1,4 +1,4 @@
-# Parallel binary search
+# 7. Parallel binary search
 
 > **Section:** §18 Randomization & Meta-Techniques  
 > **Phase:** Phase 8 — Game Theory, Geometry & Meta-Algorithms  

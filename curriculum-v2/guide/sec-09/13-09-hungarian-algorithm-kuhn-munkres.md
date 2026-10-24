@@ -1,4 +1,4 @@
-# Hungarian Algorithm (Kuhn-Munkres)
+# 13. Hungarian Algorithm (Kuhn-Munkres)
 
 > **Section:** §09 Network Flow & Matchings  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

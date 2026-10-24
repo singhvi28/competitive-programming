@@ -1,4 +1,4 @@
-# Implicit Treaps and Randomized BSTs
+# 3. Implicit Treaps and Randomized BSTs
 
 > **Section:** §18 Randomization & Meta-Techniques  
 > **Phase:** Phase 8 — Game Theory, Geometry & Meta-Algorithms  

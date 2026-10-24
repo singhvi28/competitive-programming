@@ -1,4 +1,4 @@
-# Matching vs General Flow
+# 16. Matching vs General Flow
 
 > **Section:** §09 Network Flow & Matchings  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

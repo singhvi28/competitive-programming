@@ -1,4 +1,4 @@
-# Polynomial exponentiation
+# 5. Polynomial exponentiation
 
 > **Section:** §15 FFT, NTT & Formal Power Series  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

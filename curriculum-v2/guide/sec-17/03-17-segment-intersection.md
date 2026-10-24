@@ -1,4 +1,4 @@
-# Segment Intersection
+# 3. Segment Intersection
 
 > **Section:** §17 Computational Geometry & Polygons  
 > **Phase:** Phase 8 — Game Theory, Geometry & Meta-Algorithms  

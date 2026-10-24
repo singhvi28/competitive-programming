@@ -1,4 +1,4 @@
-# LCP Array (Kasai) + Applications
+# 7. LCP Array (Kasai) + Applications
 
 > **Section:** §11 String Algorithms & Automata  
 > **Phase:** Phase 6 — String Algorithms  

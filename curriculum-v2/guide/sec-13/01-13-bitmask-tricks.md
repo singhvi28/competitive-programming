@@ -1,4 +1,4 @@
-# Bitmask tricks
+# 1. Bitmask tricks
 
 > **Section:** §13 Bit Manipulation & Advanced Combinatorics  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

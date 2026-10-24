@@ -1,4 +1,4 @@
-# Coordinate compression
+# 8. Coordinate compression
 
 > **Section:** §18 Randomization & Meta-Techniques  
 > **Phase:** Phase 8 — Game Theory, Geometry & Meta-Algorithms  

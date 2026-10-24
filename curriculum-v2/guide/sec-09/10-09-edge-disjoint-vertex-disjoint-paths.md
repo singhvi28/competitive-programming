@@ -1,4 +1,4 @@
-# Edge-Disjoint & Vertex-Disjoint Paths
+# 10. Edge-Disjoint & Vertex-Disjoint Paths
 
 > **Section:** §09 Network Flow & Matchings  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

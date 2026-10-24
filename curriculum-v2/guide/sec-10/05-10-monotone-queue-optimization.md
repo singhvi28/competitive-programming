@@ -1,4 +1,4 @@
-# Monotone queue optimization
+# 5. Monotone queue optimization
 
 > **Section:** §10 Dynamic Programming Optimizations  
 > **Phase:** Phase 5 — Dynamic Programming & Advanced Greedy  

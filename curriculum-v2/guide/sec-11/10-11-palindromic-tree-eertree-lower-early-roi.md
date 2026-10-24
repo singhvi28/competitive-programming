@@ -1,4 +1,4 @@
-# Palindromic Tree (Eertree) — Lower Early ROI
+# 10. Palindromic Tree (Eertree) — Lower Early ROI
 
 > **Section:** §11 String Algorithms & Automata  
 > **Phase:** Phase 6 — String Algorithms  

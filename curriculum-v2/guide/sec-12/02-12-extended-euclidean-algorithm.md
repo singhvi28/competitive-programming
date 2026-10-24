@@ -1,4 +1,4 @@
-# Extended Euclidean Algorithm
+# 2. Extended Euclidean Algorithm
 
 > **Section:** §12 Number Theory & Multiplicative Functions  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

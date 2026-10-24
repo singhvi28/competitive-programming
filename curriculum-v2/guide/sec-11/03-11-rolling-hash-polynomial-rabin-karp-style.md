@@ -1,4 +1,4 @@
-# Rolling Hash (Polynomial / Rabin–Karp style)
+# 3. Rolling Hash (Polynomial / Rabin–Karp style)
 
 > **Section:** §11 String Algorithms & Automata  
 > **Phase:** Phase 6 — String Algorithms  

@@ -1,4 +1,4 @@
-# Gaussian Elimination
+# 1. Gaussian Elimination
 
 > **Section:** §14 Linear Algebra & Algebraic Graph Theory  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

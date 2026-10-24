@@ -1,4 +1,4 @@
-# B. FIRST PRINCIPLES & ALGORITHM MECHANICS
+# 11. B. FIRST PRINCIPLES & ALGORITHM MECHANICS
 
 > **Section:** §22 Line Sweep Algorithms & Reductions  
 > **Phase:** Phase 1 — Range Queries & Sweeps  

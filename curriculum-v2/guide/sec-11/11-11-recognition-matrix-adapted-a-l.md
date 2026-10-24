@@ -1,4 +1,4 @@
-# Recognition Matrix + Adapted A–L
+# 11. Recognition Matrix + Adapted A–L
 
 > **Section:** §11 String Algorithms & Automata  
 > **Phase:** Phase 6 — String Algorithms  

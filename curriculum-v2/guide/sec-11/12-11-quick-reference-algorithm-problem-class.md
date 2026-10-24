@@ -1,4 +1,4 @@
-# Quick Reference — Algorithm → Problem Class
+# 12. Quick Reference — Algorithm → Problem Class
 
 > **Section:** §11 String Algorithms & Automata  
 > **Phase:** Phase 6 — String Algorithms  

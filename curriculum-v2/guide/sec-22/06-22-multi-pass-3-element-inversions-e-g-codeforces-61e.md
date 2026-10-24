@@ -1,4 +1,4 @@
-# Multi-Pass / 3-Element Inversions (e.g., Codeforces 61E)
+# 6. Multi-Pass / 3-Element Inversions (e.g., Codeforces 61E)
 
 > **Section:** §22 Line Sweep Algorithms & Reductions  
 > **Phase:** Phase 1 — Range Queries & Sweeps  

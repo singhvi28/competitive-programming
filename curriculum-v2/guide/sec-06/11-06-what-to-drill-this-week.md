@@ -1,4 +1,4 @@
-# What to drill this week
+# 11. What to drill this week
 
 > **Section:** §06 Tree Algorithms & Structural Decompositions  
 > **Phase:** Phase 2 — Tree Algorithms & Structural Hierarchies  

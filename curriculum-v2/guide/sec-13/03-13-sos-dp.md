@@ -1,4 +1,4 @@
-# SOS DP
+# 3. SOS DP
 
 > **Section:** §13 Bit Manipulation & Advanced Combinatorics  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

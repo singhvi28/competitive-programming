@@ -1,4 +1,4 @@
-# Dijkstra Variants
+# 1. Dijkstra Variants
 
 > **Section:** §08 Advanced Graphs (Shortest Paths, MST, Euler)  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

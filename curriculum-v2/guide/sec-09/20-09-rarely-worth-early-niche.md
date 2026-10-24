@@ -1,4 +1,4 @@
-# Rarely worth early / Niche
+# 20. Rarely worth early / Niche
 
 > **Section:** §09 Network Flow & Matchings  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

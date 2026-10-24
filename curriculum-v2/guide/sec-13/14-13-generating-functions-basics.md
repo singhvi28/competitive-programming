@@ -1,4 +1,4 @@
-# Generating functions basics
+# 14. Generating functions basics
 
 > **Section:** §13 Bit Manipulation & Advanced Combinatorics  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

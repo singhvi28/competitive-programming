@@ -1,4 +1,4 @@
-# Divide-and-conquer optimization
+# 1. Divide-and-conquer optimization
 
 > **Section:** §10 Dynamic Programming Optimizations  
 > **Phase:** Phase 5 — Dynamic Programming & Advanced Greedy  

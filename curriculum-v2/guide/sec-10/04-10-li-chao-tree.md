@@ -1,4 +1,4 @@
-# Li Chao Tree
+# 4. Li Chao Tree
 
 > **Section:** §10 Dynamic Programming Optimizations  
 > **Phase:** Phase 5 — Dynamic Programming & Advanced Greedy  

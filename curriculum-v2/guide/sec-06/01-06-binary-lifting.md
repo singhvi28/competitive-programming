@@ -1,4 +1,4 @@
-# Binary Lifting
+# 1. Binary Lifting
 
 > **Section:** §06 Tree Algorithms & Structural Decompositions  
 > **Phase:** Phase 2 — Tree Algorithms & Structural Hierarchies  

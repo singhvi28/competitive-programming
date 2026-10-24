@@ -1,4 +1,4 @@
-# Circulation (Feasibility / Balances)
+# 8. Circulation (Feasibility / Balances)
 
 > **Section:** §09 Network Flow & Matchings  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

@@ -1,4 +1,4 @@
-# Computing Overlapping 2D Rectangle Area in $O(N \log N)$
+# 8. Computing Overlapping 2D Rectangle Area in $O(N \log N)$
 
 > **Section:** §22 Line Sweep Algorithms & Reductions  
 > **Phase:** Phase 1 — Range Queries & Sweeps  

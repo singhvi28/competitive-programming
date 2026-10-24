@@ -1,4 +1,4 @@
-# Suggested learning order (exact subtopic order)
+# 21. Suggested learning order (exact subtopic order)
 
 > **Section:** §10 Dynamic Programming Optimizations  
 > **Phase:** Phase 5 — Dynamic Programming & Advanced Greedy  

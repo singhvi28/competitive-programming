@@ -1,4 +1,4 @@
-# Finding Linear Recurrences
+# 5. Finding Linear Recurrences
 
 > **Section:** §14 Linear Algebra & Algebraic Graph Theory  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

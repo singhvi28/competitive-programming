@@ -1,4 +1,4 @@
-# Fast Exponentiation
+# 1. Fast Exponentiation
 
 > **Section:** §12 Number Theory & Multiplicative Functions  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

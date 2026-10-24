@@ -1,4 +1,4 @@
-# Part A — [08-a-shortest-paths.md](08-a-shortest-paths.md)
+# 13. Part A — [08-a-shortest-paths.md](08-a-shortest-paths.md)
 
 > **Section:** §08 Advanced Graphs (Shortest Paths, MST, Euler)  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

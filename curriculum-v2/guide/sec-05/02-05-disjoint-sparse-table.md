@@ -1,4 +1,4 @@
-# Disjoint Sparse Table
+# 2. Disjoint Sparse Table
 
 > **Section:** §05 Advanced Data Structures (Treaps, LCT, PBDS)  
 > **Phase:** Phase 3 — Advanced Data Structures & Sqrt Techniques  

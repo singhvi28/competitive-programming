@@ -1,4 +1,4 @@
-# High-ROI (drill first)
+# 13. High-ROI (drill first)
 
 > **Section:** §11 String Algorithms & Automata  
 > **Phase:** Phase 6 — String Algorithms  

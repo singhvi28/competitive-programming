@@ -1,4 +1,4 @@
-# Sprague-Grundy theorem
+# 2. Sprague-Grundy theorem
 
 > **Section:** §16 Game Theory & Sprague-Grundy  
 > **Phase:** Phase 8 — Game Theory, Geometry & Meta-Algorithms  

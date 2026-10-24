@@ -1,4 +1,4 @@
-# Dynamic segment tree
+# 7. Dynamic segment tree
 
 > **Section:** §02 Segment Trees & Range Invariants  
 > **Phase:** Phase 1 — Range Queries & Sweeps  

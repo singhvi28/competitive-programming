@@ -1,4 +1,4 @@
-# Edge-Cut Tree Component Splitting in $O((N + Q) \log N)$
+# 13. Edge-Cut Tree Component Splitting in $O((N + Q) \log N)$
 
 > **Section:** §22 Line Sweep Algorithms & Reductions  
 > **Phase:** Phase 1 — Range Queries & Sweeps  

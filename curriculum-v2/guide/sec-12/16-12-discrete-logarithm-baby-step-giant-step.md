@@ -1,4 +1,4 @@
-# Discrete Logarithm / Baby-Step Giant-Step
+# 16. Discrete Logarithm / Baby-Step Giant-Step
 
 > **Section:** §12 Number Theory & Multiplicative Functions  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

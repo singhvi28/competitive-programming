@@ -1,4 +1,4 @@
-# Linear Diophantine Equations
+# 5. Linear Diophantine Equations
 
 > **Section:** §12 Number Theory & Multiplicative Functions  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

@@ -1,4 +1,4 @@
-# When FFT/NTT is actually worth using in contests
+# 7. When FFT/NTT is actually worth using in contests
 
 > **Section:** §15 FFT, NTT & Formal Power Series  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

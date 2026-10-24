@@ -1,4 +1,4 @@
-# 2D Fenwick Tree
+# 2. 2D Fenwick Tree
 
 > **Section:** §01 Fenwick Tree (Binary Indexed Tree)  
 > **Phase:** Phase 1 — Range Queries & Sweeps  

@@ -1,4 +1,4 @@
-# Convex Hull (Andrew Monotone Chain)
+# 5. Convex Hull (Andrew Monotone Chain)
 
 > **Section:** §17 Computational Geometry & Polygons  
 > **Phase:** Phase 8 — Game Theory, Geometry & Meta-Algorithms  

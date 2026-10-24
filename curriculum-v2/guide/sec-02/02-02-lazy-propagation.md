@@ -1,4 +1,4 @@
-# Lazy propagation
+# 2. Lazy propagation
 
 > **Section:** §02 Segment Trees & Range Invariants  
 > **Phase:** Phase 1 — Range Queries & Sweeps  

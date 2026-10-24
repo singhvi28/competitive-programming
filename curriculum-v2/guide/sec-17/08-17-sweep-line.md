@@ -1,4 +1,4 @@
-# Sweep Line
+# 8. Sweep Line
 
 > **Section:** §17 Computational Geometry & Polygons  
 > **Phase:** Phase 8 — Game Theory, Geometry & Meta-Algorithms  

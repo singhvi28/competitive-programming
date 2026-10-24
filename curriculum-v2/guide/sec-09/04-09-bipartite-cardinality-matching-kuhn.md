@@ -1,4 +1,4 @@
-# Bipartite Cardinality Matching (Kuhn)
+# 4. Bipartite Cardinality Matching (Kuhn)
 
 > **Section:** §09 Network Flow & Matchings  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

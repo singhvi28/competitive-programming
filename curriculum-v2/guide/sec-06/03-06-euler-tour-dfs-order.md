@@ -1,4 +1,4 @@
-# Euler Tour (DFS order)
+# 3. Euler Tour (DFS order)
 
 > **Section:** §06 Tree Algorithms & Structural Decompositions  
 > **Phase:** Phase 2 — Tree Algorithms & Structural Hierarchies  

@@ -1,4 +1,4 @@
-# SOS DP (Sum over Subsets) — primary home
+# 8. SOS DP (Sum over Subsets) — primary home
 
 > **Section:** §10 Dynamic Programming Optimizations  
 > **Phase:** Phase 5 — Dynamic Programming & Advanced Greedy  

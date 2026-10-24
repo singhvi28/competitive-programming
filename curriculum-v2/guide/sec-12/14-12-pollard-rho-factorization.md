@@ -1,4 +1,4 @@
-# Pollard-Rho Factorization
+# 14. Pollard-Rho Factorization
 
 > **Section:** §12 Number Theory & Multiplicative Functions  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

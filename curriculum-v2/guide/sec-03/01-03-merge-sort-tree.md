@@ -1,4 +1,4 @@
-# Merge sort tree
+# 1. Merge sort tree
 
 > **Section:** §03 Merge Sort Trees & 2D Ranges  
 > **Phase:** Phase 1 — Range Queries & Sweeps  

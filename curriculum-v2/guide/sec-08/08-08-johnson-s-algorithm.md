@@ -1,4 +1,4 @@
-# Johnson’s Algorithm
+# 8. Johnson’s Algorithm
 
 > **Section:** §08 Advanced Graphs (Shortest Paths, MST, Euler)  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

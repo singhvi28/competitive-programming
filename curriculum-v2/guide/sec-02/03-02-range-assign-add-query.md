@@ -1,4 +1,4 @@
-# Range assign/add/query
+# 3. Range assign/add/query
 
 > **Section:** §02 Segment Trees & Range Invariants  
 > **Phase:** Phase 1 — Range Queries & Sweeps  

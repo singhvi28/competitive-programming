@@ -1,4 +1,4 @@
-# Flows with Lower Bounds on Edges
+# 7. Flows with Lower Bounds on Edges
 
 > **Section:** §09 Network Flow & Matchings  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

@@ -1,4 +1,4 @@
-# Situational (learn when recognition hits)
+# 16. Situational (learn when recognition hits)
 
 > **Section:** §17 Computational Geometry & Polygons  
 > **Phase:** Phase 8 — Game Theory, Geometry & Meta-Algorithms  

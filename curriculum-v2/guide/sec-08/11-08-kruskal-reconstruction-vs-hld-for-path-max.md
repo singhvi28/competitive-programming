@@ -1,4 +1,4 @@
-# Kruskal Reconstruction vs HLD for Path Max
+# 11. Kruskal Reconstruction vs HLD for Path Max
 
 > **Section:** §08 Advanced Graphs (Shortest Paths, MST, Euler)  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

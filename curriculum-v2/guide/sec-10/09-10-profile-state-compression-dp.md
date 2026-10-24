@@ -1,4 +1,4 @@
-# Profile / state-compression DP
+# 9. Profile / state-compression DP
 
 > **Section:** §10 Dynamic Programming Optimizations  
 > **Phase:** Phase 5 — Dynamic Programming & Advanced Greedy  

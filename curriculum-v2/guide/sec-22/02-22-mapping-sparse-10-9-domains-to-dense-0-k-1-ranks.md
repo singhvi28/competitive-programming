@@ -1,4 +1,4 @@
-# Mapping Sparse $10^9$ Domains to Dense $[0, K-1]$ Ranks
+# 2. Mapping Sparse $10^9$ Domains to Dense $[0, K-1]$ Ranks
 
 > **Section:** §22 Line Sweep Algorithms & Reductions  
 > **Phase:** Phase 1 — Range Queries & Sweeps  

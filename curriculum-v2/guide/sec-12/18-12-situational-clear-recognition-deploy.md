@@ -1,4 +1,4 @@
-# Situational (clear recognition → deploy)
+# 18. Situational (clear recognition → deploy)
 
 > **Section:** §12 Number Theory & Multiplicative Functions  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

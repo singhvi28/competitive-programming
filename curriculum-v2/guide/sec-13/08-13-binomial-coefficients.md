@@ -1,4 +1,4 @@
-# Binomial coefficients
+# 8. Binomial coefficients
 
 > **Section:** §13 Bit Manipulation & Advanced Combinatorics  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

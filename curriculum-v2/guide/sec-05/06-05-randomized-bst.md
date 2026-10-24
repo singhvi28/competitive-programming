@@ -1,4 +1,4 @@
-# Randomized BST
+# 6. Randomized BST
 
 > **Section:** §05 Advanced Data Structures (Treaps, LCT, PBDS)  
 > **Phase:** Phase 3 — Advanced Data Structures & Sqrt Techniques  

@@ -1,4 +1,4 @@
-# Max Flow (Ford–Fulkerson / Edmonds–Karp)
+# 1. Max Flow (Ford–Fulkerson / Edmonds–Karp)
 
 > **Section:** §09 Network Flow & Matchings  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

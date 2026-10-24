@@ -1,4 +1,4 @@
-# Dimensional Reduction via Event Processing
+# 1. Dimensional Reduction via Event Processing
 
 > **Section:** §22 Line Sweep Algorithms & Reductions  
 > **Phase:** Phase 1 — Range Queries & Sweeps  

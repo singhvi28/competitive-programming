@@ -1,4 +1,4 @@
-# Rarely worth early / Niche (C-tier)
+# 15. Rarely worth early / Niche (C-tier)
 
 > **Section:** §11 String Algorithms & Automata  
 > **Phase:** Phase 6 — String Algorithms  

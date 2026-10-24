@@ -1,4 +1,4 @@
-# Sparse Table (RMQ / Idempotent Range Queries)
+# 1. Sparse Table (RMQ / Idempotent Range Queries)
 
 > **Section:** §05 Advanced Data Structures (Treaps, LCT, PBDS)  
 > **Phase:** Phase 3 — Advanced Data Structures & Sqrt Techniques  

@@ -1,4 +1,4 @@
-# Functional Graphs
+# 19. Functional Graphs
 
 > **Section:** §08 Advanced Graphs (Shortest Paths, MST, Euler)  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

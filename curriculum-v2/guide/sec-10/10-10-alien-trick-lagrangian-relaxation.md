@@ -1,4 +1,4 @@
-# Alien trick / Lagrangian relaxation
+# 10. Alien trick / Lagrangian relaxation
 
 > **Section:** §10 Dynamic Programming Optimizations  
 > **Phase:** Phase 5 — Dynamic Programming & Advanced Greedy  

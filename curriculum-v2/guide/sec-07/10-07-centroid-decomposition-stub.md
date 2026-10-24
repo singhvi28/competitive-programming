@@ -1,4 +1,4 @@
-# Centroid decomposition (STUB)
+# 10. Centroid decomposition (STUB)
 
 > **Section:** §07 Graph Algorithms (SCC, Topo-DP, 2-SAT)  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

@@ -1,4 +1,4 @@
-# Hopcroft–Karp
+# 5. Hopcroft–Karp
 
 > **Section:** §09 Network Flow & Matchings  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

@@ -1,4 +1,4 @@
-# Vertex Capacities (Node Split)
+# 9. Vertex Capacities (Node Split)
 
 > **Section:** §09 Network Flow & Matchings  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

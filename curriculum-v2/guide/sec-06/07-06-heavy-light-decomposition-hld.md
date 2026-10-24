@@ -1,4 +1,4 @@
-# Heavy-Light Decomposition (HLD)
+# 7. Heavy-Light Decomposition (HLD)
 
 > **Section:** §06 Tree Algorithms & Structural Decompositions  
 > **Phase:** Phase 2 — Tree Algorithms & Structural Hierarchies  

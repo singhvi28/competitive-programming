@@ -1,4 +1,4 @@
-# Min-Cost Max-Flow (MCMF)
+# 6. Min-Cost Max-Flow (MCMF)
 
 > **Section:** §09 Network Flow & Matchings  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

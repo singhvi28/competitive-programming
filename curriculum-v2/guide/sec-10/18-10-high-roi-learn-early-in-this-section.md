@@ -1,4 +1,4 @@
-# High-ROI (learn early in this section)
+# 18. High-ROI (learn early in this section)
 
 > **Section:** §10 Dynamic Programming Optimizations  
 > **Phase:** Phase 5 — Dynamic Programming & Advanced Greedy  

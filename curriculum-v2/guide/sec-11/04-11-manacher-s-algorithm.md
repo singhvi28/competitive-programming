@@ -1,4 +1,4 @@
-# Manacher’s Algorithm
+# 4. Manacher’s Algorithm
 
 > **Section:** §11 String Algorithms & Automata  
 > **Phase:** Phase 6 — String Algorithms  

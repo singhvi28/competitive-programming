@@ -1,4 +1,4 @@
-# Monte Carlo vs Las Vegas
+# 4. Monte Carlo vs Las Vegas
 
 > **Section:** §18 Randomization & Meta-Techniques  
 > **Phase:** Phase 8 — Game Theory, Geometry & Meta-Algorithms  

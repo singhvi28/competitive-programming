@@ -1,4 +1,4 @@
-# Burnside's lemma
+# 12. Burnside's lemma
 
 > **Section:** §13 Bit Manipulation & Advanced Combinatorics  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

@@ -1,4 +1,4 @@
-# Situational (learn after High-ROI)
+# 17. Situational (learn after High-ROI)
 
 > **Section:** §13 Bit Manipulation & Advanced Combinatorics  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

@@ -1,4 +1,4 @@
-# Eulerian Paths / Circuits
+# 18. Eulerian Paths / Circuits
 
 > **Section:** §08 Advanced Graphs (Shortest Paths, MST, Euler)  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

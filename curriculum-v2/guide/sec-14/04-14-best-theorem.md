@@ -1,4 +1,4 @@
-# BEST Theorem
+# 4. BEST Theorem
 
 > **Section:** §14 Linear Algebra & Algebraic Graph Theory  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

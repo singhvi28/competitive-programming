@@ -1,4 +1,4 @@
-# Mapping Subtree & Path Queries to 1D Sweep Intervals
+# 12. Mapping Subtree & Path Queries to 1D Sweep Intervals
 
 > **Section:** §22 Line Sweep Algorithms & Reductions  
 > **Phase:** Phase 1 — Range Queries & Sweeps  

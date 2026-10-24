@@ -1,4 +1,4 @@
-# Situational (clear recognition pattern first)
+# 19. Situational (clear recognition pattern first)
 
 > **Section:** §10 Dynamic Programming Optimizations  
 > **Phase:** Phase 5 — Dynamic Programming & Advanced Greedy  

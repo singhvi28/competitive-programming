@@ -1,4 +1,4 @@
-# Part B — [12-b-number-theory-mobius-bsgs.md](12-b-number-theory-mobius-bsgs.md)
+# 21. Part B — [12-b-number-theory-mobius-bsgs.md](12-b-number-theory-mobius-bsgs.md)
 
 > **Section:** §12 Number Theory & Multiplicative Functions  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

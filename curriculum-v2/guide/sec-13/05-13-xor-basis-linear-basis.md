@@ -1,4 +1,4 @@
-# XOR basis / linear basis
+# 5. XOR basis / linear basis
 
 > **Section:** §13 Bit Manipulation & Advanced Combinatorics  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

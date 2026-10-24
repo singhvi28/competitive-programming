@@ -1,4 +1,4 @@
-# Maximum Value Occurring At Least Twice in Subarray $[L, R]$
+# 9. Maximum Value Occurring At Least Twice in Subarray $[L, R]$
 
 > **Section:** §22 Line Sweep Algorithms & Reductions  
 > **Phase:** Phase 1 — Range Queries & Sweeps  

@@ -1,4 +1,4 @@
-# What to drill this week
+# 19. What to drill this week
 
 > **Section:** §13 Bit Manipulation & Advanced Combinatorics  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

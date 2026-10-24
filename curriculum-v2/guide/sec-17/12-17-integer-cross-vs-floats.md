@@ -1,4 +1,4 @@
-# Integer cross vs floats
+# 12. Integer cross vs floats
 
 > **Section:** §17 Computational Geometry & Polygons  
 > **Phase:** Phase 8 — Game Theory, Geometry & Meta-Algorithms  

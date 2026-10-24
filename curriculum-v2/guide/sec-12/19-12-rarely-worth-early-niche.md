@@ -1,4 +1,4 @@
-# Rarely worth early / niche
+# 19. Rarely worth early / niche
 
 > **Section:** §12 Number Theory & Multiplicative Functions  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

@@ -1,4 +1,4 @@
-# Determinants
+# 2. Determinants
 
 > **Section:** §14 Linear Algebra & Algebraic Graph Theory  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

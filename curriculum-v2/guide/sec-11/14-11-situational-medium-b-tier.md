@@ -1,4 +1,4 @@
-# Situational (Medium / B-tier)
+# 14. Situational (Medium / B-tier)
 
 > **Section:** §11 String Algorithms & Automata  
 > **Phase:** Phase 6 — String Algorithms  

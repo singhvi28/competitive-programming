@@ -1,4 +1,4 @@
-# Minimum Spanning Tree Variants
+# 15. Minimum Spanning Tree Variants
 
 > **Section:** §08 Advanced Graphs (Shortest Paths, MST, Euler)  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

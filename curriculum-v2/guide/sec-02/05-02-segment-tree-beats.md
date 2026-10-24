@@ -1,4 +1,4 @@
-# Segment tree beats
+# 5. Segment tree beats
 
 > **Section:** §02 Segment Trees & Range Invariants  
 > **Phase:** Phase 1 — Range Queries & Sweeps  

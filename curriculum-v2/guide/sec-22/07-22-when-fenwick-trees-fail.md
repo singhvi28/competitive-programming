@@ -1,4 +1,4 @@
-# When Fenwick Trees Fail
+# 7. When Fenwick Trees Fail
 
 > **Section:** §22 Line Sweep Algorithms & Reductions  
 > **Phase:** Phase 1 — Range Queries & Sweeps  

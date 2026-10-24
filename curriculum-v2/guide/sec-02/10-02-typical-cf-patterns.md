@@ -1,4 +1,4 @@
-# Typical CF patterns
+# 10. Typical CF patterns
 
 > **Section:** §02 Segment Trees & Range Invariants  
 > **Phase:** Phase 1 — Range Queries & Sweeps  

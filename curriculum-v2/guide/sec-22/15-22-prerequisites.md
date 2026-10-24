@@ -1,4 +1,4 @@
-# Prerequisites
+# 15. Prerequisites
 
 > **Section:** §22 Line Sweep Algorithms & Reductions  
 > **Phase:** Phase 1 — Range Queries & Sweeps  

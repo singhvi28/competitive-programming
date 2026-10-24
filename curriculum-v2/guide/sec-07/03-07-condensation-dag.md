@@ -1,4 +1,4 @@
-# Condensation DAG
+# 3. Condensation DAG
 
 > **Section:** §07 Graph Algorithms (SCC, Topo-DP, 2-SAT)  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

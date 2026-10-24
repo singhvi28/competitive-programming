@@ -1,4 +1,4 @@
-# High-ROI (drill first)
+# 16. High-ROI (drill first)
 
 > **Section:** §13 Bit Manipulation & Advanced Combinatorics  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

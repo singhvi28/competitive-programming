@@ -1,4 +1,4 @@
-# Kirchhoff's Matrix Tree Theorem
+# 3. Kirchhoff's Matrix Tree Theorem
 
 > **Section:** §14 Linear Algebra & Algebraic Graph Theory  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

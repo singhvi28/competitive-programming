@@ -1,4 +1,4 @@
-# Maximum Overlapping Intervals in $O(N \log N)$
+# 3. Maximum Overlapping Intervals in $O(N \log N)$
 
 > **Section:** §22 Line Sweep Algorithms & Reductions  
 > **Phase:** Phase 1 — Range Queries & Sweeps  

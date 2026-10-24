@@ -1,4 +1,4 @@
-# Dinic’s Algorithm
+# 2. Dinic’s Algorithm
 
 > **Section:** §09 Network Flow & Matchings  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

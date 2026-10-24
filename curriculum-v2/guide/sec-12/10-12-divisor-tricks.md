@@ -1,4 +1,4 @@
-# Divisor Tricks
+# 10. Divisor Tricks
 
 > **Section:** §12 Number Theory & Multiplicative Functions  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

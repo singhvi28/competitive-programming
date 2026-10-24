@@ -1,4 +1,4 @@
-# Centroid Decomposition
+# 8. Centroid Decomposition
 
 > **Section:** §06 Tree Algorithms & Structural Decompositions  
 > **Phase:** Phase 2 — Tree Algorithms & Structural Hierarchies  

@@ -1,4 +1,4 @@
-# Ordered Statistics (PBDS / Fenwick / Treap)
+# 7. Ordered Statistics (PBDS / Fenwick / Treap)
 
 > **Section:** §05 Advanced Data Structures (Treaps, LCT, PBDS)  
 > **Phase:** Phase 3 — Advanced Data Structures & Sqrt Techniques  

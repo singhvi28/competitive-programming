@@ -1,4 +1,4 @@
-# What to drill this week
+# 22. What to drill this week
 
 > **Section:** §10 Dynamic Programming Optimizations  
 > **Phase:** Phase 5 — Dynamic Programming & Advanced Greedy  

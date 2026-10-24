@@ -1,4 +1,4 @@
-# Meet-in-the-middle
+# 5. Meet-in-the-middle
 
 > **Section:** §18 Randomization & Meta-Techniques  
 > **Phase:** Phase 8 — Game Theory, Geometry & Meta-Algorithms  

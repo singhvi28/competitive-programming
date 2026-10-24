@@ -1,4 +1,4 @@
-# Suffix Tree (Conceptual — Lower Early ROI)
+# 9. Suffix Tree (Conceptual — Lower Early ROI)
 
 > **Section:** §11 String Algorithms & Automata  
 > **Phase:** Phase 6 — String Algorithms  

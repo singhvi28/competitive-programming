@@ -1,4 +1,4 @@
-# Grundy numbers
+# 3. Grundy numbers
 
 > **Section:** §16 Game Theory & Sprague-Grundy  
 > **Phase:** Phase 8 — Game Theory, Geometry & Meta-Algorithms  

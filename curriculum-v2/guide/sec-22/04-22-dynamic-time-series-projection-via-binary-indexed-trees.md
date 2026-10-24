@@ -1,4 +1,4 @@
-# Dynamic Time-Series Projection via Binary Indexed Trees
+# 4. Dynamic Time-Series Projection via Binary Indexed Trees
 
 > **Section:** §22 Line Sweep Algorithms & Reductions  
 > **Phase:** Phase 1 — Range Queries & Sweeps  

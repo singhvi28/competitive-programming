@@ -1,4 +1,4 @@
-# Monotone queue vs monotone stack DP
+# 17. Monotone queue vs monotone stack DP
 
 > **Section:** §10 Dynamic Programming Optimizations  
 > **Phase:** Phase 5 — Dynamic Programming & Advanced Greedy  

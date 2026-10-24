@@ -1,4 +1,4 @@
-# Point Dominance
+# 5. Point Dominance
 
 > **Section:** §22 Line Sweep Algorithms & Reductions  
 > **Phase:** Phase 1 — Range Queries & Sweeps  

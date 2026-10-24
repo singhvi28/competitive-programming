@@ -1,4 +1,4 @@
-# Mo's algorithm
+# 1. Mo's algorithm
 
 > **Section:** §04 Square Root Decomposition & Mo's Algorithm  
 > **Phase:** Phase 3 — Advanced Data Structures & Sqrt Techniques  

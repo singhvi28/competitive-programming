@@ -1,4 +1,4 @@
-# Misère Nim
+# 4. Misère Nim
 
 > **Section:** §16 Game Theory & Sprague-Grundy  
 > **Phase:** Phase 8 — Game Theory, Geometry & Meta-Algorithms  

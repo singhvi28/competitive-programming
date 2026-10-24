@@ -1,4 +1,4 @@
-# Symmetry and Strategy-Stealing
+# 6. Symmetry and Strategy-Stealing
 
 > **Section:** §16 Game Theory & Sprague-Grundy  
 > **Phase:** Phase 8 — Game Theory, Geometry & Meta-Algorithms  

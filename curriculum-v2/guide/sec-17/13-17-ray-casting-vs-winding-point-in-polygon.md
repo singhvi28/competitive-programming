@@ -1,4 +1,4 @@
-# Ray casting vs winding (point-in-polygon)
+# 13. Ray casting vs winding (point-in-polygon)
 
 > **Section:** §17 Computational Geometry & Polygons  
 > **Phase:** Phase 8 — Game Theory, Geometry & Meta-Algorithms  

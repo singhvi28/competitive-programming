@@ -1,4 +1,4 @@
-# Kruskal Reconstruction Tree
+# 16. Kruskal Reconstruction Tree
 
 > **Section:** §08 Advanced Graphs (Shortest Paths, MST, Euler)  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

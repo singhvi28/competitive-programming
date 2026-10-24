@@ -1,4 +1,4 @@
-# Catalan numbers
+# 10. Catalan numbers
 
 > **Section:** §13 Bit Manipulation & Advanced Combinatorics  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

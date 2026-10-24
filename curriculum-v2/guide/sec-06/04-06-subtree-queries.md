@@ -1,4 +1,4 @@
-# Subtree Queries
+# 4. Subtree Queries
 
 > **Section:** §06 Tree Algorithms & Structural Decompositions  
 > **Phase:** Phase 2 — Tree Algorithms & Structural Hierarchies  

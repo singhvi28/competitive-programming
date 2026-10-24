@@ -1,4 +1,4 @@
-# DP optimization recognition patterns (synthesis)
+# 12. DP optimization recognition patterns (synthesis)
 
 > **Section:** §10 Dynamic Programming Optimizations  
 > **Phase:** Phase 5 — Dynamic Programming & Advanced Greedy  

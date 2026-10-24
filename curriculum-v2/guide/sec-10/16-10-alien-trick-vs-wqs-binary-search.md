@@ -1,4 +1,4 @@
-# Alien trick vs WQS binary search
+# 16. Alien trick vs WQS binary search
 
 > **Section:** §10 Dynamic Programming Optimizations  
 > **Phase:** Phase 5 — Dynamic Programming & Advanced Greedy  

@@ -1,4 +1,4 @@
-# Rarely worth early / Niche
+# 18. Rarely worth early / Niche
 
 > **Section:** §13 Bit Manipulation & Advanced Combinatorics  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

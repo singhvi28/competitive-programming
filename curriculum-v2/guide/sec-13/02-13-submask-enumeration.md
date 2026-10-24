@@ -1,4 +1,4 @@
-# Submask enumeration
+# 2. Submask enumeration
 
 > **Section:** §13 Bit Manipulation & Advanced Combinatorics  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

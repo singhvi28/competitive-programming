@@ -1,4 +1,4 @@
-# Suffix Automaton (SAM)
+# 8. Suffix Automaton (SAM)
 
 > **Section:** §11 String Algorithms & Automata  
 > **Phase:** Phase 6 — String Algorithms  

@@ -1,4 +1,4 @@
-# Link-Cut Tree (Concept + Preferred-Path Sketch)
+# 8. Link-Cut Tree (Concept + Preferred-Path Sketch)
 
 > **Section:** §05 Advanced Data Structures (Treaps, LCT, PBDS)  
 > **Phase:** Phase 3 — Advanced Data Structures & Sqrt Techniques  

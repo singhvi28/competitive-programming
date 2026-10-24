@@ -1,4 +1,4 @@
-# High-ROI (learn early in this section)
+# 15. High-ROI (learn early in this section)
 
 > **Section:** §17 Computational Geometry & Polygons  
 > **Phase:** Phase 8 — Game Theory, Geometry & Meta-Algorithms  

@@ -1,4 +1,4 @@
-# High ROI (learn now)
+# 17. High ROI (learn now)
 
 > **Section:** §12 Number Theory & Multiplicative Functions  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

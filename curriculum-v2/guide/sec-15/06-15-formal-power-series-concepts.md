@@ -1,4 +1,4 @@
-# Formal power series concepts
+# 6. Formal power series concepts
 
 > **Section:** §15 FFT, NTT & Formal Power Series  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

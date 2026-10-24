@@ -1,4 +1,4 @@
-# Offline query processing
+# 6. Offline query processing
 
 > **Section:** §18 Randomization & Meta-Techniques  
 > **Phase:** Phase 8 — Game Theory, Geometry & Meta-Algorithms  

@@ -1,4 +1,4 @@
-# Mo vs segment tree (drill this distinction)
+# 10. Mo vs segment tree (drill this distinction)
 
 > **Section:** §18 Randomization & Meta-Techniques  
 > **Phase:** Phase 8 — Game Theory, Geometry & Meta-Algorithms  

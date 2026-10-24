@@ -1,4 +1,4 @@
-# Monotone stack DP
+# 6. Monotone stack DP
 
 > **Section:** §10 Dynamic Programming Optimizations  
 > **Phase:** Phase 5 — Dynamic Programming & Advanced Greedy  

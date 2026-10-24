@@ -1,4 +1,4 @@
-# Suffix Array
+# 6. Suffix Array
 
 > **Section:** §11 String Algorithms & Automata  
 > **Phase:** Phase 6 — String Algorithms  

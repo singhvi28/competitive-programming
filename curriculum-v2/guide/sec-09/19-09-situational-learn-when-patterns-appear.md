@@ -1,4 +1,4 @@
-# Situational (learn when patterns appear)
+# 19. Situational (learn when patterns appear)
 
 > **Section:** §09 Network Flow & Matchings  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

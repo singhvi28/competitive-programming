@@ -1,4 +1,4 @@
-# Chinese Remainder Theorem
+# 4. Chinese Remainder Theorem
 
 > **Section:** §12 Number Theory & Multiplicative Functions  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

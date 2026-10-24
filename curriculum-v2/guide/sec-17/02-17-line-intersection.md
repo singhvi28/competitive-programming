@@ -1,4 +1,4 @@
-# Line Intersection
+# 2. Line Intersection
 
 > **Section:** §17 Computational Geometry & Polygons  
 > **Phase:** Phase 8 — Game Theory, Geometry & Meta-Algorithms  

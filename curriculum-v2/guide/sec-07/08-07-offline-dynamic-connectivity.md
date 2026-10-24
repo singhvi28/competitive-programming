@@ -1,4 +1,4 @@
-# Offline dynamic connectivity
+# 8. Offline dynamic connectivity
 
 > **Section:** §07 Graph Algorithms (SCC, Topo-DP, 2-SAT)  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

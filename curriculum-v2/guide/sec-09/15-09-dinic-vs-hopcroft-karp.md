@@ -1,4 +1,4 @@
-# Dinic vs Hopcroft–Karp
+# 15. Dinic vs Hopcroft–Karp
 
 > **Section:** §09 Network Flow & Matchings  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

@@ -1,4 +1,4 @@
-# Randomized algorithms
+# 2. Randomized algorithms
 
 > **Section:** §18 Randomization & Meta-Techniques  
 > **Phase:** Phase 8 — Game Theory, Geometry & Meta-Algorithms  

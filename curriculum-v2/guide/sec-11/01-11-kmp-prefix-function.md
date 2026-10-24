@@ -1,4 +1,4 @@
-# KMP / Prefix Function
+# 1. KMP / Prefix Function
 
 > **Section:** §11 String Algorithms & Automata  
 > **Phase:** Phase 6 — String Algorithms  

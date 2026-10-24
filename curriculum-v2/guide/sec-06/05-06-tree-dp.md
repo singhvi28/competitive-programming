@@ -1,4 +1,4 @@
-# Tree DP
+# 5. Tree DP
 
 > **Section:** §06 Tree Algorithms & Structural Decompositions  
 > **Phase:** Phase 2 — Tree Algorithms & Structural Hierarchies  

@@ -1,4 +1,4 @@
-# Splay Tree (Concepts)
+# 5. Splay Tree (Concepts)
 
 > **Section:** §05 Advanced Data Structures (Treaps, LCT, PBDS)  
 > **Phase:** Phase 3 — Advanced Data Structures & Sqrt Techniques  

@@ -1,4 +1,4 @@
-# Virtual Trees (Compressed Trees)
+# 10. Virtual Trees (Compressed Trees)
 
 > **Section:** §06 Tree Algorithms & Structural Decompositions  
 > **Phase:** Phase 2 — Tree Algorithms & Structural Hierarchies  

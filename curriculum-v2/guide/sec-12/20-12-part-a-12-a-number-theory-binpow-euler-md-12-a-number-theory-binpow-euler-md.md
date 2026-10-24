@@ -1,4 +1,4 @@
-# Part A — [12-a-number-theory-binpow-euler.md](12-a-number-theory-binpow-euler.md)
+# 20. Part A — [12-a-number-theory-binpow-euler.md](12-a-number-theory-binpow-euler.md)
 
 > **Section:** §12 Number Theory & Multiplicative Functions  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

@@ -1,4 +1,4 @@
-# Walsh-Hadamard Transform
+# 6. Walsh-Hadamard Transform
 
 > **Section:** §13 Bit Manipulation & Advanced Combinatorics  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

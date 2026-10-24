@@ -1,4 +1,4 @@
-# LCA (Lowest Common Ancestor)
+# 2. LCA (Lowest Common Ancestor)
 
 > **Section:** §06 Tree Algorithms & Structural Decompositions  
 > **Phase:** Phase 2 — Tree Algorithms & Structural Hierarchies  

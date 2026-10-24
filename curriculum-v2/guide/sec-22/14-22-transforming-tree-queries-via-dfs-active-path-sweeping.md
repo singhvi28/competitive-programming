@@ -1,4 +1,4 @@
-# Transforming Tree Queries via DFS Active-Path Sweeping
+# 14. Transforming Tree Queries via DFS Active-Path Sweeping
 
 > **Section:** §22 Line Sweep Algorithms & Reductions  
 > **Phase:** Phase 1 — Range Queries & Sweeps  

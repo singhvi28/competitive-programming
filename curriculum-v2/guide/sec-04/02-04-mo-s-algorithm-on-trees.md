@@ -1,4 +1,4 @@
-# Mo's algorithm on trees
+# 2. Mo's algorithm on trees
 
 > **Section:** §04 Square Root Decomposition & Mo's Algorithm  
 > **Phase:** Phase 3 — Advanced Data Structures & Sqrt Techniques  

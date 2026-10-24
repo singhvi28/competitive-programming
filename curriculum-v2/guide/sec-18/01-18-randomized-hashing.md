@@ -1,4 +1,4 @@
-# Randomized hashing
+# 1. Randomized hashing
 
 > **Section:** §18 Randomization & Meta-Techniques  
 > **Phase:** Phase 8 — Game Theory, Geometry & Meta-Algorithms  

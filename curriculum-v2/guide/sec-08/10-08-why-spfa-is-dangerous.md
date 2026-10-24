@@ -1,4 +1,4 @@
-# Why SPFA Is Dangerous
+# 10. Why SPFA Is Dangerous
 
 > **Section:** §08 Advanced Graphs (Shortest Paths, MST, Euler)  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

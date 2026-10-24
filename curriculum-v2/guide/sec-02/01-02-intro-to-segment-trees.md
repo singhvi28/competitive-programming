@@ -1,4 +1,4 @@
-# Intro to segment trees
+# 1. Intro to segment trees
 
 > **Section:** §02 Segment Trees & Range Invariants  
 > **Phase:** Phase 1 — Range Queries & Sweeps  

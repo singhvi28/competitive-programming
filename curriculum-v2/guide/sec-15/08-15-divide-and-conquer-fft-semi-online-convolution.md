@@ -1,4 +1,4 @@
-# Divide and Conquer FFT (Semi-Online Convolution)
+# 8. Divide and Conquer FFT (Semi-Online Convolution)
 
 > **Section:** §15 FFT, NTT & Formal Power Series  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

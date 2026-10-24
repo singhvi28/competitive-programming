@@ -1,4 +1,4 @@
-# Closest Pair of Points
+# 7. Closest Pair of Points
 
 > **Section:** §17 Computational Geometry & Polygons  
 > **Phase:** Phase 8 — Game Theory, Geometry & Meta-Algorithms  

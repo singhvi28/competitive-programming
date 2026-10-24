@@ -1,4 +1,4 @@
-# Part B — [08-b-mst-euler-functional.md](08-b-mst-euler-functional.md)
+# 14. Part B — [08-b-mst-euler-functional.md](08-b-mst-euler-functional.md)
 
 > **Section:** §08 Advanced Graphs (Shortest Paths, MST, Euler)  
 > **Phase:** Phase 4 — Graph Algorithms & Network Flow  

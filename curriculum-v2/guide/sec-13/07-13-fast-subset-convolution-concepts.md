@@ -1,4 +1,4 @@
-# Fast subset convolution concepts
+# 7. Fast subset convolution concepts
 
 > **Section:** §13 Bit Manipulation & Advanced Combinatorics  
 > **Phase:** Phase 7 — Mathematics, Linear Algebra & Polynomials  

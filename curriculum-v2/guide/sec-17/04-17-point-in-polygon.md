@@ -1,4 +1,4 @@
-# Point-in-Polygon
+# 4. Point-in-Polygon
 
 > **Section:** §17 Computational Geometry & Polygons  
 > **Phase:** Phase 8 — Game Theory, Geometry & Meta-Algorithms  
