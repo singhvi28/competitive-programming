@@ -1,8 +1,8 @@
 # Advanced DSA & Competitive Programming Guide: Complete Masterclass
 
 > **Comprehensive Offline Markdown Reference & Curated Knowledge Base**  
-> **Total Modules:** 19 | **Total Topics:** 222  
-> **Modules Included:** `sec-01` through `sec-18`, and `sec-22` (Greedy Modules 19, 20, 21 excluded per configuration)  
+> **Total Modules:** 20 | **Total Topics:** 233  
+> **Modules Included:** `sec-01` through `sec-19`, and `sec-22`  
 > **Extracted from:** `curriculum-v2/guide`  
 
 Welcome to the complete offline Markdown edition of the **Competitive Programming & Interview Mastery Curriculum V2 Guide**. Every topic contains mathematical foundations, proof sketches, closed-form invariant recurrences, contest-ready C++17 and Python 3 templates, recognition heuristics, bug traps, curated practice problems, and external reference links.
